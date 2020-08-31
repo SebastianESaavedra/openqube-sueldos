@@ -1,6 +1,5 @@
 import React from 'react';
 import charts from './charts';
-import historic_charts from './historic-charts';
 
 // si al momento de publicar la nueva versión de la encuesta existe un cepo cambiario y
 // un tipo de cambio desdoblado en oficial/ahorro, agregar la fecha de publicación aquí.
@@ -70,10 +69,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': 'Bien', 'value': 0.46491688538932635 },
-                                    { 'name': 'Muy bien', 'value': 0.30743657042869643 },
-                                    { 'name': 'Mal', 'value': 0.18337707786526683 },
-                                    { 'name': 'Bastante mal', 'value': 0.04426946631671041 }].sort(labelOrder(["Muy bien", "Bien", "Mal", "Bastante mal"])),
+                                    data: charts["como_venis_llevando"].data.sort(labelOrder(["Muy bien", "Bien", "Mal", "Bastante mal"])),
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -89,10 +85,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': 'Muy estricta', 'value': 0.44549431321084865 },
-                                    { 'name': 'Estricta', 'value': 0.4174978127734033 },
-                                    { 'name': 'Poco estricta', 'value': 0.10551181102362205 },
-                                    { 'name': 'Nada estricta', 'value': 0.031496062992125984 }],
+                                    data: charts["tipo_de_cuarentena"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -104,7 +97,7 @@ export default [
                 ],
             },
             { // sub-category
-                title: 'Convivencia / Grupo familiar',
+                title: 'Grupo familiar',
                 data: [
                     {  // section
                         title: '¿Con cuántas personas convivís?',
@@ -113,13 +106,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': '1', 'value': 0.3489063867016623 },
-                                    { 'name': 'Vivo solo/a', 'value': 0.19702537182852142 },
-                                    { 'name': '2', 'value': 0.17602799650043743 },
-                                    { 'name': '3', 'value': 0.1693788276465442 },
-                                    { 'name': '4', 'value': 0.07769028871391076 },
-                                    { 'name': '5', 'value': 0.02257217847769029 },
-                                    { 'name': 'Otros', 'value': 0.008398950131233594 }].sort(labelOrder(["Vivo solo/a", "1", "2", "3", "4", "5", "Otros"])),
+                                    data: charts["convivencia_cuanti"].data.sort(labelOrder(["Vivo solo/a", "1", "2", "3", "4", "5", "Otros"])),
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -135,16 +122,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': 'Pareja', 'value': 0.31496062992125984 },
-                                    {
-                                        'name': 'Familia de origen (madre/padre/hermanos/as)',
-                                        'value': 0.20594925634295713
-                                    },
-                                    { 'name': 'Vivo solo/a', 'value': 0.18355205599300087 },
-                                    { 'name': 'Pareja, Hijos/as (tiempo completo)', 'value': 0.16220472440944883 },
-                                    { 'name': 'Hijos/as (tiempo completo)', 'value': 0.020122484689413824 },
-                                    { 'name': 'Amigos/as / Roomates', 'value': 0.015748031496062992 },
-                                    { 'name': 'Otros', 'value': 0.09746281714785651 }],
+                                    data: charts["convivencia_cuali"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -160,11 +138,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': 'No', 'value': 0.7237095363079615 },
-                                    { 'name': '1', 'value': 0.14855643044619424 },
-                                    { 'name': '2', 'value': 0.10358705161854768 },
-                                    { 'name': '3', 'value': 0.020122484689413824 },
-                                    { 'name': 'Otros', 'value': 0.004024496937882765 }],
+                                    data: charts["tenes_hijoas"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -185,8 +159,7 @@ export default [
                                 title: '',
                                 component: 'Pie', // graph
                                 props: {
-                                    data: [{ 'name': 'Sí', 'value': 0.5690288713910762 },
-                                    { 'name': 'No', 'value': 0.4309711286089239 }],
+                                    data: charts["espacio_trabajo"].data,
                                     isPercentual: true,
                                 },
                                 caption: '',
@@ -201,8 +174,7 @@ export default [
                                 title: '',
                                 component: 'Pie', // graph
                                 props: {
-                                    data: [{ 'name': 'No', 'value': 0.8818897637795275 },
-                                    { 'name': 'Sí', 'value': 0.11811023622047244 }],
+                                    data: charts["espacio_trabajo_compartido"].data,
                                     isPercentual: true,
                                 },
                                 caption: '',
@@ -227,8 +199,7 @@ export default [
                                 title: '',
                                 component: 'Pie', // graph
                                 props: {
-                                    data: [{ 'name': 'No', 'value': 0.8320209973753281 },
-                                    { 'name': 'Si', 'value': 0.1679790026246719 }],
+                                    data: charts["cambio_situacion"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -244,16 +215,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{
-                                        'name': 'Cambié de trabajo, pero no por la pandemia',
-                                        'value': 0.3885416666666667
-                                    },
-                                    { 'name': 'Decidí buscar otro trabajo', 'value': 0.2625 },
-                                    { 'name': 'Trabajo 100% remoto', 'value': 0.06354166666666666 },
-                                    { 'name': 'Me despidieron', 'value': 0.053125 },
-                                    { 'name': 'Se redujo mi salario', 'value': 0.021875 },
-                                    { 'name': 'Trabajo más que antes', 'value': 0.0125 },
-                                    { 'name': 'Trabajo menos que antes', 'value': 0.011458333333333333 }],
+                                    data: charts["como_cambio_norm"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -269,11 +231,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': 'Mucho', 'value': 0.3720034995625547 },
-                                    { 'name': 'Bastante', 'value': 0.3615048118985127 },
-                                    { 'name': 'Algo', 'value': 0.15293088363954505 },
-                                    { 'name': 'Poco', 'value': 0.06071741032370954 },
-                                    { 'name': 'Nada', 'value': 0.05284339457567804 }],
+                                    data: charts["apoyando_empresa"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -293,8 +251,7 @@ export default [
                                 title: '',
                                 component: 'Pie', // graph
                                 props: {
-                                    data: [{ 'name': 'No', 'value': 0.5476815398075241 },
-                                    { 'name': 'Si', 'value': 0.45231846019247596 }],
+                                    data: charts["afecto_empresa"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -310,19 +267,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': 'Frenaron las contrataciones', 'value': 0.2844061405871263 },
-                                    { 'name': 'Se vio beneficiada', 'value': 0.17048208995421493 },
-                                    { 'name': 'Bajaron los sueldos o pagan parte', 'value': 0.127390250471317 },
-                                    { 'name': 'Despidió a algunas personas', 'value': 0.12604363048747644 },
-                                    { 'name': 'Cerró oficinas', 'value': 0.07244815513062214 },
-                                    {
-                                        'name': 'Nos obligaron a tomarnos vacaciones',
-                                        'value': 0.030972259628332884
-                                    },
-                                    { 'name': 'No está pagando sueldos/aportes', 'value': 0.02154591974144896 },
-                                    { 'name': 'No hubo ajuste de sueldo', 'value': 0.018044707783463506 },
-                                    { 'name': 'Presentó la quiebra', 'value': 0.0018852679773767843 },
-                                    { 'name': 'Se fue del país', 'value': 0.00134661998384056 }],
+                                    data: charts["afecto_empresa_como"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -338,8 +283,7 @@ export default [
                                 title: '',
                                 component: 'Pie', // graph
                                 props: {
-                                    data: [{ 'name': 'No', 'value': 0.657917760279965 },
-                                    { 'name': 'Si', 'value': 0.342082239720035 }],
+                                    data: charts["beneficio_nuevo"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
@@ -355,19 +299,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [{ 'name': 'Compra de accesorios ', 'value': 0.198399085191538 },
-                                    { 'name': 'Pago de abono de Internet', 'value': 0.1620926243567753 },
-                                    { 'name': 'Clases de yoga', 'value': 0.16066323613493425 },
-                                    { 'name': 'Clases de meditación', 'value': 0.1269296740994854 },
-                                    { 'name': 'Clases de gimnasia', 'value': 0.11663807890222985 },
-                                    {
-                                        'name': 'Almuerzo o delivery de snacks/bebidas ',
-                                        'value': 0.07204116638078903
-                                    },
-                                    { 'name': 'Días libres extras', 'value': 0.03887935963407661 },
-                                    { 'name': 'Pago de abono de celular', 'value': 0.020011435105774727 },
-                                    { 'name': 'Pago de abono de otros servicios', 'value': 0.015151515151515152 },
-                                    { 'name': 'Home office', 'value': 0.006289308176100629 }],
+                                    data: charts["beneficios_extra"].data,
                                     isPercentual: true,
                                     isLogScale: false,
                                 },

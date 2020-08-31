@@ -306,7 +306,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>La mayoría de los beneficios parecen estar relacionados con las comodidades del ambiente de trabajo (monitores, sillas, etc.) y con la salud mental (clases de yoga, meditación, etc.)</p>,
+                                description: <p>La mayoría de los beneficios parecen estar relacionados con las comodidades del ambiente de trabajo (monitores, sillas, etc.) y con la salud (clases de yoga, meditación, etc.)</p>,
                             },
                         ],
                     },

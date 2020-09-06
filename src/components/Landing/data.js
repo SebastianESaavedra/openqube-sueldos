@@ -60,45 +60,6 @@ export default [
         title: 'Siutación Personal',
         data: [
             { // sub-category
-                title: 'Cuarentena',
-                data: [
-                    {  // section
-                        title: '¿Cómo venís llevando la cuarentena?',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: {
-                                    data: charts["como_venis_llevando"].data.sort(labelOrder(["Muy bien", "Bien", "Mal", "Bastante mal"])),
-                                    isPercentual: true,
-                                    isLogScale: false,
-                                },
-                                caption: <p>Más del 70% de los encuestados no parece tener grandes inconvenientes con la cuarentena</p>,
-                                description: '',
-                            },
-                        ],
-                    },
-                    {  // section
-                        title: '¿Qué tipo de cuarentena estás haciendo?',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: {
-                                    data: charts["tipo_de_cuarentena"].data,
-                                    isPercentual: true,
-                                    isLogScale: false,
-                                },
-                                caption: '',
-                                description: <p>El 85% de los encuestados reconoce estar haciendo una cuarentena estricta o muy estricta
-                                    <span role="img" aria-label="police">👮</span>
-                                </p>
-                            },
-                        ],
-                    },
-                ],
-            },
-            { // sub-category
                 title: 'Grupo familiar',
                 data: [
                     {  // section
@@ -152,6 +113,61 @@ export default [
                 ],
             },
             { // sub-category
+                title: 'Cuarentena',
+                data: [
+                    {  // section
+                        title: '¿Cómo venís llevando la cuarentena?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["como_venis_llevando"].data.sort(labelOrder(["Muy bien", "Bien", "Mal", "Bastante mal"])),
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: <p>Más del 70% de los encuestados no parece tener grandes inconvenientes con la cuarentena</p>,
+                                description: '',
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: 'Porcentaje de gente que la pasa "mal" o "bastante mal" según con quiénes viven',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["convivencia_pasandola_mal"].data,
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: <p>La gente que vive sola o con sus padres y hermanos tiende a pasarla algo peor que el resto</p>,
+                                description: '',
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: '¿Qué tipo de cuarentena estás haciendo?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["tipo_de_cuarentena"].data,
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: '',
+                                description: <p>El 85% de los encuestados reconoce estar haciendo una cuarentena estricta o muy estricta
+                                    <span role="img" aria-label="police">👮</span>
+                                </p>
+                            },
+                        ],
+                    },
+                ],
+            },
+            { // sub-category
                 title: 'Espacio laboral',
                 data: [
                     {  // section
@@ -184,6 +200,22 @@ export default [
                             },
                         ],
                     },
+                    {  // section
+                        title: 'Porcentaje de gente que la pasa "mal" o "bastante mal" según espacio de trabajo',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["espacio_trabajo_llevando_cuarentena"].data.map(x => ({ ...x, name: x['name'] === 'Sí' ? 'Tengo espacio de trabajo dedicado' : 'No tengo espacio de trabajo dedicado' })),
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: '',
+                                description: <p>Vemos que el porcentaje de gente que la pasa "mal" o "bastante mal" es mayor para los que no tienen un espacio de trabajo dedicado</p>
+                            },
+                        ],
+                    },
                 ],
             },
         ],
@@ -207,6 +239,38 @@ export default [
                                 },
                                 caption: '',
                                 description: '',
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: '¿Cambió tu situación laboral a raíz de la pandemia/cuarentena? (por género)',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["cambio_situacion_genero"].data,
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: '',
+                                description: 'Si bien en general un 17% de personas se vieron afectadas por la cuarentena, parece haber afectado menos a los hombres que a mujeres u otros',
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: '¿Cambió tu situación laboral a raíz de la pandemia/cuarentena? (por seniority)',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["cambio_situacion_seniority"].data.sort(labelOrder(["Senior", "Semi-Senior", "Junior"])),
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: '',
+                                description: 'Si bien en general un 17% de personas se vieron afectadas por la cuarentena, parece haber afectado menos a los seniors que a los semi seniors o juniors',
                             },
                         ],
                     },
@@ -275,6 +339,48 @@ export default [
                                 },
                                 caption: '',
                                 description: <p>Dentro de las empresas que sí fueron afectadas (el 45%) sólo un 17% se vieron beneficiadas. Al resto las afectó negativamente y tuvieron que tomar medidas drásticas como despidos o suspensión de ajustes de sueldos.</p>,
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: 'Empresas afectadas por tamaño de empresa',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["afecto_empresa_por_tamaño"].data.sort(labelOrder([
+                                        '1-10',
+                                        '11-50',
+                                        '51-100',
+                                        '101-200',
+                                        '201-500',
+                                        '501-1000',
+                                        '1001-2000',
+                                        '2001-5000',
+                                        '5001-10000',
+                                        '10001+'])).map(x => { x['value'] = x["Si"]; delete (x['Si']); return x }),
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: '',
+                                description: <p>Vemos que el porcentaje de empresas afectadas fue mayor para las de menos de 500 empleados</p>,
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: 'Empresas afectadas por tipo de empresa',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts["afecto_empresa_por_tipo"].data,
+                                    isPercentual: true,
+                                    isLogScale: false,
+                                },
+                                caption: '',
+                                description: <p>Vemos que el porcentaje de empresas afectadas fue ligeramente menor para las de servicio / consultoría</p>,
                             },
                         ],
                     },

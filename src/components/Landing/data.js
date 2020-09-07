@@ -249,12 +249,12 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: charts["cambio_situacion_genero"].data,
+                                    data: charts["cambio_situacion_genero"].data.map(c => { return c }),
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: 'Si bien en general un 17% de personas se vieron afectadas por la cuarentena, parece haber afectado menos a los hombres que a mujeres u otros',
+                                description: 'La situación laboral del 17% de personas cambió a raíz de la cuarentena, sin embargo el efecto es mayor para Mujeres y Otros',
                             },
                         ],
                     },
@@ -270,7 +270,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: 'Si bien en general un 17% de personas se vieron afectadas por la cuarentena, parece haber afectado menos a los seniors que a los semi seniors o juniors',
+                                description: 'La situación laboral del 17% de personas cambió a raíz de la cuarentena, sin embargo el efecto es mayor para Semi-Seniors y Juniors',
                             },
                         ],
                     },

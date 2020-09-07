@@ -338,7 +338,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>Dentro de las empresas que sí fueron afectadas (el 45%) sólo un 17% se vieron beneficiadas. Al resto las afectó negativamente y tuvieron que tomar medidas drásticas como despidos o suspensión de ajustes de sueldos.</p>,
+                                description: <p>La mayoría de las empresas de la industria no se vió afectada por la pandemia, un 13% incluso se vieron favorecidas. El 15% tuvo que suspender nuevas contrataciones. Aproximadamente el 22% restante tuvo un impacto negativo, con despidos, suspensiones u otras medidas</p>,
                             },
                         ],
                     },

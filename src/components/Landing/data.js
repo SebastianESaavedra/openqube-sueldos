@@ -41,6 +41,7 @@ export default [
                         (basado en el trabajo previo realizado por <a className='author-name' href='https://twitter.com/luscastro' target="_blank" rel="noopener noreferrer">Luciana Castro</a> y <a className='author-name' href='https://twitter.com/gerardobort' target="_blank" rel="noopener noreferrer">Gerardo Bort</a>)
                     </small>
                 </div>
+                <br />
             </div>
         )
     },
@@ -51,6 +52,12 @@ export default [
                 <center>
                     <p><strong>{charts['total_surveyed']}</strong> fueron las respuestas totales en la República Argentina.</p>
                     <p><strong>{charts['total_analyzed_surveyed']}</strong> respuestas fueron consideradas en el presente análisis, es decir un <strong>{parseInt(charts['total_analyzed_surveyed'] / charts['total_surveyed'] * 10000) / 100}%</strong> del total.</p>
+                    <p>
+                    <br />
+                    <a href="https://sysar.my/slack">
+                        <img src="https://i.postimg.cc/s1dT2bSX/slack-683x90.jpg" />
+                    </a>
+                </p>
                 </center>
             </div>
         ),

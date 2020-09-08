@@ -255,7 +255,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: charts["cambio_situacion_genero"].data.map(c => { return c }),
+                                    data: charts["cambio_situacion_genero"].data.map(dp => ({ ...dp, name: dp.name + '\n' })), // hack to not highlight Otros (Barh default behavior for non-gender data)
                                     isPercentual: true,
                                     isLogScale: false,
                                 },

@@ -24,11 +24,10 @@ export default [
         content: (
             <div>
                 <p>
-                    Desde openqube trabajamos para poner a tu alcance toda la información sobre empleos en el sector IT.
-                    ¿Cómo lo hacemos? Por medio de nuestra plataforma colaborativa, en la que podés calificar empresas en las cuales hayas trabajado, ayudando a otros a tomar decisiones mejor informadas sobre su carrera.
+                    Desde openqube trabajamos para poner a tu alcance toda la información sobre empleos en el sector IT a través de nuestra plataforma colaborativa, en la que podés calificar empresas en las cuales hayas trabajado, ayudando a otras personas a tomar decisiones mejor informadas sobre su carrera.
                 </p>
                 <p>
-                    Producto de la pandemia de Covid-19, <a href="https://openqube.io/encuesta-sueldos-2020.02" target="_blank" rel="noopener noreferrer">la edición 2020.02</a> de nuestra encuesta de sueldos contenía algunas preguntas sobre la cuarentena, sus efectos y consecuencias.
+                    Producto de la pandemia de Covid-19, <a href="https://sueldos.openqube.io/encuesta-sueldos-2020.02" target="_blank" rel="noopener noreferrer">la edición 2020.02</a> de nuestra encuesta de sueldos contenía algunas preguntas sobre la cuarentena, sus efectos y consecuencias.
                 </p>
                 <p>
                     A continuación te mostramos los resultados del análisis. Como siempre recordá que <a href="https://github.com/openqube/openqube-sueldos/tree/master/data/csv/argentina" target="_blank">los datos están disponibles para descargar</a>.
@@ -57,7 +56,7 @@ export default [
         ),
     },
     { // category
-        title: 'Siutación Personal',
+        title: 'Situación Personal',
         data: [
             { // sub-category
                 title: 'Grupo familiar',
@@ -73,7 +72,7 @@ export default [
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
-                                caption: <p>El 70% de los encuestados forma parte de un grupo familiar de hasta 3 personas</p>,
+                                caption: <p>El 70% de las personas encuestadas forma parte de un grupo familiar de hasta 3 integrantes.</p>,
                                 description: '',
                             },
                         ],
@@ -105,7 +104,7 @@ export default [
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
-                                caption: <p>Solamente un 25% de los encuestados tiene hijos menores</p>,
+                                caption: <p>Solamente un 25% de las personas encuestadas tiene hijos menores de edad.</p>,
                                 description: '',
                             },
                         ],
@@ -126,7 +125,7 @@ export default [
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
-                                caption: <p>Más del 70% de los encuestados no parece tener grandes inconvenientes con la cuarentena</p>,
+                                caption: <p>Más del 70% no parece tener grandes inconvenientes con la cuarentena.</p>,
                                 description: '',
                             },
                         ],
@@ -142,7 +141,7 @@ export default [
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
-                                caption: <p>La gente que vive sola o con sus padres y hermanos tiende a pasarla algo peor que el resto</p>,
+                                caption: <p>La gente que vive sola o con su familia de origen tiende a pasarla algo peor que el resto.</p>,
                                 description: '',
                             },
                         ],
@@ -159,7 +158,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>El 85% de los encuestados reconoce estar haciendo una cuarentena estricta o muy estricta
+                                description: <p>El 85% reconoce estar haciendo una cuarentena estricta o muy estricta
                                     <span role="img" aria-label="police">👮</span>
                                 </p>
                             },
@@ -212,7 +211,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>Vemos que el porcentaje de gente que la pasa "mal" o "bastante mal" es mayor para los que no tienen un espacio de trabajo dedicado</p>
+                                description: <p>Vemos que el porcentaje de gente que la pasa "mal" o "bastante mal" es mayor para quienes no tienen un espacio de trabajo dedicado.</p>
                             },
                         ],
                     },
@@ -254,7 +253,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: 'La situación laboral del 17% de personas cambió a raíz de la cuarentena, sin embargo el efecto es mayor para Mujeres y Otros',
+                                description: 'La situación laboral del 17% de las personas cambió a raíz de la pandemia, sin embargo el efecto fue menor para los hombres.',
                             },
                         ],
                     },
@@ -270,7 +269,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: 'La situación laboral del 17% de personas cambió a raíz de la cuarentena, sin embargo el efecto es mayor para Semi-Seniors y Juniors',
+                                description: 'El efecto es mayor para quienes se consideran Juniors y Semi-Seniors.',
                             },
                         ],
                     },
@@ -285,7 +284,7 @@ export default [
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
-                                caption: <p>Dentro de los afectados un 70% cambió de trabajo voluntaria o involuntariamente</p>,
+                                caption: <p>Dentro de las personas afectadas, un 70% cambió de trabajo voluntaria o involuntariamente.</p>,
                                 description: <p>Nota: los porcentajes son relativos al total de gente que respondió "Sí" en la pregunta <i>"¿Cambió tu situación laboral a raíz de la pandemia/cuarentena?"</i></p>,
                             },
                         ],
@@ -301,7 +300,7 @@ export default [
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
-                                caption: <p>Las empresas parecen estar tomando medidas para apoyar a sus empleados. Apenas un 10% hace "poco" y "nada" frente a la pandemia.</p>,
+                                caption: <p>Las empresas parecen estar tomando medidas para apoyar a sus gente. Apenas un 10% hace "poco" y "nada" frente a la pandemia.</p>,
                                 description: '',
                             },
                         ],
@@ -338,7 +337,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>La mayoría de las empresas de la industria no se vió afectada por la pandemia, un 13% incluso se vieron favorecidas. El 15% tuvo que suspender nuevas contrataciones. Aproximadamente el 22% restante tuvo un impacto negativo, con despidos, suspensiones u otras medidas</p>,
+                                description: <p>La mayor parte de la industria no se vio afectada por la pandemia, incluso el 13% de las empresas se vieron favorecidas. Un 15% tuvo que suspender nuevas contrataciones y aproximadamente el 22% restante tuvo un impacto negativo, con despidos, suspensiones u otras medidas.</p>,
                             },
                         ],
                     },
@@ -364,7 +363,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>Vemos que el porcentaje de empresas afectadas fue mayor para las de menos de 500 empleados</p>,
+                                description: <p>Vemos que el porcentaje de empresas mayormente afectadas fueron las de menos de 500 personas.</p>,
                             },
                         ],
                     },
@@ -380,7 +379,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>Vemos que el porcentaje de empresas afectadas fue ligeramente menor para las de servicio / consultoría</p>,
+                                description: <p>El porcentaje de empresas afectadas fue ligeramente menor para las de servicios / consultoría.</p>,
                             },
                         ],
                     },
@@ -396,7 +395,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: '',
-                                description: <p>1 de cada 3 empresas agregó un beneficio nuevo a raíz de la pandemia</p>,
+                                description: <p>1 de cada 3 empresas agregó un beneficio nuevo a raíz de la pandemia.</p>,
                             },
                         ],
                     },
@@ -432,11 +431,6 @@ export default [
                     Para visualizaciones en las cuales el espectro de valores es demasiado amplio, y a veces distante entre valores de una misma muestra, utilizamos la <a target="_blank" rel="noopener noreferrer" href="https://es.wikipedia.org/wiki/Escala_logar%C3%ADtmica">escala logarítmica</a>.
                     Este recurso nos permite apreciar los datos de una manera más clara, por ejemplo cuando existen valores cercanos a cero y otros de uno o más órdenes de magnitud.
                 </p>
-                <h5>Datos insuficientes</h5>
-                <p>
-                    En muchas ocasiones, dado el nivel granularidad de ciertos gráficos, la cantidad escasa de datapoints en algunos segmentos, pueden inducir a conclusiones erróneas.
-                    Para advertir al lector de estos casos, hemos grisado en todos los gráficos posibles aquellos segmentos cuya representatividad no supere el umbral de 0.05%, tanto gráficos de barras horizontales como series históricas.
-                </p>
                 <h4>Repositorios</h4>
                 <ul>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/openqube/openqube-sueldos">Código fuente de esta publicación (sitio web)</a></li>
@@ -444,10 +438,10 @@ export default [
                 </ul>
                 <h4>Análisis previos</h4>
                 <ul>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.01">Resultados de la encuesta de sueldos 2019.01</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.02">Resultados de la encuesta de sueldos 2019.02</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.01">Resultados de la encuesta de sueldos 2020.01</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.02">Resultados de la encuesta de sueldos 2020.02</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://sueldos.openqube.io/encuesta-sueldos-2019.01">Resultados de la encuesta de sueldos 2019.01</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://sueldos.openqube.io/encuesta-sueldos-2019.02">Resultados de la encuesta de sueldos 2019.02</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://sueldos.openqube.io/encuesta-sueldos-2020.01">Resultados de la encuesta de sueldos 2020.01</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://sueldos.openqube.io/encuesta-sueldos-2020.02">Resultados de la encuesta de sueldos 2020.02</a></li>
                 </ul>
             </div>
         )

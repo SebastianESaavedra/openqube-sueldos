@@ -54,8 +54,8 @@ export default [
                     <p><strong>{charts['total_analyzed_surveyed']}</strong> respuestas fueron consideradas en el presente análisis, es decir un <strong>{parseInt(charts['total_analyzed_surveyed'] / charts['total_surveyed'] * 10000) / 100}%</strong> del total.</p>
                     <p>
                         <br />
-                        <a href="https://sysar.my/slack">
-                            <img src="https://i.postimg.cc/s1dT2bSX/slack-683x90.jpg" />
+                        <a href="https://sysar.my/discord">
+                            <img src="https://i.postimg.cc/66HPZDtf/discord-683x90.jpg" />
                         </a>
                     </p>
                 </center>
@@ -276,7 +276,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: 'Composición: 3392 Seniors, 1253 Semi-Seniors, 769 Juniors',
-                                description: 'El efecto es mayor para quienes se consideran Juniors y Semi-Seniors.',
+                                description: <p><i>Nota: definición de seniority en el apartado de <a href="#Metodologia">metodología</a></i>.</p>,
                             },
                         ],
                     },
@@ -292,7 +292,7 @@ export default [
                                     isLogScale: false,
                                 },
                                 caption: <p>Dentro de las personas afectadas, un 70% cambió de trabajo voluntaria o involuntariamente.</p>,
-                                description: <p>Nota: los porcentajes son relativos al total de gente que respondió "Sí" en la pregunta <i>"¿Cambió tu situación laboral a raíz de la pandemia/cuarentena?"</i></p>,
+                                description: <p><i>Nota: los porcentajes son relativos al total de gente que respondió "Sí" en la pregunta "¿Cambió tu situación laboral a raíz de la pandemia/cuarentena?"</i></p>,
                             },
                         ],
                     },

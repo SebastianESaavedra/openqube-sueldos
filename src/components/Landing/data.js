@@ -53,11 +53,11 @@ export default [
                     <p><strong>{charts['total_surveyed']}</strong> fueron las respuestas totales en la República Argentina.</p>
                     <p><strong>{charts['total_analyzed_surveyed']}</strong> respuestas fueron consideradas en el presente análisis, es decir un <strong>{parseInt(charts['total_analyzed_surveyed'] / charts['total_surveyed'] * 10000) / 100}%</strong> del total.</p>
                     <p>
-                    <br />
-                    <a href="https://sysar.my/slack">
-                        <img src="https://i.postimg.cc/s1dT2bSX/slack-683x90.jpg" />
-                    </a>
-                </p>
+                        <br />
+                        <a href="https://sysar.my/slack">
+                            <img src="https://i.postimg.cc/s1dT2bSX/slack-683x90.jpg" />
+                        </a>
+                    </p>
                 </center>
             </div>
         ),
@@ -437,6 +437,10 @@ export default [
                 <p>
                     Para visualizaciones en las cuales el espectro de valores es demasiado amplio, y a veces distante entre valores de una misma muestra, utilizamos la <a target="_blank" rel="noopener noreferrer" href="https://es.wikipedia.org/wiki/Escala_logar%C3%ADtmica">escala logarítmica</a>.
                     Este recurso nos permite apreciar los datos de una manera más clara, por ejemplo cuando existen valores cercanos a cero y otros de uno o más órdenes de magnitud.
+                </p>
+                <h5>Seniority</h5>
+                <p>
+                    El nivel de seniority se calculó de la misma forma que para la encuesta de salarios, dependiendo de los años de experiencia: Juniors entre 0 y 2 años, Semi-Senior entre 2 y 5, Senior más de 5 años.
                 </p>
                 <h4>Repositorios</h4>
                 <ul>

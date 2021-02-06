@@ -32,13 +32,14 @@ export default [
                         <li><a href="https://openqube.io/encuesta-sueldos-2019.01" target="_blank" rel="noopener noreferrer">2019.01</a></li>
                         <li><a href="https://openqube.io/encuesta-sueldos-2019.02" target="_blank" rel="noopener noreferrer">2019.02</a></li>
                         <li><a href="https://openqube.io/encuesta-sueldos-2020.01" target="_blank" rel="noopener noreferrer">2020.01</a></li>
+                        <li><a href="https://openqube.io/encuesta-sueldos-2020.02" target="_blank" rel="noopener noreferrer">2020.02</a></li>
                     </ul>
                 </p>
                 <p>
                     Con la intención de ofrecer a nuestra comunidad los resultados de una manera más accesible, nos tomamos la libertad de seleccionar algunos datos estadísticos que consideramos, son de relevancia. Para tener una mayor comprensión sobre estos, recomendamos leer el apartado de <a href="#Metodologia">metodología</a>.
                 </p>
                 <p>
-                    A continuación te mostramos los resultados del nuevo análisis para Julio 2020 - Agosto 2020.
+                    A continuación te mostramos los resultados del nuevo análisis para Diciembre 2020 - Enero 2021.
                 </p>
                 <br />
                 <div className='authors-wrapper'>
@@ -283,7 +284,7 @@ export default [
                             {  // tab
                                 title: '',
                                 component: 'Barh', // graph
-                                props: { ...charts['demographics_sexual_orientation_percent'], isPercentual: true },
+                                props: { ...charts['demographics_sexual_orientation_percent'], isLogScale: true, isPercentual: true },
                                 caption: <p>Tipos de orientaciones sexuales para la muestra.</p>,
                             },
                         ],
@@ -390,7 +391,7 @@ export default [
                                 </div>,
                             },
                             {  // tab
-                                title: 'Acumulado de ajustes 2019 - 2020',
+                                title: 'Acumulado de ajustes 2020',
                                 component: 'Barh', // graph
                                 props: { ...charts['regions_salary_adjustment'], isPercentual: true, isLogScale: false, markNegativeValues: true, },
                                 caption: '¿Cuál fue porcentaje de ajuste por inflación acumulado típico en cada región?',

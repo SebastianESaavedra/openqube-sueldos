@@ -624,10 +624,9 @@ export default [
                     <li>La flexibilidad en el ingreso de género (antes categorías fijas, hoy la posibilidad de ingresar texto libre) produjo un incremento notable en la cantidad de Otros, de un 0.5% a un 7%</li>
                     <li>El proceso para ajustar los géneros en 3 categorías fue el siguiente: Hombre incluye Varón Cis y Varón Trans, Mujer incluye Mujer Cis y Mujer Trans, Otros incluye al resto.</li>
                     <li>La brecha salarial en la población muestreada <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">se hace más notoria</a> a medida que aumentan los años de experiencia.</li>
-                    <li>Se evidencia un bajo <a href="#Genero-Experiencia-Conformidad">nivel de conformidad salarial</a> en mujeres con muchos años de experiencia.</li>
                 </ol>
                 <p>
-                    La brecha salarial general es grande: <a href="#Genero-Progresion-historica-Historico-de-salarios">20,48%</a> pero se puede observar una pequeña mejora respecto al período anterior.
+                    La brecha salarial general es del: <a href="#Genero-Progresion-historica-Historico-de-salarios">26,3%</a>.
                     Según los datos recabados, la brecha se acentúa en mujeres con más años de experiencia,
                     donde <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">se encuentra el mayor porcentaje de participación</a>.
                 </p>
@@ -640,7 +639,7 @@ export default [
                 </ol>
                 <h4>Para seguir mejorando</h4>
                 <ol>
-                    <li>La brecha salarial entre hombres y mujeres <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">sigue existiendo</a>, es notoria y el progreso en este punto pareciera haberse estancado. Especialmente para profesionales con mayor experiencia.</li>
+                    <li>La brecha salarial entre hombres y mujeres <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">sigue existiendo</a> y parece haberse acentuado: ~25% respecto a un ~20% de la última edición.</li>
                     <li>La población que participa en la encuesta sigue siendo <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">~85% hombres</a>.</li>
                 </ol>
             </div>
@@ -950,10 +949,10 @@ export default [
                                 caption: 'Mediana de porcentaje de ajustes por inflación acumulados en el 2020 por género.',
                                 description: <>
                                     <p>
-                                        Como contraste, la <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_07_20C7061172A2.pdf" target="_blank" rel="noopener noreferrer">inflación Enero-Junio publicada por el INDEC en su último reporte</a> fue de <strong>13,6%</strong>.
+                                        Como contraste, la <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_01_21CD878A2A5B.pdf" target="_blank" rel="noopener noreferrer">inflación Julio-Diciembre publicada por el INDEC en su último reporte</a> fue de <strong>18,4%</strong>.
                                     </p>
                                     <p>
-                                        No se observan diferencias de ajustes en cuanto a género como <a href="https://openqube.io/encuesta-sueldos-2020.01#Genero-Ajuste-salarial" _target="blank">ocurría en el informe anterior.</a>
+                                        Hay diferencias en cuanto a género: los Hombres tienen un 5% más de ajuste que Mujeres y Otros.
                                     </p>
                                 </>,
                             },

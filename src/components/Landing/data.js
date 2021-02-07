@@ -4,7 +4,7 @@ import historic_charts from './historic-charts';
 
 // si al momento de publicar la nueva versión de la encuesta existe un cepo cambiario y
 // un tipo de cambio desdoblado en oficial/ahorro, agregar la fecha de publicación aquí.
-const hayDolarAhorro = ['2020-02-02', '2020-08-15'];
+const hayDolarAhorro = ['2020-02-02', '2020-08-15', '2021-02-15'];
 
 function sortBySalary(salaries) {
     return salaries.sort((a, b) => bestSalary(b) - bestSalary(a));

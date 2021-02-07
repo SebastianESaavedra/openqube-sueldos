@@ -620,7 +620,9 @@ export default [
             <div>
                 <p>En cuanto a los datos analizados en cuestión de género, podemos destacar los siguientes puntos interesantes:</p>
                 <ol>
-                    <li>El nivel de participación de mujeres <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">(14,98%)</a> creció medio punto respecto al período anterior (14,22%). El grupo de Otros presenta un pequeño incremento.</li>
+                    <li>El nivel de participación de mujeres <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">(~15%)</a> se mantiene similar al del período anterior (14,98%).</li>
+                    <li>La flexibilidad en el ingreso de género (antes categorías fijas, hoy la posibilidad de ingresar texto libre) produjo un incremento notable en la cantidad de Otros, de un 0.5% a un 7%</li>
+                    <li>El proceso para ajustar los géneros en 3 categorías fue el siguiente: Hombre incluye Varón Cis y Varón Trans, Mujer incluye Mujer Cis y Mujer Trans, Otros incluye al resto.</li>
                     <li>La brecha salarial en la población muestreada <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">se hace más notoria</a> a medida que aumentan los años de experiencia.</li>
                     <li>Se evidencia un bajo <a href="#Genero-Experiencia-Conformidad">nivel de conformidad salarial</a> en mujeres con muchos años de experiencia.</li>
                 </ol>

@@ -1164,6 +1164,33 @@ export default [
                             },
                         ],
                     },
+
+                    {  // section
+                        title: 'De existir ¿Cómo calificás las políticas de diversidad e inclusión de tu empresa?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['politicas_diversidad_e_inclusion'], isPercentual: true },
+                                description: (<span>
+                                    Un 85% considera que las políticas de inclusión son buenas, muy buenas o excelentes.
+                                </span>),
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: '¿Presenciaste una situación de violencia laboral?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['demographics_laboral_violence'], isPercentual: true },
+                                description: (<span>
+                                    Casi un 30% de los encuestados presenció una situación de violencia laboral en un trabajo previo y un 10% lo hizo en su trabajo actual.
+                                </span>),
+                            },
+                        ],
+                    },
                 ],
             },
         ],

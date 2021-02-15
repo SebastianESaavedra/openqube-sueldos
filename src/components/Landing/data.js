@@ -1141,12 +1141,12 @@ export default [
                 title: 'Características de las Empresas',
                 data: [
                     {  // section
-                        title: 'Cantidad de Empleados',
+                        title: 'Cantidad de Personas',
                         data: [
                             {  // tab
                                 title: '',
                                 component: 'Barh', // graph
-                                props: { ...charts['cantidad_de_empleados'], isPercentual: true },
+                                props: { ...charts['cantidad_de_personas'], isPercentual: true },
                                 description: 'Datos porcentuales',
                             },
                         ],

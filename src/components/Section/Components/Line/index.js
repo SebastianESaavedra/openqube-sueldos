@@ -37,6 +37,10 @@ class Line extends Component {
     return `${currency ? currency + ' ' : ''}${(decimal).toFixed(fixed).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
   }
 
+  toRoundNumber(decimal) {
+    return this.toNumber(decimal, 0);
+  }
+
   getDataKeyColor(index) {
     return COLORS[index] || COLORS[COLORS.length - 1];
   }
@@ -50,7 +54,7 @@ class Line extends Component {
         className='line-chart'>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey={xDataKey} />
-        <YAxis tickFormatter={isPercentual ? this.toPercent : this.toNumber.bind(this)} />
+        <YAxis tickFormatter={isPercentual ? this.toPercent : this.toRoundNumber.bind(this)} />
         <Tooltip content={<CustomizedTooltip />} formatter={isPercentual ? this.toPercent : this.toNumber.bind(this)} />
         {!yDataKeys.includes('value') ? <Legend /> : null}
         {yDataKeys.map((dataKey, i) => (

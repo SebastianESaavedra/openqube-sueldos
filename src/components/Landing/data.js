@@ -655,7 +655,7 @@ export default [
                         title: 'Histórico de nivel de participación',
                         data: [
                             {  // tab
-                                title: 'Mujeres / Otros',
+                                title: 'Mujeres Cis y otrxs',
                                 component: 'Area', // graph
                                 props: {
                                     data: Object.values(
@@ -674,7 +674,7 @@ export default [
                                     isPercentual: true,
                                 },
                                 caption: 'Serie de tiempo de porcentaje de participación por género basada en encuestas anteriores (excluyendo mayoría).',
-                                description: 'Al excluir la parte mayoritaria, puede apreciarse mejor la relación de porcentajes para Mujeres y Otros.',
+                                description: 'Al excluir la parte mayoritaria, puede apreciarse mejor la relación de porcentajes para Mujeres Cis y otrxs ',
                             },
                             {  // tab
                                 title: 'Todos',
@@ -723,7 +723,7 @@ export default [
                                     customStroke: { 'Otros': '#ccc' },
                                 },
                                 caption: 'Serie histórica de salarios basada en encuestas anteriores.',
-                                description: 'Se han aplicado reglas de normalización. El segmento "otros" está grisado, ya que no se cuenta con datos suficientes.',
+                                description: '',
                             },
                             {  // tab
                                 title: 'Histórico de brecha salarial',
@@ -757,7 +757,6 @@ export default [
                                 },
                                 caption: 'Serie histórica de brecha salarial de minorías respecto del grupo mayoritario.',
                                 description: (<>
-                                    <p>Se han aplicado reglas de normalización. El segmento de "otros" está grisado, ya que no se cuenta con suficientes datos.</p>
                                     <p>
                                         El cálculo de la brecha salarial general aquí mostrado se realizó obteniendo la diferencia de medianas salariales entre los grupos comparados, sobre el mínimo de ambos.
                                         Esto representa el porcentaje de aumento que debería aplicarse al grupo de menor salario, para equiparar las condiciones.
@@ -780,7 +779,7 @@ export default [
                                     customStroke: { 'Otros': '#ccc' },
                                 },
                                 caption: 'Serie histórica del nivel de conformidad con los salarios basada en encuestas anteriores.',
-                                description: 'Escala de 1 - 4. El segmento "otros" está grisado, ya que no se cuenta con datos suficientes.',
+                                description: '4 Representa el nivel máximo de conformidad',
 
                             },
                         ],
@@ -792,7 +791,7 @@ export default [
                 content: <div>
                     <p>
                         En este apartado segmentamos los niveles de educación formal alcanzados y el grado de completitud de cada uno, por género.
-                        Cabe aclarar que en el caso de Otros, tal como se puede ver en el apartado <a href="#Perfil-de-participantes-Demografia">Demografía</a>, el número de muestras es extremadamente reducido, y es muy posible que lo detallado aquí no sea representativo de la realidad.
+                        Cabe aclarar que excepto para Hombres y Mujeres Cis, tal como se puede ver en el apartado <a href="#Perfil-de-participantes-Demografia">Demografía</a>, el número de muestras es extremadamente reducido, y es muy posible que lo detallado aquí no sea representativo de la realidad.
                     </p>
                 </div>,
                 data: [
@@ -848,7 +847,7 @@ export default [
                                     customStroke: { 'No Binarie': '#ccc' },
                                 },
                                 caption: 'Mediana salarial por género, según años de experiencia.',
-                                description: 'Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci. El segmento "otros" está grisado, ya que no se cuenta con datos suficientes, de ahí la alternancia.',
+                                description: 'Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci.',
                             },
                         ],
                     },
@@ -865,7 +864,7 @@ export default [
                                     isPercentual: true,
                                 },
                                 caption: 'Nivel de participación por género, según años de experiencia. El porcentaje restante es de hombres.',
-                                description: 'Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci. El grupo de hombres fue excluido por ser amplia mayoría.',
+                                description: 'Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci. El grupo de Hombres Cis fue excluído por ser amplia mayoría.',
                             },
                         ],
                     },
@@ -882,7 +881,7 @@ export default [
                                     customStroke: { 'No Binarie': '#ccc' },
                                 },
                                 caption: 'Conformidad con los salarios por género según años de experiencia.',
-                                description: 'Escala de 1 - 4.  Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci.  El segmento "otros" está grisado, ya que no se cuenta con datos suficientes, de ahí la alternancia.',
+                                description: '4 Representa el nivel máximo de conformidad.  Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci.',
 
                             },
                         ],
@@ -899,7 +898,7 @@ export default [
                                     isPercentual: true,
                                     isLogScale: true,
                                 },
-                                caption: 'Porcentaje de hombres, mujeres y otros en cada grupo de sectores de la industria.',
+                                caption: 'Porcentaje de las distintas identidades de género en cada grupo de sectores de la industria.',
                                 description: <p>
                                     También podés ver el <a href="#Trabajo-Caracteristicas-de-las-Empresas-Actividad-Principal-de-la-Empresa">porcentaje de incidencia de cada sector de la industria sobre el total de la población censada</a>.
                                 </p>,
@@ -964,7 +963,7 @@ export default [
                                         Como contraste, la <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_01_21CD878A2A5B.pdf" target="_blank" rel="noopener noreferrer">inflación Julio-Diciembre publicada por el INDEC en su último reporte</a> fue de <strong>18,4%</strong>.
                                     </p>
                                     <p>
-                                        Hay diferencias en cuanto a género: los Hombres tienen un 5% más de ajuste que Mujeres y Otros.
+                                        Hay diferencias en cuanto a identidad de género: los Hombres Cis tienen un 3% más de ajuste No Binaries y quienes prefieren no responder sobre su género; y un 5% más sobre las Mujeres Cis.
                                     </p>
                                 </>,
                             },
@@ -1324,4 +1323,3 @@ export default [
         )
     }
 ];
-

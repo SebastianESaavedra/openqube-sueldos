@@ -14,6 +14,9 @@ function bestSalary(s) {
     return Math.max(s["Junior"], s["Semi-Senior"], s["Senior"]);
 }
 
+let genders = ['Hombre Cis', 'Mujer Cis', 'Otros', 'Prefiero No Decir', 'No Binarie']
+
+
 export default [
     { // category
         title: 'Introducción',
@@ -662,12 +665,12 @@ export default [
                                                 [row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]]: {
                                                     publish_date: row.name.match(/(\d{4}-\d{2}-\d{2})/)[1],
                                                     ...dates[row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]],
-                                                    [row.name.match(/'(\w+)'\)$/)[1]]: row.count,
+                                                    [row.name.match(/'([\w é]+)'\)$/)[1]]: row.count,
                                                 },
                                             }), {})
                                     ),
                                     xDataKey: 'publish_date',
-                                    yDataKeys: ['Mujer', 'Otros'],
+                                    yDataKeys: genders.filter(g => g !== "Hombre Cis"),
                                     isPercentual: true,
                                 },
                                 caption: 'Serie de tiempo de porcentaje de participación por género basada en encuestas anteriores (excluyendo mayoría).',
@@ -684,12 +687,12 @@ export default [
                                                 [row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]]: {
                                                     publish_date: row.name.match(/(\d{4}-\d{2}-\d{2})/)[1],
                                                     ...dates[row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]],
-                                                    [row.name.match(/'(\w+)'\)$/)[1]]: row.count,
+                                                    [row.name.match(/'([\w é]+)'\)$/)[1]]: row.count,
                                                 },
                                             }), {})
                                     ),
                                     xDataKey: 'publish_date',
-                                    yDataKeys: ['Mujer', 'Otros', 'Hombre'],
+                                    yDataKeys: genders,
                                     isPercentual: true,
                                 },
                                 caption: 'Serie de tiempo de porcentaje de participación por género basada en encuestas anteriores.',
@@ -710,12 +713,12 @@ export default [
                                                 [row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]]: {
                                                     publish_date: row.name.match(/(\d{4}-\d{2}-\d{2})/)[1],
                                                     ...dates[row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]],
-                                                    [row.name.match(/'(\w+)'\)$/)[1]]: row.salary,
+                                                    [row.name.match(/'([\w é]+)'\)$/)[1]]: row.salary,
                                                 },
                                             }), {})
                                     ),
                                     xDataKey: 'publish_date',
-                                    yDataKeys: ['Hombre', 'Mujer', 'Otros'],
+                                    yDataKeys: genders,
                                     currency: 'AR$',
                                     customStroke: { 'Otros': '#ccc' },
                                 },
@@ -735,20 +738,22 @@ export default [
                                                 [row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]]: {
                                                     publish_date: row.name.match(/(\d{4}-\d{2}-\d{2})/)[1],
                                                     ...dates[row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]],
-                                                    [row.name.match(/'(\w+)'\)$/)[1]]: row.salary,
+                                                    [row.name.match(/'([\w é]+)'\)$/)[1]]: row.salary,
                                                 },
                                             }), {})
                                     )
                                         // dates: [ { publish_date: '2016-02-01', 'Hombre': 9999, 'Mujer': 9999, 'Otros': 9999 } }, ...]
                                         .map((date) => ({
                                             publish_date: date.publish_date,
-                                            'Mujer-Hombre': (date['Hombre'] - date['Mujer']) / Math.min(date['Hombre'], date['Mujer']),
-                                            'Otros-Hombre': (date['Hombre'] - date['Otros']) / Math.min(date['Hombre'], date['Otros']),
+                                            'Mujer Cis-Hombre Cis': (date['Hombre Cis'] - date['Mujer Cis']) / Math.min(date['Hombre Cis'], date['Mujer Cis']),
+                                            'Otros-Hombre Cis': (date['Hombre Cis'] - date['Otros']) / Math.min(date['Hombre Cis'], date['Otros']),
+                                            'Prefiero No Decir-Hombre Cis': (date['Hombre Cis'] - date['Prefiero No Decir']) / Math.min(date['Hombre Cis'], date['Prefiero No Decir']),
+                                            'No Binarie-Hombre Cis': (date['Hombre Cis'] - date['No Binarie']) / Math.min(date['Hombre Cis'], date['No Binarie']),
                                         })),
                                     xDataKey: 'publish_date',
-                                    yDataKeys: ['Mujer-Hombre', 'Otros-Hombre'],
+                                    yDataKeys: ['Mujer Cis-Hombre Cis', 'Otros-Hombre Cis', 'Prefiero No Decir-Hombre Cis', 'No Binarie-Hombre Cis'],
                                     isPercentual: true,
-                                    customStroke: { 'Otros-Hombre': '#ccc' },
+                                    customStroke: { 'Otros-Hombre Cis': '#ccc' },
                                 },
                                 caption: 'Serie histórica de brecha salarial de minorías respecto del grupo mayoritario.',
                                 description: (<>
@@ -771,7 +776,7 @@ export default [
                                     data: historic_charts['historic_acquiescence_means'].data
                                         .map(row => ({ ...row, Otros: row.Otros || undefined, publish_date: row.name.match(/(\d{4}-\d{2}-\d{2})/)[1] })), // remove 0 values
                                     xDataKey: 'publish_date',
-                                    yDataKeys: ['Hombre', 'Mujer', 'Otros'],
+                                    yDataKeys: genders,
                                     customStroke: { 'Otros': '#ccc' },
                                 },
                                 caption: 'Serie histórica del nivel de conformidad con los salarios basada en encuestas anteriores.',

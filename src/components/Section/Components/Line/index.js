@@ -45,7 +45,7 @@ class Line extends Component {
     const { data, xDataKey, yDataKeys, isPercentual, customStroke = {} } = this.props;
 
     return (
-      <LineChart width={620} height={400} data={data}
+      <LineChart width={650} height={400} data={data}
         margin={{ top: 10, right: 0, left: 5, bottom: 10 }}
         className='line-chart'>
         <CartesianGrid strokeDasharray="3 3" />

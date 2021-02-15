@@ -795,24 +795,31 @@ export default [
                         title: 'Nivel de estudios alcanzados y completitud',
                         data: [
                             {  // tab
-                                title: 'Hombres',
+                                title: 'Hombres Cis',
                                 component: 'Barh', // graph
-                                props: { ...charts['education_hombre_stacked'], isPercentual: true, isStacked: true },
-                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de los hombres, y cuál es su estado actual?',
+                                props: { ...charts['education_hombre_cis_stacked'], isPercentual: true, isStacked: true },
+                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de los hombres cis, y cuál es su estado actual?',
                                 description: 'Los valores porcentuales de cada segmento son sobre el total de los hombres encuestados.'
                             },
                             {  // tab
-                                title: 'Mujeres',
+                                title: 'Mujeres Cis',
                                 component: 'Barh', // graph
-                                props: { ...charts['education_mujer_stacked'], isPercentual: true, isStacked: true },
-                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de las mujeres, y cuál es su estado actual?',
+                                props: { ...charts['education_mujer_cis_stacked'], isPercentual: true, isStacked: true },
+                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de las mujeres cis, y cuál es su estado actual?',
                                 description: 'Los valores porcentuales de cada segmento son sobre el total de los mujeres encuestadas.'
                             },
                             {  // tab
-                                title: 'Otros',
+                                title: 'Prefiero No Decir',
                                 component: 'Barh', // graph
-                                props: { ...charts['education_otros_stacked'], isPercentual: true, isStacked: true },
-                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de otros géneros, y cual es su estado actual?',
+                                props: { ...charts['education_no_decir_stacked'], isPercentual: true, isStacked: true },
+                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de personas que prefieren no responder sobre su género, y cual es su estado actual?',
+                                description: 'Los valores porcentuales de cada segmento son sobre el total de otros géneros encuestados.'
+                            },
+                            {  // tab
+                                title: 'No Binarie',
+                                component: 'Barh', // graph
+                                props: { ...charts['education_no_bin_stacked'], isPercentual: true, isStacked: true },
+                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de personas no binaries, y cual es su estado actual?',
                                 description: 'Los valores porcentuales de cada segmento son sobre el total de otros géneros encuestados.'
                             },
                         ],
@@ -831,7 +838,7 @@ export default [
                                 props: {
                                     data: charts['experience_gender_salary_median'].data,
                                     xDataKey: 'name',
-                                    yDataKeys: ['Hombre', 'Mujer', 'Otros'],
+                                    yDataKeys: ['Hombre Cis', 'Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
                                     currency: 'AR$',
                                     customStroke: { 'Otros': '#ccc' },
                                 },
@@ -844,12 +851,12 @@ export default [
                         title: 'Participación por género según años de experiencia',
                         data: [
                             {  // tab
-                                title: 'Mujeres / Otros',
+                                title: 'Mujeres Cis / No Decir / No Binaries',
                                 component: 'Area', // graph
                                 props: {
                                     data: charts['experience_gender_percent'].data,
                                     xDataKey: 'name',
-                                    yDataKeys: ['Mujer', 'Otros'],
+                                    yDataKeys: ['Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
                                     isPercentual: true,
                                 },
                                 caption: 'Nivel de participación por género, según años de experiencia. El porcentaje restante es de hombres.',
@@ -866,7 +873,7 @@ export default [
                                 props: {
                                     data: charts['experience_gender_conformidad_mean'].data,
                                     xDataKey: 'name',
-                                    yDataKeys: ['Hombre', 'Mujer', 'Otros'],
+                                    yDataKeys: ['Hombre Cis', 'Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
                                     customStroke: { 'Otros': '#ccc' },
                                 },
                                 caption: 'Conformidad con los salarios por género según años de experiencia.',
@@ -883,7 +890,7 @@ export default [
                                 component: 'Barh', // graph
                                 props: {
                                     data: charts['actividad_principal_gender_percent'].data
-                                        .sort((a, b) => b['Mujer'] - a['Mujer']),
+                                        .sort((a, b) => b['Mujer Cis'] - a['Mujer Cis']),
                                     isPercentual: true,
                                     isLogScale: true,
                                 },
@@ -1306,6 +1313,7 @@ export default [
                     <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.01">Resultados de la encuesta de sueldos 2019.01</a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.02">Resultados de la encuesta de sueldos 2019.02</a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.01">Resultados de la encuesta de sueldos 2020.01</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.02">Resultados de la encuesta de sueldos 2020.02</a></li>
                 </ul>
             </div>
         )

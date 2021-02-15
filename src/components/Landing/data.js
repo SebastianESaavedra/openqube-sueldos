@@ -621,18 +621,14 @@ export default [
         title: 'Género',
         content: (
             <div>
-                <p>En cuanto a los datos analizados en cuestión de género, podemos destacar los siguientes puntos interesantes:</p>
-                <ol>
-                    <li>El nivel de participación de mujeres <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">(~15%)</a> se mantiene similar al del período anterior (14,98%).</li>
-                    <li>La flexibilidad en el ingreso de género (antes categorías fijas, hoy la posibilidad de ingresar texto libre) produjo un incremento notable en la cantidad de Otros, de un 0.5% a un 7%</li>
-                    <li>El proceso para ajustar los géneros en 3 categorías fue el siguiente: Hombre incluye Varón Cis y Varón Trans, Mujer incluye Mujer Cis y Mujer Trans, Otros incluye al resto.</li>
-                    <li>La brecha salarial en la población muestreada <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">se hace más notoria</a> a medida que aumentan los años de experiencia.</li>
-                </ol>
-                <p>
-                    La brecha salarial general es del: <a href="#Genero-Progresion-historica-Historico-de-salarios">26,3%</a>.
-                    Según los datos recabados, la brecha se acentúa en mujeres con más años de experiencia,
-                    donde <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">se encuentra el mayor porcentaje de participación</a>.
-                </p>
+                <p>En esta edición la pregunta sobre identidad de género permitió ingresar varias opciones fijas, y además la posibilidad de ingresar texto libre. Esto produjo la aparición de nuevas categorías en los gráficos, como personas no binaries y personas que prefieren no responder sobre su género.</p>
+                <p>No todas las categorías pudieron ser representadas dentro de los gráficos debido a que no alcanzaron una representación mayor al 0.05%.</p>
+                <p>La posibilidad de volcarse hacia otras respuestas, provocó una disminución en la participación de los hombres cis, sin embargo el nivel de participación de las mujeres cis <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">(~15%)</a> se mantuvo prácticamente igual al del período anterior.</p>
+                <p></p>
+                <p>La <a href="#Genero-Progresion-historica-Historico-de-salarios">brecha salarial</a> en la población muestreada se hace más notoria a medida que aumentan los años de experiencia.</p>
+                <p>La brecha salarial entre hombres y mujeres cis es de 25% y de ~3% entre hombres cis y personas que prefieren no responder sobre su género. Según los datos recabados, la brecha se acentúa en mujeres con más años de experiencia, donde <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">se encuentra el mayor porcentaje de participación</a>.</p>
+                <p></p>
+
                 <h4>Algunos datos</h4>
                 <ol>
                     <li>Las nuevas generaciones de mujeres en IT parecen tener condiciones de trabajo más equitativas 👩‍💻💪.</li>
@@ -642,8 +638,8 @@ export default [
                 </ol>
                 <h4>Para seguir mejorando</h4>
                 <ol>
-                    <li>La brecha salarial entre hombres y mujeres <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">sigue existiendo</a> y parece haberse acentuado: ~25% respecto a un ~20% de la última edición.</li>
-                    <li>La población que participa en la encuesta sigue siendo <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">~85% hombres</a>.</li>
+                    <li>La brecha salarial entre hombres y mujeres <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">sigue existiendo</a> y parece haberse acentuado: ~25% respecto a un ~20% un año atrás.</li>
+                    <li>La población que participa en la encuesta sigue siendo <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">~80% hombres cis</a>.</li>
                 </ol>
             </div>
         ),

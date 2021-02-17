@@ -651,7 +651,7 @@ export default [
                         title: 'Histórico de nivel de participación',
                         data: [
                             {  // tab
-                                title: 'Mujeres Cis y otrxs',
+                                title: 'Mujeres Cis y Otros',
                                 component: 'Area', // graph
                                 props: {
                                     data: Object.values(
@@ -670,7 +670,7 @@ export default [
                                     isPercentual: true,
                                 },
                                 caption: 'Serie de tiempo de porcentaje de participación por género basada en encuestas anteriores (excluyendo mayoría).',
-                                description: 'Al excluir la parte mayoritaria, puede apreciarse mejor la relación de porcentajes para Mujeres Cis y otrxs ',
+                                description: 'Al excluir la parte mayoritaria, puede apreciarse mejor la relación de porcentajes para Mujeres Cis y Otros ',
                             },
                             {  // tab
                                 title: 'Todos',
@@ -1193,7 +1193,7 @@ export default [
                                 component: 'Barh', // graph
                                 props: { ...charts['demographics_laboral_violence'], isPercentual: true },
                                 description: (<span>
-                                    Casi un 30% de los encuestados presenció una situación de violencia laboral en un trabajo previo y un 10% lo hizo en su trabajo actual.
+                                    Casi un 30% de las personas encuestadas presenció una situación de violencia laboral en un trabajo previo y un 10% lo hizo en su trabajo actual.
                                 </span>),
                             },
                         ],

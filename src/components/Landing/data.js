@@ -35,7 +35,7 @@ export default [
                         <li><a href="https://openqube.io/encuesta-sueldos-2019.01" target="_blank" rel="noopener noreferrer">2019.01</a></li>
                         <li><a href="https://openqube.io/encuesta-sueldos-2019.02" target="_blank" rel="noopener noreferrer">2019.02</a></li>
                         <li><a href="https://openqube.io/encuesta-sueldos-2020.01" target="_blank" rel="noopener noreferrer">2020.01</a></li>
-                        <li><a href="https://openqube.io/encuesta-sueldos-2020.02" target="_blank" rel="noopener noreferrer">2020.02</a></li>
+                        <li><a href="https://sueldos.openqube.io/encuesta-sueldos-2020.02/" target="_blank" rel="noopener noreferrer">2020.02</a></li>
                     </ul>
                 </p>
                 <p>
@@ -52,6 +52,9 @@ export default [
                     <small>
                         (basado en el trabajo previo realizado por <a className='author-name' href='https://twitter.com/luscastro' target="_blank" rel="noopener noreferrer">Luciana Castro</a> y <a className='author-name' href='https://twitter.com/gerardobort' target="_blank" rel="noopener noreferrer">Gerardo Bort</a>)
                     </small>
+                    <a href="https://sysar.my/discord" target="_blank" rel="noopener noreferrer">
+                        <img src="https://i.postimg.cc/66HPZDtf/discord-683x90.jpg" style={{ "margin-top": "20px" }}></img>
+                    </a>
                 </div>
             </div>
         )
@@ -1308,6 +1311,7 @@ export default [
                 <ul>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/openqube/openqube-sueldos">Código fuente de esta publicación (sitio web)</a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/openqube/openqube-sueldos/tree/master/pipeline">Notebooks de análisis y procesamiento de datos</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://sysarmy.com/blog">Dataset de esta encuesta</a></li>
                 </ul>
                 <h4>Análisis previos</h4>
                 <ul>

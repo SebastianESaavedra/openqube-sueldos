@@ -626,8 +626,8 @@ export default [
             <div>
                 <p>En esta edición la pregunta sobre identidad de género constaba de varias opciones fijas y la posibilidad de ingresar texto libre. Esto permitió la aparición de nuevas representaciones, como personas no binaries y quienes prefieren no responder sobre su género.</p>
                 <p>Para la producción de este apartado mantuvimos el mismo criterio que aplicamos en el resto de los análisis, por lo que no incluímos dentro de los gráficos aquellos géneros que tuvieron una representación menor al 0.05% de la muestra.</p>
-                <p>La posibilidad de volcarse hacia otras respuestas, provocó una menor representación de hombres cis, sin embargo el nivel de participación de las mujeres cis <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">(~15%)</a> se mantuvo prácticamente igual al del período anterior.</p>
-                <p></p>    
+                <p>La pluralidad de opciones provocó una menor representación de hombres cis, sin embargo el nivel de participación de las mujeres cis <a href="#Genero-Progresion-historica-Historico-de-nivel-de-participacion">(~15%)</a> se mantuvo prácticamente igual al del período anterior.</p>
+                <p></p>
 
                 <p>La <a href="#Genero-Progresion-historica-Historico-de-salarios">brecha salarial</a> en la población muestreada se hace más notoria a medida que aumentan los años de experiencia.</p>
                 <p>La brecha salarial entre hombres y mujeres cis es de 25% y de ~3% entre hombres cis y personas que prefieren no responder sobre su género. Según los datos recabados, la brecha se acentúa en mujeres con más años de experiencia, donde <a href="#Genero-Experiencia-Salario-por-genero-segun-anos-de-experiencia">se encuentra el mayor porcentaje de participación</a>.</p>

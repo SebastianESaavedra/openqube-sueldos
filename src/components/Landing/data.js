@@ -1,6 +1,7 @@
 import React from 'react';
 import charts from './charts.json';
-import historic_charts from './historic-charts';
+import historic_charts from './historic_charts.json';
+import old_historic from './historic-charts';
 
 // si al momento de publicar la nueva versión de la encuesta existe un cepo cambiario y
 // un tipo de cambio desdoblado en oficial/ahorro, agregar la fecha de publicación aquí.
@@ -229,24 +230,24 @@ export default [
                         ],
                     },
                     {
-                        title: '¿Cuáles son las Universidades más concurridas?',
+                        title: '¿Cuáles son las casas de estudio más concurridas?',
                         data: [
                             { // tab
-                                title: 'Universidades',
+                                title: 'Casas de estudio',
                                 component: 'Barh',
                                 props: { ...charts['universities_percent'], isPercentual: true, isLogScale: true, minLogScale: 0.001, cutoff: 10 },
                                 caption: <p>Los nombres de las casas de estudio fueron normalizados para la elaboración de este gráfico.<br /> Para más información, ver la <a href="#Metodologia">metodología</a>.</p>,
                                 description: '',
                             },
                             { // tab
-                                title: 'Universidades y estado de las carreras',
+                                title: 'Casas de estudio y estado de las carreras',
                                 component: 'Barh',
                                 props: { ...charts['universities_stacked_percent'], isPercentual: true, isLogScale: true, minLogScale: 0.0001, cutoff: 10 },
                                 caption: <p>Aquí se puede apreciar de manera comparativa y en escala logarítmica,<br /> por cada casa de estudio, cuál es el estado de sus carreras para la muestra.</p>,
                                 description: (<div>
                                     <p>
-                                        Este gráfico podría darnos una idea del nivel de deserción en cada casa de estudio, a grandes rasgos.
-                                        Es importante aclarar que para muchas universidades, en especial cuanto más abajo estén listadas, la cantidad de muestras puede ser muy baja y no ser representativa de la realidad de dichas instituciones.
+                                    Este gráfico podría darnos una idea del nivel de deserción en cada casa de estudio, a grandes rasgos.
+                                    Es importante aclarar que para muchas de ellas, en especial cuanto más abajo estén listadas, la cantidad de muestras puede ser muy baja y no ser representativa de la realidad de dichas instituciones.
                                     </p>
                                 </div>),
                             },
@@ -259,7 +260,7 @@ export default [
                                 title: '',
                                 component: 'Pie',
                                 props: { ...charts['specialization_percent'], isPercentual: true },
-                                description: '',
+                                description: 'Se observan valores similares a los de la encuesta pasada.',
                             },
                         ],
                     },
@@ -270,7 +271,7 @@ export default [
                                 title: '',
                                 component: 'Pie',
                                 props: { ...charts['specialization_pays_percent'], isPercentual: true },
-                                description: '',
+                                description: 'Se observan valores similares a los de la encuesta pasada.',
                             },
                         ],
                     },
@@ -320,15 +321,11 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['discapacidad_percent'], isPercentual: true, isLogScale: true, minLogScale: 0.0003, },
-                                caption:  "hola"/*<p>Porcentajes de personas que reportaron tener alguna discapacidad, el  <strong>{
-                                    parseFloat(charts['n_persons_with_no_disabilities'].data.map(item => item.value)*100).toFixed(2)
-                                    }</strong> % no informaron discapacidad</p>*/
-  
-        
+                                caption:  <p>Porcentajes de personas que reportaron tener alguna discapacidad, el  <strong>78.7</strong> % no informaron discapacidad</p>
                             },
                         ],
                     },
-                    {  // section
+                    /*{  // section
                         title: 'Violencia Laboral',
                         data: [
                             {  // tab
@@ -388,12 +385,10 @@ export default [
                                 description: '',
                             },
                         ]
-                    }
-                    
-                    
+                    }*/
                 ],
             },
-            { // sub-category
+            /*{ // sub-category
                 title: 'Seniority',
                 data: [
                     {  // section
@@ -466,9 +461,9 @@ export default [
                                 description: '',
                             },
                         ]
-                    }*/
+                    }
                 ]
-            }
+            }*/
 
         ],
     },
@@ -864,14 +859,16 @@ export default [
                                 props: {
                                     data: Object.values(
                                         historic_charts['historic_gender_percent'].data
-                                            .reduce((dates, row) => ({
-                                                ...dates,
-                                                [row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]]: {
-                                                    publish_date: row.name.match(/(\d{4}-\d{2}-\d{2})/)[1],
-                                                    ...dates[row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]],
-                                                    [row.name.match(/'([\w é]+)'\)$/)[1]]: row.count,
-                                                },
-                                            }), {})
+                                        .reduce((dates, row) => {
+                                            const date = row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]
+                                            return ({
+                                            ...dates,
+                                            [date]: {
+                                                publish_date: date,
+                                                ...dates[date],
+                                                [row.name.match(/, '(.*)'\)$/)[1]]: row.count,
+                                            },
+                                        })}, {})
                                     ),
                                     xDataKey: 'publish_date',
                                     yDataKeys: genders,
@@ -892,7 +889,7 @@ export default [
                                 component: 'Line', // graph
                                 props: {
                                     data: Object.values(
-                                        historic_charts['historic_gender_salary_median'].data
+                                        old_historic['historic_gender_salary_median'].data
                                             .reduce((dates, row) => ({
                                                 ...dates,
                                                 [row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]]: {

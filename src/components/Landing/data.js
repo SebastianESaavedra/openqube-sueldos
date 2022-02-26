@@ -1,5 +1,5 @@
 import React from 'react';
-import charts from './charts';
+import charts from './charts.json';
 import historic_charts from './historic-charts';
 
 // si al momento de publicar la nueva versión de la encuesta existe un cepo cambiario y
@@ -14,7 +14,11 @@ function bestSalary(s) {
     return Math.max(s["Junior"], s["Semi-Senior"], s["Senior"]);
 }
 
-let genders = ['Hombre Cis', 'Mujer Cis', 'Otros', 'Prefiero No Decir', 'No Binarie']
+//let genders = ['Hombre Cis', 'Mujer Cis', 'Otros', 'Prefiero No Decir', 'No Binarie']
+
+
+let genders = ["Agénero", "Fluido", "Mujer Cis", "Mujer Trans", "No binarie", "Varon Cis", "Varon Trans", "Prefiero No Decir"]
+let not_male_genders = ["Agénero", "Fluido", "Mujer Cis", "Mujer Trans", "No binarie", "Varon Trans"]
 
 
 export default [
@@ -315,18 +319,156 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['discapacidad_percent'], isPercentual: true, isLogScale: true, minLogScale: 0.0003, },
-                                caption:  <p>Porcentajes de personas que reportaron tener alguna discapacidad, el  <strong>{
+                                caption:  "hola"/*<p>Porcentajes de personas que reportaron tener alguna discapacidad, el  <strong>{
                                     parseFloat(charts['n_persons_with_no_disabilities'].data.map(item => item.value)*100).toFixed(2)
-                                    }</strong> % no informaron discapacidad</p>
+                                    }</strong> % no informaron discapacidad</p>*/
   
         
                             },
                         ],
                     },
+                    {  // section
+                        title: 'Violencia Laboral',
+                        data: [
+                            {  // tab
+                                title: 'Total',
+                                component: 'Barh', // graph
+                                props: { ...charts['violencia_laboral'], isLogScale: false, isPercentual: true },
+                                caption: <p></p>,
+                            },
+                            {  // tab
+                                title: 'Por género',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['violence_gender'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Por orientación sexual',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['violence_orient_sexual'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                        ],
+                    },
+                    { // section
+                        title: "¿Considerás que tenés oportunidades de crecimiento siendo quien sos dentro de tu organización?",
+                        data: [
+                            {  // tab
+                                title: 'Por género',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['growth_gender'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Por orientación sexual',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['growth_orient_sexual'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Por discapacidad',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['growth_disab'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                        ]
+                    }
                     
                     
                 ],
             },
+            { // sub-category
+                title: 'Seniority',
+                data: [
+                    {  // section
+                        title: 'Porcentaje de participantes por seniority',
+                        data: [
+                            { //tab
+                                title: 'Total',
+                                component: 'Barh',
+                                props: {
+                                    data: [] // global values
+                                }
+
+                            },
+                            {  // tab
+                                title: 'Por género',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['seniority_gender'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Por discapacidad',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['seniority_disab'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                        ]
+                    },
+                    {  // section
+                        title: 'Según edad', //TODO: REVISAR
+                        data: [
+                            { //tab
+                                title: 'Varon Cis',
+                                component: 'Barh',
+                                props: {
+                                    data: charts['seniority_varon_cis_age'].data,
+                                }
+
+                            },
+                            {  // tab
+                                title: 'Mujer Cis',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['seniority_mujer_cis_age'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Mujer Cis',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['seniority_no_binarie_age'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Prefiero no decir',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['seniority_no_dice_age'].data,
+                                },
+                                caption: '',
+                                description: '',
+                            },
+                        ]
+                    }
+                ]
+            }
+
         ],
     },
     { // category
@@ -571,8 +713,8 @@ export default [
                                 title: 'Por carrera y estado',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: charts['carrera_estado_salary_median'].data
-                                        .sort((a, b) => b['Completado'] - a['Completado']),
+                                    data: [],/*charts['carrera_estado_salary_median'].data
+                                        .sort((a, b) => b['Completado'] - a['Completado']),*/
                                     currency: 'AR$',
                                     markNegativeValues: ['Completado', 'En curso', 'Incompleto'],
                                 },
@@ -656,7 +798,7 @@ export default [
         ],
     },
     { // category
-        title: 'Género',
+        title: 'Género', // TODO: Revisar
         content: (
             <div>
                 <p>En esta edición la pregunta sobre identidad de género consta de un listado de opciones fijas (que incluye “prefiero no responder”) y la posibilidad de ingresar texto libre. Esta modalidad visibiliza la pluralidad de identidades, no replicando categorías hegemónicas históricamente sostenidas. Por otra parte, se puede lograr un análisis más aproximado a las diferentes vivencias individuales en el cruce de variables. </p>
@@ -847,9 +989,9 @@ export default [
                                 props: {
                                     data: charts['experience_gender_salary_median'].data,
                                     xDataKey: 'name',
-                                    yDataKeys: ['Hombre Cis', 'Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
+                                    yDataKeys: genders,//['Hombre Cis', 'Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
                                     currency: 'AR$',
-                                    customStroke: { 'No Binarie': '#ccc' },
+                                    //customStroke: { 'No Binarie': '#ccc' },
                                 },
                                 caption: 'Mediana salarial por género, según años de experiencia.',
                                 description: 'Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci.',
@@ -865,7 +1007,7 @@ export default [
                                 props: {
                                     data: charts['experience_gender_percent'].data,
                                     xDataKey: 'name',
-                                    yDataKeys: ['Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
+                                    yDataKeys: not_male_genders,//["Mujer Cis", "Mujer Trans", "No binarie", "Fluido", "Agénero"],
                                     isPercentual: true,
                                 },
                                 caption: 'Nivel de participación por género, según años de experiencia. El porcentaje restante es de hombres.',
@@ -881,7 +1023,7 @@ export default [
                                 props: {
                                     data: charts['experience_gender_conformidad_mean'].data,
                                     xDataKey: 'name',
-                                    yDataKeys: ['Hombre Cis', 'Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
+                                    yDataKeys: genders,//['Hombre Cis', 'Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
                                     customStroke: { 'No Binarie': '#ccc' },
                                 },
                                 caption: 'Conformidad con los salarios por género según años de experiencia.',
@@ -1162,6 +1304,26 @@ export default [
                         ],
                     },
                     {  // section
+                        title: 'Beneficios nuevos por pandemia',
+                        data: [
+                            {  // tab
+                                title: 'Total',
+                                component: 'Barh', // graph
+                                props: { ...charts['beneficios_nuevos'], isPercentual: true, cutoff: 10, sumOthers: false },
+                                caption: '',
+                                description: ''
+                            },
+                            {  // tab
+                                title: 'Según tipo de actividad',
+                                component: 'Barh', // graph
+                                props: { ...charts['new_ben_act_org'], isPercentual: false, cutoff: 10, sumOthers: false },
+                                caption: '',
+                                description: ''
+                            },
+                            
+                        ],
+                    },
+                    {  // section
                         title: 'Porcentajes de Ajuste por Inflación a la fecha (2021)',
                         data: [
                             {  // tab
@@ -1184,10 +1346,22 @@ export default [
                         title: 'Cantidad de Personas',
                         data: [
                             {  // tab
-                                title: '',
+                                title: 'Total',
                                 component: 'Barh', // graph
                                 props: { ...charts['cantidad_de_personas_en_tu_organizacion'], isPercentual: true },
                                 description: 'Datos porcentuales',
+                            },
+                            {  // tab
+                                title: 'Por beneficios', // TODO: REVISAR
+                                component: 'Barh', // graph
+                                props: { ...charts['amout_in_org_by_benefits'], isPercentual: false, cutoff: 10 },
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Por sueldo', // TODO: REVISAR que se ordene por aumento de cantidad
+                                component: 'Barh', // graph
+                                props: { ...charts['amount_salary'], isPercentual: false, cutoff: 10 },
+                                description: '',
                             },
                         ],
                     },
@@ -1238,7 +1412,7 @@ export default [
                                 props: { ...charts['demographics_laboral_violence'], isPercentual: true },
                                 description: (<span>
                                  Casi un 31% de las personas encuestadas presenció una situación de violencia laboral en un trabajo previo y un 8% lo hizo en su trabajo actual.
-                                 El <strong>{parseFloat(charts['demographics_laboral_violence_ever'].data.map(item => item.value)*100).toFixed(1)}</strong>%   indicó que fueron testigos de violencia laboral alguna vez.
+                                 El <strong>{10/*parseFloat(charts['demographics_laboral_violence_ever'].data.map(item => item.value)*100).toFixed(1)*/}</strong>%   indicó que fueron testigos de violencia laboral alguna vez.
                                 </span>),
                             },
                         ],

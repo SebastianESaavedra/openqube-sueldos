@@ -565,6 +565,7 @@ export default [
                                 props: { ...charts['regions_salary_median'], isPercentual: false, isLogScale: false, currency: 'AR$', markNegativeValues: true, },
                                 caption: <p>¿Cómo es un salario típico en cada región?<br />Esto, a nivel comparativo, a grosso modo y sin contemplar otras variables.</p>,
                                 description: <div>
+                                    <p>Hubo varios cambios respecto de la edición anterior. Una provincia a destacar es Río Negro cuya mediana salarial y acumulado de ajustes incrementó, y ahora lidera en el nivel de conformidad.</p>
                                     <p>Para este ranking entre regiones, hemos aplicado un umbral mínimo de muestras requeridas, del 0.5% sobre el total.  Aquellas regiones o provincias que no cuenten con dicho mínimo de respuestas, consideraremos que tienen <a href="#Perfil-de-participantes-Regiones">datos insuficientes</a> y solo se mostrarán al clickear "ver más" en color grisado.</p>
                                     <p>Más sobre la representatividad de la muestra en el apartado <a href="#Metodologia">Metodología</a>.</p>
                                 </div>,
@@ -575,6 +576,7 @@ export default [
                                 props: { ...charts['regions_salary_adjustment'], isPercentual: true, isLogScale: false, markNegativeValues: true, },
                                 caption: '¿Cuál fue porcentaje de ajuste por inflación acumulado típico en cada región?',
                                 description: <div>
+                                    <p>Hubo varios cambios respecto de la edición anterior. Una provincia a destacar es Río Negro cuya mediana salarial y acumulado de ajustes incrementó, y ahora lidera en el nivel de conformidad.</p>
                                     <p>Para este ranking entre regiones hemos aplicado un umbral mínimo de muestras requeridas, del 0.5% sobre el total.  Aquellas regiones o provincias que no cuenten con dicho mínimo de respuestas, consideraremos que tienen <a href="#Perfil-de-participantes-Regiones">datos insuficientes</a> y solo se mostrarán al clickear "ver más" en color grisado.</p>
                                     <p>Más sobre la representatividad de la muestra en el apartado <a href="#Metodologia">Metodología</a>.</p>
                                 </div>,
@@ -585,6 +587,7 @@ export default [
                                 props: { ...charts['regions_salary_acquiescence'], isPercentual: false, isLogScale: false, markNegativeValues: true, },
                                 caption: 'Media de conformidad con el sueldo por región del país, en escala del 1 - 4, de poco a muy conforme. Si bien el ranking cambio respecto a la ultima encuesta, los valores de diferencia no son muy altos',
                                 description: <div>
+                                    <p>Hubo varios cambios respecto de la edición anterior. Una provincia a destacar es Río Negro cuya mediana salarial y acumulado de ajustes incrementó, y ahora lidera en el nivel de conformidad.</p>
                                     <p>Para este ranking entre regiones, hemos aplicado un umbral mínimo de muestras requeridas, del 0.5% sobre el total.  Aquellas regiones o provincias que no cuenten con dicho mínimo de respuestas, consideraremos que tienen <a href="#Perfil-de-participantes-Regiones">datos insuficientes</a> y solo se mostrarán al clickear "ver más" en color grisado.</p>
                                     <p>Más sobre la representatividad de la muestra en el apartado <a href="#Metodologia">Metodología</a>.</p>
                                 </div>,
@@ -637,7 +640,8 @@ export default [
                                 caption: 'Mediana salarial por años de experiencia en el puesto y rol.',
                                 description: <div>
                                     <p>Aquí puede notarse una diferencia en los niveles de salarios que manejan las empresas de Producto basado en software respecto de las otras.</p>
-                                    <p>En segundo lugar, y muy cercano al siguiente, quienes trabajan en áreas de Sistemas dando soporte a Otras Industrias. Por último, Servicios / Consultoría de Software / Digital.</p>
+                                    <p>A diferencia de la edición anterior, ahora se encuentran en segundo lugar, y muy cercano al siguiente, Servicios / Consultoría de Software / Digital. Por último, quienes trabajan en áreas de Sistemas dando soporte a Otras Industrias. </p>
+                                    <p>Si miramos solo los puestos junior, este orden cambia, encontrándose en primer lugar quienes trabajan en áreas de Sistemas dando soporte a Otras Industrias, en segundo lugar las empresas de Producto basado en software y en último lugar las empresas de Servicios / Consultoría de Software / Digital. Más allá de esto, es muy escasa la diferencia salarial entre las tres industrias para estos puestos.</p>
                                 </div>,
                             },
                         ],
@@ -660,7 +664,10 @@ export default [
                                     markNegativeValues: true,
                                 },
                                 caption: 'Mediana salarial por nivel de educación formal alcanzado.',
-                                description: 'Se excluyen por defecto aquellos niveles de estudio que no cuentan con suficiente representación sobre la muestra.',
+                                description: <div>
+                                    <p>Respecto de la edición anterior, se evidencia una notoria disminución en la diferencia salarial entre el nivel universitario y doctorado.</p>
+                                    <p>Se excluyen por defecto aquellos niveles de estudio que no cuentan con suficiente representación sobre la muestra.</p>
+                                </div>
                             },
                             {  // tab
                                 title: 'Cursos / Especializaciones',
@@ -670,7 +677,7 @@ export default [
                                     currency: 'AR$',
                                 },
                                 caption: 'Mediana salarial para quienes hicieron cursos de especialización y quienes no.',
-                                description: 'Pareciera ser que los cursos de especialización no influyen mucho en los salarios. ¿O sí?',
+                                description: '',
                             },
                         ],
                     },
@@ -705,12 +712,12 @@ export default [
                             //         <p>Ver más en sobre la representatividad de la muestra en el apartado <a href="#Metodologia">Metodología</a>.</p>
                             //     </div>,
                             // },
-                            {  // tab
+                            /*{  // tab
                                 title: 'Por carrera y estado',
                                 component: 'Barh', // graph
                                 props: {
                                     data: [],/*charts['carrera_estado_salary_median'].data
-                                        .sort((a, b) => b['Completado'] - a['Completado']),*/
+                                        .sort((a, b) => b['Completado'] - a['Completado']),
                                     currency: 'AR$',
                                     markNegativeValues: ['Completado', 'En curso', 'Incompleto'],
                                 },
@@ -719,7 +726,7 @@ export default [
                                     <p>Para este ranking entre carreras, hemos aplicado un umbral mínimo de muestras requeridas, del 0.5% sobre las 30 más frecuentes.  Aquellas carreas que no cuenten con dicho mínimo de respuestas, consideraremos que tienen <a href="#Perfil-de-participantes-Educacion-Cuales-son-las-carreras-mas-estudiadas">datos insuficientes</a> y solo se mostrarán al clickear "ver más" en color grisado.</p>
                                     <p>Más sobre la representatividad de la muestra en el apartado <a href="#Metodologia">Metodología</a>.</p>
                                 </div>,
-                            },
+                            },*/
                         ],
                     },
                 ],
@@ -786,6 +793,40 @@ export default [
                                 description: <p>
                                     En <a href="#Trabajo-Tipos-de-contrato-Que-porcentaje-tiene-su-sueldo-dolarizado">este otro gráfico</a> puede verse el porcentaje de personas que gozan de este beneficio.
                                 </p>
+                            },
+                        ],
+                    },
+                ],
+            },
+            { // sub-category
+                title: 'Conformidad con el sueldo',
+                data: [
+                    {  // section
+                        title: 'Según género',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['happy_gender'].data,
+                                },
+                                caption: 'Conformidad con el sueldo segun género',
+                                description: ''
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: 'Según seniority',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['happy_seniority'].data,
+ 
+                                },
+                                caption: 'Conformidad con el sueldo segun seniority',
+                                description: ''
                             },
                         ],
                     },

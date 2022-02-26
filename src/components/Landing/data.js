@@ -41,13 +41,14 @@ export default [
                         <li><a href="https://openqube.io/encuesta-sueldos-2020.01" target="_blank" rel="noopener noreferrer">2020.01</a></li>
                         <li><a href="https://sueldos.openqube.io/encuesta-sueldos-2020.02/" target="_blank" rel="noopener noreferrer">2020.02</a></li>
                         <li><a href="https://sueldos.openqube.io/encuesta-sueldos-2021.01/" target="_blank" rel="noopener noreferrer">2021.01 </a></li>
+                        <li><a href="https://sueldos.openqube.io/encuesta-sueldos-2021.02/" target="_blank" rel="noopener noreferrer">2021.02 </a></li>
                     </ul>
                 </p>
                 <p>
                     Con la intención de ofrecer a nuestra comunidad los resultados de una manera más accesible, nos tomamos la libertad de seleccionar algunos datos estadísticos que consideramos, son de relevancia. Para tener una mayor comprensión sobre estos, recomendamos leer el apartado de <a href="#Metodologia">metodología</a>.
                 </p>
                 <p>
-                    A continuación te mostramos los resultados del nuevo análisis para julio - agosto 2021.
+                    A continuación te mostramos los resultados del nuevo análisis para Diciembre 2021 - Febrero 2022.
                 </p>
                 <br />
                 <div className='authors-wrapper'>
@@ -154,7 +155,7 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_percent'], isPercentual: true },
-                                caption: 'Porcentaje de encuestados por años de experiencia en la profesión.',
+                                caption: 'Porcentaje de encuestados por años de experiencia en la profesión. Se observa un mayor porcentaje de participantes con un año o menos de experiencia. Esto indica que hay más personas encuestadas trainee-junior respecto de la encuesta anterior.',
                                 description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
                             },
                         ],
@@ -166,7 +167,7 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_in_company'], isPercentual: true },
-                                caption: 'Porcentaje de encuestados por años de antigüedad en su compañía actual. Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año disminuyó. Esto indica que hay menor rotación con respecto a la última encuesta',
+                                caption: 'Porcentaje de encuestados por años de antigüedad en su compañía actual.Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías con respecto a la última encuesta, en conjunto con el incremento de participantes trainee-junior.',
                                 description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
                             },
                         ],
@@ -178,7 +179,7 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_in_position'], isPercentual: true },
-                                caption: 'Porcentaje de encuestados por años de antigüedad en su puesto actual.',
+                                caption: 'Porcentaje de encuestados por años de antigüedad en su puesto actual. Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías o dentro de la misma compañía con respecto a la última encuesta, en conjunto con el incremento de participantes trainee-junior.',
                                 description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
                             },
                         ],
@@ -426,7 +427,7 @@ export default [
                             },
                         ]
                     },
-                    {  // section
+                    /*{  // section
                         title: 'Según edad', //TODO: REVISAR
                         data: [
                             { //tab
@@ -465,7 +466,7 @@ export default [
                                 description: '',
                             },
                         ]
-                    }
+                    }*/
                 ]
             }
 

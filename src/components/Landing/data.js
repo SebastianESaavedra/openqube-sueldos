@@ -1,11 +1,10 @@
 import React from 'react';
 import charts from './charts.json';
 import historic_charts from './historic_charts.json';
-import old_historic from './historic-charts';
 
 // si al momento de publicar la nueva versión de la encuesta existe un cepo cambiario y
 // un tipo de cambio desdoblado en oficial/ahorro, agregar la fecha de publicación aquí.
-const hayDolarAhorro = ['2020-02-02', '2020-08-15', '2021-02-15','2021-08-23'];
+const hayDolarAhorro = ['2020-02-02', '2020-08-15', '2021-02-15','2021-08-23', '2022-02-27'];
 
 function sortBySalary(salaries) {
     return salaries.sort((a, b) => bestSalary(b) - bestSalary(a));
@@ -15,8 +14,9 @@ function bestSalary(s) {
     return Math.max(s["Junior"], s["Semi-Senior"], s["Senior"]);
 }
 
+let genders = charts['demographics_gender_percent'].data.map(x => x.name)
 
-let genders = ["Agénero", "Fluido", "Mujer Cis", "Mujer Trans", "No binarie", "Varon Cis", "Varon Trans", "Prefiero No Decir"]
+let top5_languages = charts['lenguajes_de_programacion'].data.map(x => x.name).slice(0, 5)
 
 export default [
     { // category
@@ -51,12 +51,12 @@ export default [
                 <div className='authors-wrapper'>
                     <center>    
                         <small>
-                        El presente informe fue realizado para openqube por Macarena Villamea y Olivia Fernandez.
+                        El presente informe fue realizado para openqube por <a className='author-name' href='https://www.linkedin.com/in/macarena-villamea/' target="_blank" rel="noopener noreferrer">Macarena Villamea</a> y <a className='author-name' href='https://www.linkedin.com/in/olifer97/' target="_blank" rel="noopener noreferrer">Olivia Fernandez</a>.
                         </small>
                     </center>
                     <small>
 
-                        (basado en el trabajo de <a className='author-name' href='https://www.linkedin.com/in/nadiakazlauskas/' target="_blank" rel="noopener noreferrer">Nadia Kazlauskas</a> , <a className='author-name' href='https://www.linkedin.com/in/fernandezpablo85/' target="_blank" rel="noopener noreferrer">Pablo Fernandez</a>, <a className='author-name' href='https://twitter.com/luscastro' target="_blank" rel="noopener noreferrer">Luciana Castro</a> y <a className='author-name' href='https://twitter.com/gerardobort' target="_blank" rel="noopener noreferrer">Gerardo Bort</a>)
+                        (basado en los trabajos previos de <a className='author-name' href='https://www.linkedin.com/in/nadiakazlauskas/' target="_blank" rel="noopener noreferrer">Nadia Kazlauskas</a> , <a className='author-name' href='https://www.linkedin.com/in/fernandezpablo85/' target="_blank" rel="noopener noreferrer">Pablo Fernandez</a>, <a className='author-name' href='https://twitter.com/luscastro' target="_blank" rel="noopener noreferrer">Luciana Castro</a>, <a className='author-name' href='https://twitter.com/gerardobort' target="_blank" rel="noopener noreferrer">Gerardo Bort</a>, <a className='author-name' href='https://ar.linkedin.com/in/leonardo-genzano-1b275193/' target="_blank" rel="noopener noreferrer">Leonardo Genzano</a>, <a className='author-name' href='https://twitter.com/cocodibuja' target="_blank" rel="noopener noreferrer">Nico Quiroz</a> y <a className='author-name' href='https://twitter.com/pabloc_ds' target="_blank" rel="noopener noreferrer">Pablo Casas</a>)
                     </small>
                     <a href="https://sysar.my/discord" target="_blank" rel="noopener noreferrer">
                         <img src="https://i.postimg.cc/66HPZDtf/discord-683x90.jpg" style={{ "margin-top": "20px" }}></img>
@@ -1010,7 +1010,7 @@ export default [
                             {  // tab
                                 title: 'Segun beneficios',
                                 component: 'Barh', // graph
-                                props: { ...charts['good_place_benef'], isPercentual: true },
+                                props: { ...charts['good_place_benef'], isPercentual: true, cutoff: 5 },
                                 description: (<span>
                                     Se analizan solo los 5 beneficios más comunes reportados para quienes respondieron a esta pregunta.
                                 </span>),
@@ -1018,7 +1018,7 @@ export default [
                             {  // tab
                                 title: 'Según compromiso con la diversidad',
                                 component: 'Barh', // graph
-                                props: { ...charts['good_place_benef'], isPercentual: true },
+                                props: { ...charts['good_place_incl'], isPercentual: true, cutoff: 5 },
                                 description: (<div>
                                     <p>Se evidencia una relación entre la promoción del lugar de trabajo y el compromiso que el mismo tiene con la diversidad.</p>
                                     <p>En <a href="#Trabajo-Caracteristicas-de-las-Empresas-De-existir-Como-calificas-las-politicas-de-diversidad-e-inclusion-de-tu-empresa">este otro gráfico</a> puede verse las calificaciones brindadas a sus empleadores según el compromiso con la diversidad que estos tienen.</p>
@@ -1150,15 +1150,17 @@ export default [
                                 component: 'Line', // graph
                                 props: {
                                     data: Object.values(
-                                        old_historic['historic_gender_salary_median'].data
-                                            .reduce((dates, row) => ({
+                                        historic_charts['historic_gender_salary_median'].data
+                                            .reduce((dates, row) => {
+                                                const date = row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]
+                                                return ({
                                                 ...dates,
-                                                [row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]]: {
-                                                    publish_date: row.name.match(/(\d{4}-\d{2}-\d{2})/)[1],
-                                                    ...dates[row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]],
-                                                    [row.name.match(/'([\w é]+)'\)$/)[1]]: row.salary,
+                                                [date]: {
+                                                    publish_date: date,
+                                                    ...dates[date],
+                                                    [row.name.match(/, '(.*)'\)$/)[1]]: row.salary,
                                                 },
-                                            }), {})
+                                            })}, {})
                                     ),
                                     xDataKey: 'publish_date',
                                     yDataKeys: genders,
@@ -1436,7 +1438,13 @@ export default [
                             {  // tab
                                 title: '',
                                 component: 'Barh', // graph
-                                props: { ...charts['experience_languages'], isPercentual: true, isLogScale: true, minLogScale: 0.0006, cutoff: 10, sumOthers: false },
+                                props: { 
+                                    data: charts['experience_languages'].data.map(x => {
+                                        const filtered = { name: x.name }
+                                        top5_languages.forEach(lang => filtered[lang] = x[lang])
+                                        return filtered
+                                    }),
+                                    isPercentual: true, isLogScale: true, minLogScale: 0.0006, cutoff: 15, sumOthers: true },
                                 caption: 'Lenguajes de programación más utilizados de acuerdo a los años de experiencia de las personas encuestadas.',
                                 description: 'Los lenguajes de programación no son excluyentes, es decir puede haber más de uno por persona relevada. Los valores son porcentuales sobre el total de participantes.'
                             },

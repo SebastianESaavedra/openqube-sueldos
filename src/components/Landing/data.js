@@ -15,12 +15,8 @@ function bestSalary(s) {
     return Math.max(s["Junior"], s["Semi-Senior"], s["Senior"]);
 }
 
-//let genders = ['Hombre Cis', 'Mujer Cis', 'Otros', 'Prefiero No Decir', 'No Binarie']
-
 
 let genders = ["Agénero", "Fluido", "Mujer Cis", "Mujer Trans", "No binarie", "Varon Cis", "Varon Trans", "Prefiero No Decir"]
-let not_male_genders = ["Agénero", "Fluido", "Mujer Cis", "Mujer Trans", "No binarie", "Varon Trans"]
-
 
 export default [
     { // category
@@ -55,7 +51,7 @@ export default [
                 <div className='authors-wrapper'>
                     <center>    
                         <small>
-                        El presente informe fue realizado para openqube por <a className='author-name' href='https://ar.linkedin.com/in/pcasas' target="_blank" rel="noopener noreferrer">Pablo Casas</a> , <a className='author-name' href='https://ar.linkedin.com/in/leonardo-genzano-1b275193/' target="_blank" rel="noopener noreferrer">Leonardo Genzano </a> y <a className='author-name' href='https://twitter.com/cocodibuja' target="_blank" rel="noopener noreferrer">Nico Quiroz</a> de <a className='author-name' href='https://escueladedatosvivos.ai/' target="_blank" rel="noopener noreferrer">Escuela de Datos Vivos </a>
+                        El presente informe fue realizado para openqube por Macarena Villamea y Olivia Fernandez.
                         </small>
                     </center>
                     <small>
@@ -835,6 +831,234 @@ export default [
         ],
     },
     { // category
+        title: 'Trabajo',
+        data: [
+            { // sub-category
+                title: 'Tipos de contrato',
+                data: [
+                    {  // section
+                        title: '',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['tipo_de_contrato_percent'], isLogScale: true, isPercentual: true },
+                                caption: 'Porcentaje de tipos de contrato de trabajo en escala logarítimica.',
+                            },
+                        ],
+                    },{
+                        title: '¿Qué porcentaje tiene su sueldo dolarizado?',
+                        data: [
+                            { // tab
+                                title: 'Sueldos dolarizados',
+                                component: 'Pie',
+                                props: {
+                                    data: charts['sueldo_dolarizado_percent'].data.map(val => ({
+                                        ...val,
+                                        name: (val.name === 'True' ? 'Sueldo dolarizado' : 'Sueldo no dolarizado'),
+                                    })),
+                                    isPercentual: true,
+                                },
+                                caption: <p>Porcentaje de personas que tienen su sueldo dolarizado, y quienes no lo tienen.</p>,
+                                description: <p>Se mantuvo el porcentaje respecto a la edición pasada.</p>,
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: 'Distribución del top 10 mejor pago',
+                        data: [
+                            {  // tab
+                                title: 'Actividad principal',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['salary_by_role_top10_perc'].data,
+                                    isPercentual: false,
+                                    isLogScale: false,
+                                },
+                                caption: 'Para este análisis nos quedamos con el top 10% de los salarios más altos. Esto responde la pregunta de ¿Cuánto ganan los que más ganan por rol?, los valores de la mediana son expresados en Pesos Argentinos',
+                                description:'Consultant y QA/Tester son los roles con mayor porcentaje de sus sueldos dolarizados.'
+                            },
+                        ],
+                    },
+                    
+                ],
+            }, 
+            { // sub-category
+                title: 'Compensación',
+                data: [
+                    {  // section
+                        title: '¿Recibís algún tipo de bono?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['recibis_algun_tipo_de_bono'], isLogScale: true, isPercentual: true },
+                                caption:<p>Porcentaje de participantes que han recibido o no, bonos como parte de la compensación, en escala logarítimica, el <strong>
+                                {parseFloat(charts['recibe_algun_tipo_de_bono'].data.map(item => item.value)*100).toFixed(2)}</strong> % de los encuestados reciben algún tipo de bono</p>
+                            
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: '¿Tenés beneficios extra?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['beneficios_extra'], isPercentual: true, cutoff: 10, sumOthers: false },
+                                caption: 'Aquí se enumera los beneficios más comunes entre los reportados.',
+                                description: 'Los beneficios no son excluyentes, por lo que los valores indican qué porcentajes de participantes cuentan con los mismos.'
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: 'Beneficios nuevos por pandemia',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['beneficios_nuevos'], isPercentual: true, cutoff: 10, sumOthers: false },
+                                caption: 'Aquí se enumeran los beneficios más comunes entre los reportados.',
+                                description: 'Los beneficios no son excluyentes, por lo que los valores indican qué porcentaje de participantes cuentan con los mismos.'
+                            },
+                            /*{  // tab
+                                title: 'Según tipo de actividad',
+                                component: 'Barh', // graph
+                                props: { ...charts['new_ben_act_org'], isPercentual: false, cutoff: 10, sumOthers: false },
+                                caption: '',
+                                description: ''
+                            },*/
+                            
+                        ],
+                    },
+                    {  // section
+                        title: 'Porcentajes de Ajuste por Inflación a la fecha (2022)',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['de_que_fue_el_ajuste'], isPercentual: true },
+                                caption: <div>
+                                    <p>Los rangos (eje vertical) representan el porcentaje de ajuste o aumento por inflación recibido en el año. La longitud de las barras representa el porcentaje de encuestados que recibieron ajustes dentro de ese rango.</p>
+                                </div>,
+                                description:<div>
+                                    <p>El 25% de las personas encuestadas no tuvieron ajuste salarial en los últimos 6 meses.</p>
+                                    <p><a target='_blank' href='https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-31' rel="noopener noreferrer">Inflación Septiembre 2021 - Enero 2022 : 18.4%</a> (Febrero se estima en 3.7%)</p>
+                                </div>
+                            },
+                        ],
+                    },
+                ],
+            },
+            { // sub-category
+                title: 'Características de las Empresas',
+                data: [
+                    {  // section
+                        title: 'Cantidad de Personas',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['cantidad_de_personas_en_tu_organizacion'], isPercentual: true },
+                                caption: 'Datos porcentuales',
+                            },
+                            /*{  // tab
+                                title: 'Por beneficios', // TODO: REVISAR
+                                component: 'Barh', // graph
+                                props: { ...charts['amout_in_org_by_benefits'], isPercentual: false, cutoff: 10 },
+                                description: '',
+                            },
+                            {  // tab
+                                title: 'Por sueldo', // TODO: REVISAR que se ordene por aumento de cantidad
+                                component: 'Barh', // graph
+                                props: { ...charts['amount_salary'], isPercentual: false, cutoff: 10 },
+                                description: '',
+                            },*/
+                        ],
+                    },
+                    {  // section
+                        title: 'Actividad Principal',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['actividad_principal'], isPercentual: true },
+                                caption: 'Datos porcentuales',
+                                description: 'Se observan valores similares a los de la encuesta pasada.'
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: '¿Cuánta gente recomienda su lugar de trabajo?',
+                        data: [
+                            {  // tab
+                                title: 'Total',
+                                component: 'Barh', // graph
+                                props: { ...charts['la_recomendas_como_un_buen_lugar_para_trabajar'], isPercentual: true },
+                                description: (<span>
+                                    Datos porcentuales, por clase según indicador&nbsp;<a target='_blank' href='https://es.wikipedia.org/wiki/Net_Promoter_Score' rel="noopener noreferrer">Net Promoter Score</a>.
+                                </span>),
+                            },
+                            {  // tab
+                                title: 'Segun Sueldo',
+                                component: 'Barh', // graph
+                                props: { ...charts['good_place_salary'], isPercentual: true },
+                                description: (<span>
+                                    Se puede apreciar que hay una relación directa entre la promoción del lugar de trabajo y el nivel salarial.
+                                </span>),
+                            },
+                            {  // tab
+                                title: 'Segun beneficios',
+                                component: 'Barh', // graph
+                                props: { ...charts['good_place_benef'], isPercentual: true },
+                                description: (<span>
+                                    Se analizan solo los 5 beneficios más comunes reportados para quienes respondieron a esta pregunta.
+                                </span>),
+                            },
+                            {  // tab
+                                title: 'Según compromiso con la diversidad',
+                                component: 'Barh', // graph
+                                props: { ...charts['good_place_benef'], isPercentual: true },
+                                description: (<div>
+                                    <p>Se evidencia una relación entre la promoción del lugar de trabajo y el compromiso que el mismo tiene con la diversidad.</p>
+                                    <p>En <a href="#Trabajo-Caracteristicas-de-las-Empresas-De-existir-Como-calificas-las-politicas-de-diversidad-e-inclusion-de-tu-empresa">este otro gráfico</a> puede verse las calificaciones brindadas a sus empleadores según el compromiso con la diversidad que estos tienen.</p>
+                                </div>),
+                            },
+                        ],
+                    },
+
+                    {  // section
+                        title: 'De existir ¿Cómo calificás las políticas de diversidad e inclusión de tu empresa?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['politicas_diversidad_e_inclusion'], isPercentual: true },
+                                description: (<span>
+                                    Un 75% considera que las políticas de inclusión son buenas, muy buenas o excelentes. Este valor es muy similar al anterior (72.5%).
+                                </span>),
+                            },
+                        ],
+                    },
+                    /*{  // section
+                        title: '¿Presenciaste una situación de violencia laboral?',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['demographics_laboral_violence'], isPercentual: true },
+                                description: (<span>
+                                 Casi un 31% de las personas encuestadas presenció una situación de violencia laboral en un trabajo previo y un 8% lo hizo en su trabajo actual.
+                                 El <strong>{10/*parseFloat(charts['demographics_laboral_violence_ever'].data.map(item => item.value)*100).toFixed(1)}</strong>%   indicó que fueron testigos de violencia laboral alguna vez.
+                                </span>),
+                            },
+                        ],
+                    },*/
+                ],
+            },
+        ],
+    },
+    { // category
         title: 'Género', // TODO: Revisar
         content: (
             <div>
@@ -869,10 +1093,7 @@ export default [
                                 title: 'Porcentaje',
                                 component: 'Barh', // graph
                                 props: { ...charts['demographics_gender_percent'], isPercentual: true },
-                                description: <div>
-                                    <p>Para mayor detalle sobre este tópico, recomendamos ver el apartado de <a href="#Genero">Género</a>.</p>
-                                    <p>Si te preguntás por qué no hay tantas mujeres, tal vez esta <a target="_blank" rel="noopener noreferrer" href="http://www.mujeresprogramadoras.com.ar">investigación de Chicas En Tecnología</a> te pueda dar una respuesta.</p>
-                                </div>,
+                                description: '',
                             },
                             {  // tab
                                 title: 'Absoluto',
@@ -880,7 +1101,6 @@ export default [
                                 props: { ...charts['demographics_gender_absolute'], isPercentual: false },
                                 description: <div>
                                     <p > Representatividad (en valor absoluto) según identidad de género</p>
-                                   
                                 </div>,
                             },
                         ],
@@ -924,7 +1144,7 @@ export default [
                         ],
                     },
                     {  // section
-                        title: 'Histórico de salarios',
+                        title: 'Histórico de salarios', // TODO: Revisar
                         data: [
                             {  // tab
                                 component: 'Line', // graph
@@ -946,7 +1166,7 @@ export default [
                                     customStroke: { 'Otros': '#ccc' },
                                 },
                                 caption: 'Serie histórica de salarios basada en encuestas anteriores.',
-                                description: '',
+                                description: 'Todos los valores de salarios aquí expresados tanto en moneda local, como en dólares, refieren a salario bruto: previo a cargas sociales e impuestos.',
                             }
                             
                         ],
@@ -985,32 +1205,32 @@ export default [
                         title: 'Nivel de estudios alcanzados y completitud',
                         data: [
                             {  // tab
-                                title: 'Hombres Cis',
+                                title: 'Varones Cis',
                                 component: 'Barh', // graph
                                 props: { ...charts['education_hombre_cis_stacked'], isPercentual: true, isStacked: true },
                                 caption: '¿Cuál es el mayor nivel de estudios alcanzado de los hombres cis, y cuál es su estado actual?',
-                                description: 'Los valores porcentuales de cada segmento son sobre el total de los hombres encuestados.'
+                                description: 'Los valores porcentuales de cada segmento son sobre el total de los varones cis encuestados.'
                             },
                             {  // tab
                                 title: 'Mujeres Cis',
                                 component: 'Barh', // graph
                                 props: { ...charts['education_mujer_cis_stacked'], isPercentual: true, isStacked: true },
                                 caption: '¿Cuál es el mayor nivel de estudios alcanzado de las mujeres cis, y cuál es su estado actual?',
-                                description: 'Los valores porcentuales de cada segmento son sobre el total de los mujeres encuestadas.'
+                                description: 'Los valores porcentuales de cada segmento son sobre el total de las mujeres cis encuestadas.'
+                            },
+                            {  // tab
+                                title: 'No Binaries',
+                                component: 'Barh', // graph
+                                props: { ...charts['education_no_bin_stacked'], isPercentual: true, isStacked: true },
+                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de personas no binaries, y cual es su estado actual?',
+                                description: 'Los valores porcentuales de cada segmento son sobre el total de personas no binaries encuestadas.'
                             },
                             {  // tab
                                 title: 'Prefiero No Decir',
                                 component: 'Barh', // graph
                                 props: { ...charts['education_no_decir_stacked'], isPercentual: true, isStacked: true },
                                 caption: '¿Cuál es el mayor nivel de estudios alcanzado de personas que prefieren no responder sobre su género, y cual es su estado actual?',
-                                description: 'Los valores porcentuales de cada segmento son sobre el total de otros géneros encuestados.'
-                            },
-                            {  // tab
-                                title: 'No Binarie',
-                                component: 'Barh', // graph
-                                props: { ...charts['education_no_bin_stacked'], isPercentual: true, isStacked: true },
-                                caption: '¿Cuál es el mayor nivel de estudios alcanzado de personas no binaries, y cual es su estado actual?',
-                                description: 'Los valores porcentuales de cada segmento son sobre el total de otros géneros encuestados.'
+                                description: 'Los valores porcentuales de cada segmento son sobre el total de las personas que prefieren no responder sobre su género encuestadas.'
                             },
                         ],
                     },
@@ -1041,15 +1261,15 @@ export default [
                         title: 'Participación por género según años de experiencia',
                         data: [
                             {  // tab
-                                title: 'Mujeres Cis / No Decir / No Binaries',
+                                title: '',
                                 component: 'Area', // graph
                                 props: {
                                     data: charts['experience_gender_percent'].data,
                                     xDataKey: 'name',
-                                    yDataKeys: not_male_genders,//["Mujer Cis", "Mujer Trans", "No binarie", "Fluido", "Agénero"],
+                                    yDataKeys: genders,//["Mujer Cis", "Mujer Trans", "No binarie", "Fluido", "Agénero"],
                                     isPercentual: true,
                                 },
-                                caption: 'Nivel de participación por género, según años de experiencia. El porcentaje restante es de hombres.',
+                                caption: 'Nivel de participación por género, según años de experiencia.',
                             },
                         ],
                     },
@@ -1063,7 +1283,7 @@ export default [
                                     data: charts['experience_gender_conformidad_mean'].data,
                                     xDataKey: 'name',
                                     yDataKeys: genders,//['Hombre Cis', 'Mujer Cis', 'Prefiero No Decir', 'No Binarie'],
-                                    customStroke: { 'No Binarie': '#ccc' },
+                                    //customStroke: { 'No Binarie': '#ccc' },
                                 },
                                 caption: 'Conformidad con los salarios por género según años de experiencia.',
                                 description: '4 Representa el nivel máximo de conformidad.  Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci.',
@@ -1142,13 +1362,13 @@ export default [
                                     isPercentual: true,
                                     isLogScale: false,
                                 },
-                                caption: 'Mediana de porcentaje de ajustes por inflación acumulados en el 2021 por género.',
+                                caption: 'Mediana de porcentaje de ajustes por inflación acumulados en el último semestre 2021 por género.',
                                 description: <>
                                     <p>
-                                        Como contraste, la <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_08_21C4CDE45C19.pdf" target="_blank" rel="noopener noreferrer">inflación Enero-Julio publicada por el INDEC en su último reporte</a> fue de <strong>26%</strong>.
+                                        Como contraste, la <a href="https://www.indec.gob.ar/indec/web/Institucional-Indec-InformesTecnicos-31" target="_blank" rel="noopener noreferrer">inflación Agosto-Diciembre 2021</a> publicada por el INDEC fue de <strong>16.8%</strong>.
                                     </p>
                                     <p>
-                                    Aquellas personas que se identifican como hombres cis tienen un 3% más de ajuste que personas identificadas como No Binaries y sobre aquellas que prefieren no responder sobre su género; y un 5% más sobre personas que se identifican como mujeres cis.
+                                    Aquellas personas que se identifican como varones cis tienen un 5% más de ajuste que aquellas personas que prefieren no responder sobre su género, un 10% más sobre personas que se identifican como mujeres cis, y un 18% más que aquellas personas identificadas como no binaries.
                                     </p>
                                 </>,
                             },
@@ -1165,8 +1385,13 @@ export default [
                             {  // tab
                                 title: '',
                                 component: 'Barh', // graph
-                                props: { ...charts['leadership_gender_percent'], isPercentual: true },
-                                description: <div> Se define posición de liderazgo (Si) la que tiene al menos 1 persona a su cargo. Dejamos expresados los porcentajes de las personas que se reconocen como no binarie: 0.6 % y prefiero no decir 4%.</div>,
+                                props: {
+                                    data: charts['leadership_gender_percent'].data,
+                                    //xDataKey: 'name',
+                                    //yDataKeys: genders,
+                                    isPercentual: true
+                                },
+                                description: <div>Se define posición de liderazgo (Si) la que tiene al menos 1 persona a su cargo.</div>,
                             },
                         ],
                     },
@@ -1200,7 +1425,19 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['lenguajes_de_programacion'], isPercentual: true, isLogScale: true, minLogScale: 0.0006, cutoff: 10, sumOthers: false },
-                                caption: 'Lenguajes de programación más utilizadas entre los participantes',
+                                caption: 'Lenguajes de programación más utilizados entre las personas encuestadas.',
+                                description: 'Los lenguajes de programación no son excluyentes, es decir puede haber más de uno por persona relevada. Los valores son porcentuales sobre el total de participantes.'
+                            },
+                        ],
+                    },
+                    {  // section
+                        title: 'Lenguajes de Programación por años de experiencia', // TODO: se ve un poco cargado
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['experience_languages'], isPercentual: true, isLogScale: true, minLogScale: 0.0006, cutoff: 10, sumOthers: false },
+                                caption: 'Lenguajes de programación más utilizados de acuerdo a los años de experiencia de las personas encuestadas.',
                                 description: 'Los lenguajes de programación no son excluyentes, es decir puede haber más de uno por persona relevada. Los valores son porcentuales sobre el total de participantes.'
                             },
                         ],
@@ -1212,7 +1449,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['frameworksherramientas_y_librerias'], isPercentual: true, isLogScale: true, minLogScale: 0.0004, cutoff: 10, sumOthers: false },
-                                caption: 'Frameworks, Herramientas y Librerías más utilizadas entre los participantes',
+                                caption: 'Frameworks, Herramientas y Librerías más utilizadas entre las personas encuestadas.',
                                 description: 'Los mismos no son excluyentes, es decir puede haber más de uno por persona relevada. Los valores son porcentuales sobre el total de participantes.'
                             },
                         ],
@@ -1224,7 +1461,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['bases_de_datos'], isPercentual: true, isLogScale: true, minLogScale: 0.001, cutoff: 10, sumOthers: false },
-                                caption: 'Bases de datos más utilizadas entre los participantes',
+                                caption: 'Bases de datos más utilizadas entre las personas encuestadas.',
                                 description: 'Las bases de datos no son excluyentes, es decir puede haber más de una por persona relevada. Los valores son porcentuales sobre el total de participantes.'
                             },
                         ],
@@ -1236,7 +1473,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['qa_testing'], isPercentual: true, isLogScale: true, minLogScale: 0.0004, cutoff: 10, sumOthers: false },
-                                caption: 'Herramientas de QA / Testing más utilizadas entre los participantes',
+                                caption: 'Herramientas de QA / Testing más utilizadas entre las personas encuestadas.',
                                 description: <div>
                                     <p>Las mismas no son excluyentes, es decir puede haber más de una por persona relevada. Los valores son porcentuales sobre el total de participantes.</p>
                                 </div>,
@@ -1250,209 +1487,10 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['ides'], isPercentual: true, isLogScale: true, minLogScale: 0.0003, cutoff: 10, sumOthers: false },
-                                caption: 'IDEs más utilizadas entre los participantes',
+                                caption: 'IDEs más utilizadas entre las personas encuestadas.',
                                 description: <div>
                                     <p>Las mismas no son excluyentes, es decir puede haber más de una por persona relevada. Los valores son porcentuales sobre el total de participantes.</p>
                                 </div>,
-                            },
-                        ],
-                    },
-                ],
-            },
-        ],
-    },
-    { // category
-        title: 'Trabajo',
-        data: [
-            { // sub-category
-                title: 'Tipos de contrato',
-                data: [
-                    {  // section
-                        title: '',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['tipo_de_contrato_percent'], isLogScale: true, isPercentual: true },
-                                caption: 'Porcentaje de tipos de contrato de trabajo en escala logarítimica.',
-                            },
-                        ],
-                    },{
-                        title: '¿Qué porcentaje tiene su sueldo dolarizado?',
-                        data: [
-                            { // tab
-                                title: 'Sueldos dolarizados',
-                                component: 'Pie',
-                                props: {
-                                    data: charts['sueldo_dolarizado_percent'].data.map(val => ({
-                                        ...val,
-                                        name: (val.name === 'True' ? 'Sueldo dolarizado' : 'Sueldo no dolarizado'),
-                                    })),
-                                    isPercentual: true,
-                                },
-                                caption: <p>Porcentaje de personas que tienen su sueldo dolarizado, y quienes no lo tienen.</p>,
-                                description: <p>disminuyó 2% respecto a 2021.01 <a target="_blank" rel="noopener noreferrer" href="(https://sueldos.openqube.io/encuesta-sueldos-2021.01/#Trabajo-Tipos-de-contrato-Que-porcentaje-tiene-su-sueldo-dolarizado">respecto al reporte pasado</a>.</p>,
-                            },
-                        ],
-                    },
-                    {  // section
-                        title: 'Distribución del top 10 mejor pago',
-                        data: [
-                            {  // tab
-                                title: 'Actividad principal',
-                                component: 'Barh', // graph
-                                props: {
-                                    data: charts['salary_by_role_top10_perc'].data,
-                                    isPercentual: false,
-                                    isLogScale: false,
-                                },
-                                caption: 'Para este análisis nos quedamos con el top 10% de los salarios más altos. Esto responde la pregunta de ¿Cuánto ganan los que más ganan por rol?, los valores de la mediana son expresados en Pesos Argentinos',
-                                description:'Como llama la atención que "QA / Tester" y "Developer" estén en los mas altos, se abre por cada rol la cantidad de casos que hay, tomando como mínimo 5, y mostrando el porcentaje de personas que tienen el sueldo dolarizado (% dolarizado en el grafico). Justamente, estos roles son los que poseen más sueldos en dólares, lo que es llamativo si se compara con los puestos de liderazgo C-Level, PM, PL, TL entre otros.'
-                            },
-                        ],
-                    },
-                    
-                ],
-            }, 
-            { // sub-category
-                title: 'Compensación',
-                data: [
-                    {  // section
-                        title: '¿Recibís algún tipo de bono?',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['recibis_algun_tipo_de_bono'], isLogScale: true, isPercentual: true },
-                                caption:<p>Porcentaje de participantes que han recibido o no, bonos como parte de la compensación, en escala logarítimica, el <strong>
-                                {parseFloat(charts['recibe_algun_tipo_de_bono'].data.map(item => item.value)*100).toFixed(2)}</strong> % de los encuestados reciben algún tipo de bono</p>
-                            
-                            },
-                        ],
-                    },
-                    {  // section
-                        title: '¿Tenés beneficios extra?',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['beneficios_extra'], isPercentual: true, cutoff: 10, sumOthers: false },
-                                caption: 'Aquí se enumera los beneficios más comunes entre los reportados.',
-                                description: 'Los beneficios no son excluyentes, por lo que los valores indican qué porcentajes de participantes cuentan con los mismos.'
-                            },
-                        ],
-                    },
-                    {  // section
-                        title: 'Beneficios nuevos por pandemia',
-                        data: [
-                            {  // tab
-                                title: 'Total',
-                                component: 'Barh', // graph
-                                props: { ...charts['beneficios_nuevos'], isPercentual: true, cutoff: 10, sumOthers: false },
-                                caption: '',
-                                description: ''
-                            },
-                            {  // tab
-                                title: 'Según tipo de actividad',
-                                component: 'Barh', // graph
-                                props: { ...charts['new_ben_act_org'], isPercentual: false, cutoff: 10, sumOthers: false },
-                                caption: '',
-                                description: ''
-                            },
-                            
-                        ],
-                    },
-                    {  // section
-                        title: 'Porcentajes de Ajuste por Inflación a la fecha (2021)',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['de_que_fue_el_ajuste'], isPercentual: true },
-                                caption: <div>
-                                    <p>Los rangos (eje vertical) representan el porcentaje de ajuste o aumento por inflación recibido en el año. La longitud de las barras representa el porcentaje de encuestados que recibieron ajustes dentro de ese rango.</p>
-                                </div>,
-                                description:'El 27% de los encuestados, no tuvo ajuste salarial en los últimos 6 meses, Inflación Marzo - Agosto: 21.4% (Agosto se estima en 3%)'
-                            },
-                        ],
-                    },
-                ],
-            },
-            { // sub-category
-                title: 'Características de las Empresas',
-                data: [
-                    {  // section
-                        title: 'Cantidad de Personas',
-                        data: [
-                            {  // tab
-                                title: 'Total',
-                                component: 'Barh', // graph
-                                props: { ...charts['cantidad_de_personas_en_tu_organizacion'], isPercentual: true },
-                                description: 'Datos porcentuales',
-                            },
-                            {  // tab
-                                title: 'Por beneficios', // TODO: REVISAR
-                                component: 'Barh', // graph
-                                props: { ...charts['amout_in_org_by_benefits'], isPercentual: false, cutoff: 10 },
-                                description: '',
-                            },
-                            {  // tab
-                                title: 'Por sueldo', // TODO: REVISAR que se ordene por aumento de cantidad
-                                component: 'Barh', // graph
-                                props: { ...charts['amount_salary'], isPercentual: false, cutoff: 10 },
-                                description: '',
-                            },
-                        ],
-                    },
-                    {  // section
-                        title: 'Actividad Principal de la Empresa',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['actividad_principal'], isPercentual: true },
-                                description: 'Datos porcentuales',
-                            },
-                        ],
-                    },
-                    {  // section
-                        title: '¿Cuánta gente recomienda su lugar de Trabajo?',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['la_recomendas_como_un_buen_lugar_para_trabajar'], isPercentual: true },
-                                description: (<span>
-                                    Datos porcentuales, por clase según indicador&nbsp;<a target='_blank' href='https://es.wikipedia.org/wiki/Net_Promoter_Score' rel="noopener noreferrer">Net Promoter Score</a>.
-                                </span>),
-                            },
-                        ],
-                    },
-
-                    {  // section
-                        title: 'De existir ¿Cómo calificás las políticas de diversidad e inclusión de tu empresa?',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['politicas_diversidad_e_inclusion'], isPercentual: true },
-                                description: (<span>
-                                    Un 72.5% considera que las políticas de inclusión son buenas, muy buenas o excelentes. Este valor se redujo con respecto al anterior (85%).
-                                </span>),
-                            },
-                        ],
-                    },
-                    {  // section
-                        title: '¿Presenciaste una situación de violencia laboral?',
-                        data: [
-                            {  // tab
-                                title: '',
-                                component: 'Barh', // graph
-                                props: { ...charts['demographics_laboral_violence'], isPercentual: true },
-                                description: (<span>
-                                 Casi un 31% de las personas encuestadas presenció una situación de violencia laboral en un trabajo previo y un 8% lo hizo en su trabajo actual.
-                                 El <strong>{10/*parseFloat(charts['demographics_laboral_violence_ever'].data.map(item => item.value)*100).toFixed(1)*/}</strong>%   indicó que fueron testigos de violencia laboral alguna vez.
-                                </span>),
                             },
                         ],
                     },

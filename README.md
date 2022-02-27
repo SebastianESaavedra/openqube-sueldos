@@ -1,5 +1,5 @@
 
-## Edición 2022.01 (Diciembre 2021 - Febrero 2022).
+## Edición 2022.01 (Diciembre 2021 - Febrero 2022)
 
 <br>
 

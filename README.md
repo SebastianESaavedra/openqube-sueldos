@@ -67,7 +67,7 @@ Ver más detalles sobre el dólar en [README_backend](README_backend.md)
 
 ### Errores
 
-<img src="https://tenor.com/es/ver/friends-chandler-bing-matthew-perry-hat-on-getting-ready-gif-15708370" width="300px">
+<img src="https://tenor.com/es/ver/friends-chandler-bing-matthew-perry-hat-on-getting-ready-gif-15708370">
 
 Si detectas un error, omisión u otro problema, y reiniciar la computadora no funcionó, por favor carga un issue en el repo.
 

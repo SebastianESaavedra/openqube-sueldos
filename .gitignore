@@ -8,3 +8,4 @@ build-*.zip
 .python-version
 .now
 .ipynb_checkpoints/
+.firebase/

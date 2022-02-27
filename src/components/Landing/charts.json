@@ -1266,7 +1266,7 @@
     "demographics_gender_percent": {
         "data": [
             {
-                "name": "Varon Cis",
+                "name": "Varón Cis",
                 "value": 0.772156642308413
             },
             {
@@ -1278,7 +1278,7 @@
                 "value": 0.05564924114671164
             },
             {
-                "name": "No binarie",
+                "name": "No Binarie",
                 "value": 0.005621135469364812
             },
             {
@@ -1294,7 +1294,7 @@
     "demographics_gender_absolute": {
         "data": [
             {
-                "name": "Varon Cis",
+                "name": "Varón Cis",
                 "value": 4121
             },
             {
@@ -1306,7 +1306,7 @@
                 "value": 297
             },
             {
-                "name": "No binarie",
+                "name": "No Binarie",
                 "value": 30
             },
             {
@@ -1427,9 +1427,9 @@
                 "Fluido": 0.004454342984409799,
                 "Mujer Cis": 0.0957683741648107,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.0066815144766146995,
+                "No Binarie": 0.0066815144766146995,
                 "Prefiero no decir": 0.035634743875278395,
-                "Varon Cis": 0.311804008908686
+                "Varón Cis": 0.311804008908686
             },
             {
                 "name": "Discapacidad",
@@ -1437,9 +1437,9 @@
                 "Fluido": 0.0,
                 "Mujer Cis": 0.0066815144766146995,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.0022271714922048997,
+                "No Binarie": 0.0022271714922048997,
                 "Prefiero no decir": 0.0,
-                "Varon Cis": 0.008908685968819599
+                "Varón Cis": 0.008908685968819599
             },
             {
                 "name": "Etnia",
@@ -1447,9 +1447,9 @@
                 "Fluido": 0.0022271714922048997,
                 "Mujer Cis": 0.004454342984409799,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.0022271714922048997,
+                "No Binarie": 0.0022271714922048997,
                 "Prefiero no decir": 0.0,
-                "Varon Cis": 0.026726057906458798
+                "Varón Cis": 0.026726057906458798
             },
             {
                 "name": "Expresión de género",
@@ -1457,9 +1457,9 @@
                 "Fluido": 0.0022271714922048997,
                 "Mujer Cis": 0.0334075723830735,
                 "Mujer Trans": 0.0022271714922048997,
-                "No binarie": 0.0066815144766146995,
+                "No Binarie": 0.0066815144766146995,
                 "Prefiero no decir": 0.0022271714922048997,
-                "Varon Cis": 0.044543429844097995
+                "Varón Cis": 0.044543429844097995
             },
             {
                 "name": "Género",
@@ -1467,9 +1467,9 @@
                 "Fluido": 0.0022271714922048997,
                 "Mujer Cis": 0.155902004454343,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.008908685968819599,
+                "No Binarie": 0.008908685968819599,
                 "Prefiero no decir": 0.017817371937639197,
-                "Varon Cis": 0.08908685968819599
+                "Varón Cis": 0.08908685968819599
             },
             {
                 "name": "Orientación sexual",
@@ -1477,9 +1477,9 @@
                 "Fluido": 0.0022271714922048997,
                 "Mujer Cis": 0.031180400890868598,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.008908685968819599,
+                "No Binarie": 0.008908685968819599,
                 "Prefiero no decir": 0.0,
-                "Varon Cis": 0.062360801781737196
+                "Varón Cis": 0.062360801781737196
             }
         ]
     },
@@ -1555,8 +1555,8 @@
                 "Fluido": 0.0007936507936507937,
                 "Mujer Cis": 0.017261904761904763,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.0005952380952380953,
-                "Varon Cis": 0.06626984126984127
+                "No Binarie": 0.0005952380952380953,
+                "Varón Cis": 0.06626984126984127
             },
             {
                 "name": "Sí",
@@ -1564,8 +1564,8 @@
                 "Fluido": 0.0015873015873015873,
                 "Mujer Cis": 0.06964285714285715,
                 "Mujer Trans": 0.0007936507936507937,
-                "No binarie": 0.003373015873015873,
-                "Varon Cis": 0.25952380952380955
+                "No Binarie": 0.003373015873015873,
+                "Varón Cis": 0.25952380952380955
             }
         ]
     },
@@ -1651,23 +1651,23 @@
             {
                 "name": "Junior",
                 "Mujer Cis": 0.06775170325510976,
-                "No binarie": 0.001514004542013626,
+                "No Binarie": 0.001514004542013626,
                 "Prefiero no decir": 0.013626040878122634,
-                "Varon Cis": 0.2282361847085541
+                "Varón Cis": 0.2282361847085541
             },
             {
                 "name": "Semi-Senior",
                 "Mujer Cis": 0.039931869795609386,
-                "No binarie": 0.001514004542013626,
+                "No Binarie": 0.001514004542013626,
                 "Prefiero no decir": 0.007759273277819834,
-                "Varon Cis": 0.1629447388342165
+                "Varón Cis": 0.1629447388342165
             },
             {
                 "name": "Senior",
                 "Mujer Cis": 0.050529901589704766,
-                "No binarie": 0.0026495079485238456,
+                "No Binarie": 0.0026495079485238456,
                 "Prefiero no decir": 0.0348221044663134,
-                "Varon Cis": 0.38872066616199846
+                "Varón Cis": 0.38872066616199846
             }
         ]
     },
@@ -2029,19 +2029,19 @@
         "data": [
             {
                 "name": "18-27",
-                "Varon Cis": 0.5746268656716418
+                "Varón Cis": 0.5746268656716418
             },
             {
                 "name": "27-32",
-                "Varon Cis": 0.2537313432835821
+                "Varón Cis": 0.2537313432835821
             },
             {
                 "name": "32-37",
-                "Varon Cis": 0.12023217247097844
+                "Varón Cis": 0.12023217247097844
             },
             {
                 "name": "37-67",
-                "Varon Cis": 0.0472636815920398
+                "Varón Cis": 0.0472636815920398
             }
         ]
     },
@@ -2089,11 +2089,11 @@
         "data": [
             {
                 "name": "18-27",
-                "No binarie": 0.5
+                "No Binarie": 0.5
             },
             {
                 "name": "27-32",
-                "No binarie": 0.5
+                "No Binarie": 0.5
             }
         ]
     },
@@ -2101,19 +2101,19 @@
         "data": [
             {
                 "name": "18-27",
-                "Varon Cis": 0.3821138211382114
+                "Varón Cis": 0.3821138211382114
             },
             {
                 "name": "27-32",
-                "Varon Cis": 0.38095238095238093
+                "Varón Cis": 0.38095238095238093
             },
             {
                 "name": "32-37",
-                "Varon Cis": 0.1440185830429733
+                "Varón Cis": 0.1440185830429733
             },
             {
                 "name": "37-67",
-                "Varon Cis": 0.09059233449477352
+                "Varón Cis": 0.09059233449477352
             }
         ]
     },
@@ -2161,19 +2161,19 @@
         "data": [
             {
                 "name": "18-27",
-                "No binarie": 0.375
+                "No Binarie": 0.375
             },
             {
                 "name": "27-32",
-                "No binarie": 0.125
+                "No Binarie": 0.125
             },
             {
                 "name": "32-37",
-                "No binarie": 0.125
+                "No Binarie": 0.125
             },
             {
                 "name": "37-67",
-                "No binarie": 0.375
+                "No Binarie": 0.375
             }
         ]
     },
@@ -2181,19 +2181,19 @@
         "data": [
             {
                 "name": "18-27",
-                "Varon Cis": 0.04968339016074038
+                "Varón Cis": 0.04968339016074038
             },
             {
                 "name": "27-32",
-                "Varon Cis": 0.19240136385776913
+                "Varón Cis": 0.19240136385776913
             },
             {
                 "name": "32-37",
-                "Varon Cis": 0.2893326838772528
+                "Varón Cis": 0.2893326838772528
             },
             {
                 "name": "37-67",
-                "Varon Cis": 0.4680954700438383
+                "Varón Cis": 0.4680954700438383
             }
         ]
     },
@@ -2241,15 +2241,15 @@
         "data": [
             {
                 "name": "27-32",
-                "No binarie": 0.38461538461538464
+                "No Binarie": 0.38461538461538464
             },
             {
                 "name": "32-37",
-                "No binarie": 0.23076923076923078
+                "No Binarie": 0.23076923076923078
             },
             {
                 "name": "37-67",
-                "No binarie": 0.38461538461538464
+                "No Binarie": 0.38461538461538464
             }
         ]
     },
@@ -3501,9 +3501,9 @@
                 "Fluido": 0.00033500837520938025,
                 "Mujer Cis": 0.01474036850921273,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.0006700167504187605,
+                "No Binarie": 0.0006700167504187605,
                 "Prefiero no decir": 0.004522613065326633,
-                "Varon Cis": 0.06465661641541039
+                "Varón Cis": 0.06465661641541039
             },
             {
                 "name": "Si",
@@ -3511,9 +3511,9 @@
                 "Fluido": 0.0021775544388609714,
                 "Mujer Cis": 0.09112227805695143,
                 "Mujer Trans": 0.0008375209380234506,
-                "No binarie": 0.004020100502512563,
+                "No Binarie": 0.004020100502512563,
                 "Prefiero no decir": 0.022780569514237858,
-                "Varon Cis": 0.33467336683417087
+                "Varón Cis": 0.33467336683417087
             },
             {
                 "name": "de forma particular",
@@ -3521,9 +3521,9 @@
                 "Fluido": 0.001507537688442211,
                 "Mujer Cis": 0.06817420435510887,
                 "Mujer Trans": 0.00033500837520938025,
-                "No binarie": 0.002847571189279732,
+                "No Binarie": 0.002847571189279732,
                 "Prefiero no decir": 0.01675041876046901,
-                "Varon Cis": 0.2326633165829146
+                "Varón Cis": 0.2326633165829146
             },
             {
                 "name": "los pagó un empleador",
@@ -3531,9 +3531,9 @@
                 "Fluido": 0.0006700167504187605,
                 "Mujer Cis": 0.022948073701842545,
                 "Mujer Trans": 0.0005025125628140704,
-                "No binarie": 0.0011725293132328308,
+                "No Binarie": 0.0011725293132328308,
                 "Prefiero no decir": 0.006030150753768844,
-                "Varon Cis": 0.10201005025125628
+                "Varón Cis": 0.10201005025125628
             }
         ]
     },
@@ -3961,9 +3961,9 @@
                 "Fluido": 0.00018737118231216038,
                 "Mujer Cis": 0.010680157391793142,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.0007494847292486415,
+                "No Binarie": 0.0007494847292486415,
                 "Prefiero no decir": 0.008056960839422896,
-                "Varon Cis": 0.06164511898070077
+                "Varón Cis": 0.06164511898070077
             },
             {
                 "name": "2",
@@ -3971,9 +3971,9 @@
                 "Fluido": 0.0007494847292486415,
                 "Mujer Cis": 0.0487165074011617,
                 "Mujer Trans": 0.00018737118231216038,
-                "No binarie": 0.0013115982761851227,
+                "No Binarie": 0.0013115982761851227,
                 "Prefiero no decir": 0.017800262319655237,
-                "Varon Cis": 0.23027918306164513
+                "Varón Cis": 0.23027918306164513
             },
             {
                 "name": "3",
@@ -3981,9 +3981,9 @@
                 "Fluido": 0.0024358253700580853,
                 "Mujer Cis": 0.07607270001873712,
                 "Mujer Trans": 0.000936855911560802,
-                "No binarie": 0.001873711823121604,
+                "No Binarie": 0.001873711823121604,
                 "Prefiero no decir": 0.022109799512834927,
-                "Varon Cis": 0.3642495784148398
+                "Varón Cis": 0.3642495784148398
             },
             {
                 "name": "4",
@@ -3991,9 +3991,9 @@
                 "Fluido": 0.0005621135469364812,
                 "Mujer Cis": 0.021172943601274124,
                 "Mujer Trans": 0.0005621135469364812,
-                "No binarie": 0.0016863406408094434,
+                "No Binarie": 0.0016863406408094434,
                 "Prefiero no decir": 0.007682218474798576,
-                "Varon Cis": 0.11598276185122729
+                "Varón Cis": 0.11598276185122729
             }
         ]
     },
@@ -4777,9 +4777,9 @@
                 "Fluido": 0.0013115982761851227,
                 "Mujer Cis": 0.02848041971144838,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.00037474236462432077,
+                "No Binarie": 0.00037474236462432077,
                 "Prefiero no decir": 0.015551808131909312,
-                "Varon Cis": 0.15570545250140527
+                "Varón Cis": 0.15570545250140527
             },
             {
                 "name": "Pasivos",
@@ -4787,9 +4787,9 @@
                 "Fluido": 0.000936855911560802,
                 "Mujer Cis": 0.07176316282555743,
                 "Mujer Trans": 0.0007494847292486415,
-                "No binarie": 0.0031853100993067267,
+                "No Binarie": 0.0031853100993067267,
                 "Prefiero no decir": 0.02304665542439573,
-                "Varon Cis": 0.3460745737305602
+                "Varón Cis": 0.3460745737305602
             },
             {
                 "name": "Promotores",
@@ -4797,9 +4797,9 @@
                 "Fluido": 0.0016863406408094434,
                 "Mujer Cis": 0.05639872587596028,
                 "Mujer Trans": 0.000936855911560802,
-                "No binarie": 0.002061083005433764,
+                "No Binarie": 0.002061083005433764,
                 "Prefiero no decir": 0.017050777590406595,
-                "Varon Cis": 0.2703766160764474
+                "Varón Cis": 0.2703766160764474
             }
         ]
     },
@@ -4859,7 +4859,7 @@
             }
         ]
     },
-    "good_place_gender_No binarie": {
+    "good_place_gender_No Binarie": {
         "data": [
             {
                 "name": "Pasivos",
@@ -4903,9 +4903,9 @@
                 "Fluido": 0.0013599274705349048,
                 "Mujer Cis": 0.07978241160471441,
                 "Mujer Trans": 0.00045330915684496827,
-                "No binarie": 0.004079782411604714,
+                "No Binarie": 0.004079782411604714,
                 "Prefiero no decir": 0.017225747960108794,
-                "Varon Cis": 0.23164097914777879
+                "Varón Cis": 0.23164097914777879
             },
             {
                 "name": "Constantemente",
@@ -4913,9 +4913,9 @@
                 "Fluido": 0.0,
                 "Mujer Cis": 0.003173164097914778,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.0,
+                "No Binarie": 0.0,
                 "Prefiero no decir": 0.0013599274705349048,
-                "Varon Cis": 0.009066183136899365
+                "Varón Cis": 0.009066183136899365
             },
             {
                 "name": "Muchas veces",
@@ -4923,9 +4923,9 @@
                 "Fluido": 0.0013599274705349048,
                 "Mujer Cis": 0.012692656391659111,
                 "Mujer Trans": 0.00045330915684496827,
-                "No binarie": 0.0,
+                "No Binarie": 0.0,
                 "Prefiero no decir": 0.004079782411604714,
-                "Varon Cis": 0.03535811423390753
+                "Varón Cis": 0.03535811423390753
             },
             {
                 "name": "Nunca",
@@ -4933,9 +4933,9 @@
                 "Fluido": 0.003173164097914778,
                 "Mujer Cis": 0.09927470534904805,
                 "Mujer Trans": 0.0009066183136899365,
-                "No binarie": 0.005439709882139619,
+                "No Binarie": 0.005439709882139619,
                 "Prefiero no decir": 0.027651858567543066,
-                "Varon Cis": 0.457388939256573
+                "Varón Cis": 0.457388939256573
             }
         ]
     },
@@ -5180,16 +5180,16 @@
             {
                 "name": "No",
                 "Mujer Cis": 0.8169856459330144,
-                "No binarie": 0.8,
+                "No Binarie": 0.8,
                 "Prefiero no decir": 0.734006734006734,
-                "Varon Cis": 0.7374423683571949
+                "Varón Cis": 0.7374423683571949
             },
             {
                 "name": "Sí",
                 "Mujer Cis": 0.18301435406698563,
-                "No binarie": 0.2,
+                "No Binarie": 0.2,
                 "Prefiero no decir": 0.265993265993266,
-                "Varon Cis": 0.26255763164280516
+                "Varón Cis": 0.26255763164280516
             }
         ]
     },
@@ -5332,7 +5332,7 @@
     "gender_salary_adjustment": {
         "data": [
             {
-                "name": "Varon Cis",
+                "name": "Varón Cis",
                 "value": 0.3
             },
             {
@@ -5344,7 +5344,7 @@
                 "value": 0.2
             },
             {
-                "name": "No binarie",
+                "name": "No Binarie",
                 "value": 0.12
             }
         ]
@@ -5354,23 +5354,23 @@
             {
                 "name": "Otras industrias",
                 "Mujer Cis": 0.12792511700468018,
-                "No binarie": 0.0062402496099844,
+                "No Binarie": 0.0062402496099844,
                 "Prefiero no decir": 0.06630265210608424,
-                "Varon Cis": 0.7995319812792512
+                "Varón Cis": 0.7995319812792512
             },
             {
                 "name": "Producto basado en Software",
                 "Mujer Cis": 0.15989036089538602,
-                "No binarie": 0.005938784833257195,
+                "No Binarie": 0.005938784833257195,
                 "Prefiero no decir": 0.047967108268615805,
-                "Varon Cis": 0.786203746002741
+                "Varón Cis": 0.786203746002741
             },
             {
                 "name": "Servicios / Consultoría de Software / Digital",
                 "Mujer Cis": 0.1776061776061776,
-                "No binarie": 0.004964147821290678,
+                "No Binarie": 0.004964147821290678,
                 "Prefiero no decir": 0.059018201875344733,
-                "Varon Cis": 0.758411472697187
+                "Varón Cis": 0.758411472697187
             }
         ]
     },
@@ -5379,58 +5379,58 @@
             {
                 "name": "0-1",
                 "Mujer Cis": 0.2172043010752688,
-                "No binarie": 0.010752688172043012,
+                "No Binarie": 0.010752688172043012,
                 "Prefiero no decir": 0.05161290322580645,
-                "Varon Cis": 0.7204301075268817
+                "Varón Cis": 0.7204301075268817
             },
             {
                 "name": "2",
                 "Mujer Cis": 0.20701754385964913,
-                "No binarie": 0.005263157894736842,
+                "No Binarie": 0.005263157894736842,
                 "Prefiero no decir": 0.03859649122807018,
-                "Varon Cis": 0.7491228070175439
+                "Varón Cis": 0.7491228070175439
             },
             {
                 "name": "3",
                 "Mujer Cis": 0.21957040572792363,
-                "No binarie": 0.002386634844868735,
+                "No Binarie": 0.002386634844868735,
                 "Prefiero no decir": 0.031026252983293555,
-                "Varon Cis": 0.747016706443914
+                "Varón Cis": 0.747016706443914
             },
             {
                 "name": "4-5",
                 "Mujer Cis": 0.16951566951566951,
-                "No binarie": 0.009971509971509971,
+                "No Binarie": 0.009971509971509971,
                 "Prefiero no decir": 0.039886039886039885,
-                "Varon Cis": 0.7806267806267806
+                "Varón Cis": 0.7806267806267806
             },
             {
                 "name": "6-8",
                 "Mujer Cis": 0.14,
-                "No binarie": 0.008333333333333333,
+                "No Binarie": 0.008333333333333333,
                 "Prefiero no decir": 0.043333333333333335,
-                "Varon Cis": 0.8083333333333333
+                "Varón Cis": 0.8083333333333333
             },
             {
                 "name": "9-13",
                 "Mujer Cis": 0.11764705882352941,
-                "No binarie": 0.00522875816993464,
+                "No Binarie": 0.00522875816993464,
                 "Prefiero no decir": 0.08366013071895424,
-                "Varon Cis": 0.7934640522875817
+                "Varón Cis": 0.7934640522875817
             },
             {
                 "name": "14-21",
                 "Mujer Cis": 0.08381171067738231,
-                "No binarie": 0.004592422502870264,
+                "No Binarie": 0.004592422502870264,
                 "Prefiero no decir": 0.07921928817451206,
-                "Varon Cis": 0.8323765786452354
+                "Varón Cis": 0.8323765786452354
             },
             {
                 "name": "22-55",
                 "Mujer Cis": 0.0706713780918728,
-                "No binarie": 0.0035335689045936395,
+                "No Binarie": 0.0035335689045936395,
                 "Prefiero no decir": 0.08833922261484099,
-                "Varon Cis": 0.8374558303886925
+                "Varón Cis": 0.8374558303886925
             }
         ]
     },
@@ -5439,58 +5439,58 @@
             {
                 "name": "0-1",
                 "Mujer Cis": 115000.0,
-                "No binarie": 165000.0,
+                "No Binarie": 165000.0,
                 "Prefiero no decir": 123000.0,
-                "Varon Cis": 123000.0
+                "Varón Cis": 123000.0
             },
             {
                 "name": "2",
                 "Mujer Cis": 150000.0,
-                "No binarie": 107400.0,
+                "No Binarie": 107400.0,
                 "Prefiero no decir": 153500.0,
-                "Varon Cis": 152000.0
+                "Varón Cis": 152000.0
             },
             {
                 "name": "3",
                 "Mujer Cis": 160500.0,
-                "No binarie": 64900.0,
+                "No Binarie": 64900.0,
                 "Prefiero no decir": 150000.0,
-                "Varon Cis": 180000.0
+                "Varón Cis": 180000.0
             },
             {
                 "name": "4-5",
                 "Mujer Cis": 201250.0,
-                "No binarie": 200000.0,
+                "No Binarie": 200000.0,
                 "Prefiero no decir": 162500.0,
-                "Varon Cis": 203750.0
+                "Varón Cis": 203750.0
             },
             {
                 "name": "6-8",
                 "Mujer Cis": 228287.5,
-                "No binarie": 200000.0,
+                "No Binarie": 200000.0,
                 "Prefiero no decir": 252500.0,
-                "Varon Cis": 230000.0
+                "Varón Cis": 230000.0
             },
             {
                 "name": "9-13",
                 "Mujer Cis": 246575.0,
-                "No binarie": 298500.0,
+                "No Binarie": 298500.0,
                 "Prefiero no decir": 240958.0,
-                "Varon Cis": 253000.0
+                "Varón Cis": 253000.0
             },
             {
                 "name": "14-21",
                 "Mujer Cis": 225000.0,
-                "No binarie": 245000.0,
+                "No Binarie": 245000.0,
                 "Prefiero no decir": 250000.0,
-                "Varon Cis": 258000.0
+                "Varón Cis": 258000.0
             },
             {
                 "name": "22-55",
                 "Mujer Cis": 224000.0,
-                "No binarie": 450000.0,
+                "No Binarie": 450000.0,
                 "Prefiero no decir": 235000.0,
-                "Varon Cis": 252000.0
+                "Varón Cis": 252000.0
             }
         ]
     },
@@ -5499,58 +5499,58 @@
             {
                 "name": "0-1",
                 "Mujer Cis": 2.5643564356435644,
-                "No binarie": 3.6,
+                "No Binarie": 3.6,
                 "Prefiero no decir": 2.625,
-                "Varon Cis": 2.629850746268657
+                "Varón Cis": 2.629850746268657
             },
             {
                 "name": "2",
                 "Mujer Cis": 2.7796610169491527,
-                "No binarie": 2.3333333333333335,
+                "No Binarie": 2.3333333333333335,
                 "Prefiero no decir": 2.6363636363636362,
-                "Varon Cis": 2.728337236533958
+                "Varón Cis": 2.728337236533958
             },
             {
                 "name": "3",
                 "Mujer Cis": 2.6630434782608696,
-                "No binarie": 1.0,
+                "No Binarie": 1.0,
                 "Prefiero no decir": 2.4615384615384617,
-                "Varon Cis": 2.747603833865815
+                "Varón Cis": 2.747603833865815
             },
             {
                 "name": "4-5",
                 "Mujer Cis": 2.8151260504201683,
-                "No binarie": 2.857142857142857,
+                "No Binarie": 2.857142857142857,
                 "Prefiero no decir": 2.5714285714285716,
-                "Varon Cis": 2.698905109489051
+                "Varón Cis": 2.698905109489051
             },
             {
                 "name": "6-8",
                 "Mujer Cis": 2.6785714285714284,
-                "No binarie": 2.8,
+                "No Binarie": 2.8,
                 "Prefiero no decir": 2.423076923076923,
-                "Varon Cis": 2.6969072164948455
+                "Varón Cis": 2.6969072164948455
             },
             {
                 "name": "9-13",
                 "Mujer Cis": 2.6444444444444444,
-                "No binarie": 2.75,
+                "No Binarie": 2.75,
                 "Prefiero no decir": 2.5625,
-                "Varon Cis": 2.772652388797364
+                "Varón Cis": 2.772652388797364
             },
             {
                 "name": "14-21",
                 "Mujer Cis": 2.6164383561643834,
-                "No binarie": 2.75,
+                "No Binarie": 2.75,
                 "Prefiero no decir": 2.536231884057971,
-                "Varon Cis": 2.663448275862069
+                "Varón Cis": 2.663448275862069
             },
             {
                 "name": "22-55",
                 "Mujer Cis": 2.7,
-                "No binarie": 2.0,
+                "No Binarie": 2.0,
                 "Prefiero no decir": 2.28,
-                "Varon Cis": 2.569620253164557
+                "Varón Cis": 2.569620253164557
             }
         ]
     },
@@ -5562,9 +5562,9 @@
                 "Fluido": 0.004092769440654843,
                 "Mujer Cis": 0.12278308321964529,
                 "Mujer Trans": 0.001364256480218281,
-                "No binarie": 0.0068212824010914054,
+                "No Binarie": 0.0068212824010914054,
                 "Prefiero no decir": 0.040927694406548434,
-                "Varon Cis": 0.6007276034561164
+                "Varón Cis": 0.6007276034561164
             },
             {
                 "name": "Sí",
@@ -5572,9 +5572,9 @@
                 "Fluido": 0.0009095043201455207,
                 "Mujer Cis": 0.07185084129149613,
                 "Mujer Trans": 0.00045475216007276033,
-                "No binarie": 0.002728512960436562,
+                "No Binarie": 0.002728512960436562,
                 "Prefiero no decir": 0.010004547521600727,
-                "Varon Cis": 0.13278763074124603
+                "Varón Cis": 0.13278763074124603
             }
         ]
     },
@@ -5586,9 +5586,9 @@
                 "Fluido": 0.00089126559714795,
                 "Mujer Cis": 0.029857397504456328,
                 "Mujer Trans": 0.0,
-                "No binarie": 0.00089126559714795,
+                "No Binarie": 0.00089126559714795,
                 "Prefiero no decir": 0.010249554367201427,
-                "Varon Cis": 0.08422459893048129
+                "Varón Cis": 0.08422459893048129
             },
             {
                 "name": "Sí",
@@ -5596,9 +5596,9 @@
                 "Fluido": 0.004010695187165776,
                 "Mujer Cis": 0.1662210338680927,
                 "Mujer Trans": 0.0017825311942959,
-                "No binarie": 0.008467023172905526,
+                "No Binarie": 0.008467023172905526,
                 "Prefiero no decir": 0.040106951871657755,
-                "Varon Cis": 0.6488413547237076
+                "Varón Cis": 0.6488413547237076
             }
         ]
     },

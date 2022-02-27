@@ -14,7 +14,7 @@ function bestSalary(s) {
     return Math.max(s["Junior"], s["Semi-Senior"], s["Senior"]);
 }
 
-let genders = charts['demographics_gender_percent'].data.map(x => x.name)
+let genders = [...charts['demographics_gender_percent'].data.map(x => x.name), 'Otros']
 
 let top5_languages = charts['lenguajes_de_programacion'].data.map(x => x.name).slice(0, 5)
 
@@ -1062,24 +1062,6 @@ export default [
         title: 'Género', // TODO: Revisar
         content: (
             <div>
-                <p>En esta edición la pregunta sobre identidad de género consta de un listado de opciones fijas (que incluye “prefiero no responder”) y la posibilidad de ingresar texto libre. Esta modalidad visibiliza la pluralidad de identidades, no replicando categorías hegemónicas históricamente sostenidas. Por otra parte, se puede lograr un análisis más aproximado a las diferentes vivencias individuales en el cruce de variables. </p>
-                <p>Si bien en este apartado mantuvimos la lógica general del informe de no incluir dentro de los gráficos los conjuntos que tuvieron una representación menor al 0.5% de la muestra, mencionamos aquellas identidades de género que están subrepresentadas en esta encuesta, hecho que refleja inequidades por múltiples barreras e injusticias sociales. </p>
-                <p>Porcentajes de identidades de género menores al 0,5%: </p>
-                <ul>
-                    <li>Hombre trans 0,17%</li>
-                    <li>Mujer trans 0,16%</li>
-                    <li>Agénero 0,02%</li>
-                </ul>
-                <p>Como es de esperar, las inequidades históricas y sistemáticas por género, se sostienen.</p>
-
-                <h4>Algunos datos</h4>
-                <ol>
-                    <li>De las personas que participaron de la encuesta y respondieron este ítem, el ~76% son hombres cis, mientras que el ~16,53% son mujeres cis y el 0,66% personas no binaries. </li>
-                    <li>Se observa un incremento de participación de 1,5% de mujeres cis con respecto al período anterior.</li>
-                    <li>La brecha salarial entre hombres cis y mujeres cis es de 25%, entre hombres cis y personas no binaries de 18,4% y entre hombres cis y personas que prefieren no responder sobre su género de ~3%.</li>
-                    <li>Según los datos recabados, la brecha salarial entre hombres cis y mujeres cis se acentúa a medida que aumentan los años de experiencia de la población encuestada, que es donde se encuentra el mayor porcentaje de participación.</li>
-                    <li>Es relevante observar que a pesar de encabezar méritos académicos en el conjunto de personas identificadas como mujeres cis la brecha salarial se sostenga en todos los niveles.</li>
-                </ol>
             </div>  
         ),
         data: [
@@ -1122,6 +1104,7 @@ export default [
                                         historic_charts['historic_gender_percent'].data
                                         .reduce((dates, row) => {
                                             const date = row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]
+                                            console.log(genders, dates)
                                             return ({
                                             ...dates,
                                             [date]: {

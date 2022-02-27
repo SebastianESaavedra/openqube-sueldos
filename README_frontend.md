@@ -60,11 +60,9 @@ y luego sí firebase deploy. Se le brindara una url donde se hará el deploy
 
 ## Gráficos nuevos
 
-![Untitled](images/Untitled%202.png)
+![Untitled](images/conformidad_segun.png)
 
-![Untitled](images/Untitled%203.png)
-
-![Untitled](images/Untitled%204.png)
+![Untitled](images/recomendas_lugar_segun.png)
 
 ## Dolar ahorro
 
@@ -76,7 +74,7 @@ y luego sí firebase deploy. Se le brindara una url donde se hará el deploy
 
 ## Fuente de datos
 
-chats.js y historic-charts.js son los archivos donde deberán colocar el código (JSON) generado desde Colab. 
+charts.json y historic-charts.json son los archivos que se generan desde el google Colab.
 
-![Untitled](images/Untitled%207.png)
+![Untitled](images/ubicacion_jsons.png)
 

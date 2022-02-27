@@ -94,7 +94,7 @@ Esta sección contiene los links a la documentación con las consideraciones nec
 
 El presente informe fue realizado para Openqube por [Olivia Fernández](https://www.linkedin.com/in/olifer97/) y [Macarena Villamea](https://www.linkedin.com/in/macarena-villamea/).
 
-Basado en los trabajos previos de [Nadia Kazlauskas](https://www.linkedin.com/in/nadiakazlauskas/), [Pablo Fernandez](https://www.linkedin.com/in/fernandezpablo85/), [Luciana Castro](https://twitter.com/luscastro), [Gerardo Bort](https://twitter.com/gerardobort), [Leonardo Genzano](https://ar.linkedin.com/in/leonardo-genzano-1b275193/), [Nico Quiroz](https://twitter.com/cocodibuja)y [Pablo Casas](https://twitter.com/pabloc_ds).
+Basado en los trabajos previos de [Nadia Kazlauskas](https://www.linkedin.com/in/nadiakazlauskas/), [Pablo Fernandez](https://www.linkedin.com/in/fernandezpablo85/), [Luciana Castro](https://twitter.com/luscastro), [Gerardo Bort](https://twitter.com/gerardobort), [Leonardo Genzano](https://ar.linkedin.com/in/leonardo-genzano-1b275193/), [Nico Quiroz](https://twitter.com/cocodibuja) y [Pablo Casas](https://twitter.com/pabloc_ds).
 
 
 

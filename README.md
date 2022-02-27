@@ -67,7 +67,7 @@ Ver más detalles sobre el dólar en [README_backend](README_backend.md)
 
 ### Errores
 
-<img src="https://tenor.com/es/ver/cat-computer-working-busy-genius-cat-gif-15705968">
+<img src="https://media.giphy.com/media/unQ3IJU2RG7DO/giphy.gif">
 
 Si detectas un error, omisión u otro problema, y reiniciar la computadora no funcionó, por favor carga un issue en el repo.
 

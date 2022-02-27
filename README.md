@@ -24,14 +24,14 @@ Los datos se dividen en _no históricos_ e _históricos_.
 
 ### 💻 Google colabs utilizados:
 
-- [No histórico](https://colab.research.google.com/drive/1vXLMvOYTQxp1qque29Fy8e5z-04jJOBI#sxcrollTo=X752yKSDj45j)
+- [No histórico](https://colab.research.google.com/drive/1hPGXsQlzlsRMXhzTh_ESW-wMpWztbc06?usp=sharing)
 
 Este colab limpia los datos y calcula los datos para luego enviarlos por json a la página web en react. 
 
 **Si el lector quiere analizar los datos para crear sus propios análisis basandose en el dataset limpio**, según los criterios mostrados en el colab, entonces puede usar utilizar el dataset: `No histórico CLEAN` de la siguiente sección.
 
 
-- [Histórico](https://colab.research.google.com/drive/10e5hZytlMatMuKmLCRo9YzpS1O9EbeV2#scrollTo=Pc5mUvyozCQ5)
+- [Histórico](https://colab.research.google.com/drive/1YuamRcDgYBVxzg70ZfNihbidFbC-JVR5?usp=sharing)
 
 
 
@@ -67,7 +67,7 @@ Ver más detalles sobre el dólar en [README_backend](README_backend.md)
 
 ### Errores
 
-<img src="https://c.tenor.com/PRN-EHOCuHwAAAAd/the-it-crowd-moss-the-it-crowd.gif" width="300px">
+<img src="https://tenor.com/es/ver/cat-computer-working-busy-genius-cat-gif-15705968">
 
 Si detectas un error, omisión u otro problema, y reiniciar la computadora no funcionó, por favor carga un issue en el repo.
 

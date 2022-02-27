@@ -67,7 +67,7 @@ Ver más detalles sobre el dólar en [README_backend](README_backend.md)
 
 ### Errores
 
-<img src="https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif">
+<img src="https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif" width="300px">
 
 Si detectas un error, omisión u otro problema, y reiniciar la computadora no funcionó, por favor carga un issue en el repo.
 

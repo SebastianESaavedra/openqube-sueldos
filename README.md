@@ -24,14 +24,14 @@ Los datos se dividen en _no históricos_ e _históricos_.
 
 ### 💻 Google colabs utilizados:
 
-- [No histórico](https://colab.research.google.com/drive/1vXLMvOYTQxp1qque29Fy8e5z-04jJOBI#sxcrollTo=X752yKSDj45j)
+- [No histórico](https://colab.research.google.com/drive/1hPGXsQlzlsRMXhzTh_ESW-wMpWztbc06?usp=sharing)
 
 Este colab limpia los datos y calcula los datos para luego enviarlos por json a la página web en react. 
 
 **Si el lector quiere analizar los datos para crear sus propios análisis basandose en el dataset limpio**, según los criterios mostrados en el colab, entonces puede usar utilizar el dataset: `No histórico CLEAN` de la siguiente sección.
 
 
-- [Histórico](https://colab.research.google.com/drive/10e5hZytlMatMuKmLCRo9YzpS1O9EbeV2#scrollTo=Pc5mUvyozCQ5)
+- [Histórico](https://colab.research.google.com/drive/1YuamRcDgYBVxzg70ZfNihbidFbC-JVR5?usp=sharing)
 
 
 

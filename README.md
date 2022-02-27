@@ -1,6 +1,6 @@
 
 ## Edición 2022.01 (Diciembre 2021 - Febrero 2022)
-
+<img src='https://sysarmy.com/blog/assets/carpincho.jpg' width="300px">
 <br>
 
 ### Acerca del análisis

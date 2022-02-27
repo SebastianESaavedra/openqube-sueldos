@@ -31,7 +31,7 @@ Este colab limpia los datos y calcula los datos para luego enviarlos por json a 
 **Si el lector quiere analizar los datos para crear sus propios análisis basandose en el dataset limpio**, según los criterios mostrados en el colab, entonces puede usar utilizar el dataset: `No histórico CLEAN` de la siguiente sección.
 
 
-- [Histórico](https://colab.research.google.com/drive/1YuamRcDgYBVxzg70ZfNihbidFbC-JVR5?usp=sharing)
+- [Histórico](https://docs.google.com/spreadsheets/d/1hCVCokfCGpAxfhjFn7u039TZIJ1vud6TV24J2WvK6FY/edit?usp=sharing)
 
 
 

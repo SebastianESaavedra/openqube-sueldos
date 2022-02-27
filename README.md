@@ -1,25 +1,20 @@
 
-## Edición 2021.02 (2021 - 2do semestre).
-
-<img src='https://sysarmy.com/blog/assets/carpincho.jpg' width="300px">
-
-_Carpincho edition_
+## Edición 2022.01 (Diciembre 2021 - Febrero 2022).
 
 <br>
 
 ### Acerca del análisis
 
-El objetivo es poder analizar los salarios del mundo IT de Argentina, así como su evolución a lo largo del tiempo, cruzado por distintas variables como las de género, demográficas, entre otras.
+El objetivo es poder analizar los salarios del mundo IT de Argentina, así como su evolución a lo largo del tiempo, cruzado por distintas variables.
+Para ello se analizó la información utilizando Python en [Google Colab](https://colab.research.google.com/?hl=es), por lo cual los informes son 100% reproducibles en el navegador. La información se muestra en un sitio web hecho en react.
 
-Para ello se analizó la información utilizando Python en Google Colab, por lo cual los informes son 100% reproducibles en el navegador. La información se muestra en un sitio web hecho en react.
-
-[Sitio web con los resultados](https://sueldos.openqube.io/encuesta-sueldos-2021.02)
+[Sitio web con los resultados](https://sueldos.openqube.io/encuesta-sueldos-2022.01)
 
 ### Acerca de los datos
 
 Los datos se dividen en _no históricos_ e _históricos_. 
 
-- Los datos _no históricos_ son los usados para medir el último período de análisis (julio-agosto 2021).
+- Los datos _no históricos_ son los usados para medir el último período de análisis (diciembre 2021-febrero 2022).
 
 - Los _históricos_ contienen algunas de las variables que se miden a lo largo del tiempo.
 
@@ -38,9 +33,6 @@ Este colab limpia los datos y calcula los datos para luego enviarlos por json a 
 
 - [Histórico](https://colab.research.google.com/drive/10e5hZytlMatMuKmLCRo9YzpS1O9EbeV2#scrollTo=Pc5mUvyozCQ5)
 
-
-Si querés analizar la encuesta y no sabes Python, te invitamos a hacer el: [Curso Python básico y gratuito](https://escueladedatosvivos.ai/p/curso-gratuito-introductorio-a-python). 
-_Disclaimer: Pertence al equipo de análisis de esta edición._
 
 
 ### 🗃 Datasets listos para analizar
@@ -100,9 +92,9 @@ Esta sección contiene los links a la documentación con las consideraciones nec
 
 ## About
 
-El presente informe fue realizado para Openqube por [Leonardo Genzano](https://ar.linkedin.com/in/leonardo-genzano-1b275193/) (Python developer) y [Nico Quiroz](https://twitter.com/cocodibuja) (frontend) y [Pablo Casas](https://twitter.com/pabloc_ds) (Líder de proyecto), de [Escuela de Datos Vivos](https://escueladedatosvivos.ai).
+El presente informe fue realizado para Openqube por [Olivia Fernández](https://www.linkedin.com/in/olifer97/) y [Macarena Villamea](https://www.linkedin.com/in/macarena-villamea/).
 
-Basado en el trabajo previo de [Nadia Kazlauskas](https://www.linkedin.com/in/nadiakazlauskas/), [Pablo Fernandez](https://www.linkedin.com/in/fernandezpablo85/), [Luciana Castro](https://twitter.com/luscastro) y [Gerardo Bort](https://twitter.com/gerardobort).
+Basado en los trabajos previos de [Nadia Kazlauskas](https://www.linkedin.com/in/nadiakazlauskas/), [Pablo Fernandez](https://www.linkedin.com/in/fernandezpablo85/), [Luciana Castro](https://twitter.com/luscastro), [Gerardo Bort](https://twitter.com/gerardobort), [Leonardo Genzano](https://ar.linkedin.com/in/leonardo-genzano-1b275193/), [Nico Quiroz](https://twitter.com/cocodibuja)y [Pablo Casas](https://twitter.com/pabloc_ds).
 
 
 

@@ -1,6 +1,6 @@
 
 ## Edición 2022.01 (Diciembre 2021 - Febrero 2022)
-
+<img src='https://sysarmy.com/blog/assets/carpincho.jpg' width="300px">
 <br>
 
 ### Acerca del análisis
@@ -31,7 +31,7 @@ Este colab limpia los datos y calcula los datos para luego enviarlos por json a 
 **Si el lector quiere analizar los datos para crear sus propios análisis basandose en el dataset limpio**, según los criterios mostrados en el colab, entonces puede usar utilizar el dataset: `No histórico CLEAN` de la siguiente sección.
 
 
-- [Histórico](https://docs.google.com/spreadsheets/d/1hCVCokfCGpAxfhjFn7u039TZIJ1vud6TV24J2WvK6FY/edit?usp=sharing)
+- [Histórico](https://colab.research.google.com/drive/1YuamRcDgYBVxzg70ZfNihbidFbC-JVR5?usp=sharing)
 
 
 
@@ -43,7 +43,7 @@ Este colab limpia los datos y calcula los datos para luego enviarlos por json a 
 - Datos sin procesar, tal cual se obtuvieron de la encuesta (anunciado en el blog): [No histórico](https://github.com/openqube/openqube-sueldos/blob/release/2022.01/data/csv/argentina/2022.01.csv)
 
 
-- Datos con contenido de ediciones anteriores para medir la evolución. Sólo se consideran algunas variables: [Historico](https://docs.google.com/spreadsheets/d/1tUZ4kQUm-66tENFL7qF0GmgoxJ9a4qU8yqyF3uyHsto/edit?usp=sharing) 
+- Datos con contenido de ediciones anteriores para medir la evolución. Sólo se consideran algunas variables: [Historico](https://docs.google.com/spreadsheets/d/1hCVCokfCGpAxfhjFn7u039TZIJ1vud6TV24J2WvK6FY/edit?usp=sharing) 
 
 
 - Blog post de sysarmy anunciando los datos, [aquí](https://sysarmy.com/blog/posts/resultados-de-la-encuesta-de-sueldos-2022-1/).
@@ -67,7 +67,7 @@ Ver más detalles sobre el dólar en [README_backend](README_backend.md)
 
 ### Errores
 
-<img src="https://tenor.com/es/ver/cat-computer-working-busy-genius-cat-gif-15705968">
+<img src="https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif" width="300px">
 
 Si detectas un error, omisión u otro problema, y reiniciar la computadora no funcionó, por favor carga un issue en el repo.
 
@@ -85,7 +85,6 @@ Esta sección contiene los links a la documentación con las consideraciones nec
 
 
 
-
 ---
 
 <br>
@@ -94,7 +93,6 @@ Esta sección contiene los links a la documentación con las consideraciones nec
 
 El presente informe fue realizado para Openqube por [Olivia Fernández](https://www.linkedin.com/in/olifer97/) y [Macarena Villamea](https://www.linkedin.com/in/macarena-villamea/).
 
-Basado en los trabajos previos de [Nadia Kazlauskas](https://www.linkedin.com/in/nadiakazlauskas/), [Pablo Fernandez](https://www.linkedin.com/in/fernandezpablo85/), [Luciana Castro](https://twitter.com/luscastro), [Gerardo Bort](https://twitter.com/gerardobort), [Leonardo Genzano](https://ar.linkedin.com/in/leonardo-genzano-1b275193/), [Nico Quiroz](https://twitter.com/cocodibuja)y [Pablo Casas](https://twitter.com/pabloc_ds).
-
+Basado en los trabajos previos de [Nadia Kazlauskas](https://www.linkedin.com/in/nadiakazlauskas/), [Pablo Fernandez](https://www.linkedin.com/in/fernandezpablo85/), [Luciana Castro](https://twitter.com/luscastro), [Gerardo Bort](https://twitter.com/gerardobort), [Leonardo Genzano](https://ar.linkedin.com/in/leonardo-genzano-1b275193/), [Nicolás Quiroz](https://twitter.com/cocodibuja) y [Pablo Casas](https://twitter.com/pabloc_ds).
 
 

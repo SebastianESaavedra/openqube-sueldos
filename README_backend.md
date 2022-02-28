@@ -1,5 +1,5 @@
 # Análisis de la encuesta Sysarmy
-## Edición 2021.02 (2021 - 2do semestre).
+## Edición 2022.01 (Diciembre 2021 - Febrero 2022).
 
 ## Consideraciones para reproducir los datos en Colab
 
@@ -13,11 +13,11 @@ Si los datos ya están subidos en el mismo repositorio que los anteriores datase
 
 ```
    {
-        "year": 2021,
-        "part": 2,
+        "year": 2022,
+        "part": 1,
         "skiprows": 0,
-        "publish_date": "2021-08-23",   
-        "minimum_salary": 16875,
+        "publish_date": "2022-03-02",   
+        "minimum_salary": 32000,
         "src": [
             "Salario mensual BRUTO (en tu moneda local)",
             "Salario mensual BRUTO (en tu moneda local)",
@@ -50,17 +50,17 @@ data202102 = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/encuesta_sysarm
 1. Tomar en cuenta solamente a aquellas columnas que se van a utilizar en el análisis histórico (salario, experiencia, lugar de trabajo, edad, años en el puesto actual, identidad de género, conformidad de salario).
 
 ```
-data202102 = data202102[['Salario mensual o retiro BRUTO (en tu moneda local)','Años de experiencia','Dónde estás trabajando','Tengo','Años en el puesto actual','Trabajo de','Me identifico','¿Qué tan conforme estás con tu sueldo?']]
+data202201 = data202201[['Salario mensual o retiro BRUTO (en tu moneda local)','Años de experiencia','Dónde estás trabajando','Tengo','Años en el puesto actual','Trabajo de','Me identifico','¿Qué tan conforme estás con tu sueldo?']]
 data202102 = data202102.rename(columns={"Salario mensual o retiro BRUTO (en tu moneda local)": "salary", "Años de experiencia": "yoe",'Dónde estás trabajando':'location','Tengo':'age','Años en el puesto actual':'yip','Trabajo de':'role','Me identifico':'gender','¿Qué tan conforme estás con tu sueldo?':'acquiescence'})
 ```
 
 2.	Hacer las mismas transformaciones que se hagan en el notebook no histórico, para que la integridad y formato de los datos sea idéntico en ambos análisis.
 
 ```
-data202102.loc[:, "_sal"] = data202102[
+data202102.loc[:, "_sal"] = data202201[
     "salary"
 ]
-data202102["salary"] = (
+data202201["salary"] = (
     data202102["_sal"]
     .str.replace(".", "")
     .str.replace(",", ".")
@@ -76,33 +76,31 @@ data202102["salary"] = (
 
 ```
 #creamos las columnas que faltan (metadatos)
-data202102['salary_type'] = data202102['salary']
-data202102['part'] = 2
-data202102['publish_date'] = "2021-08-23"
+data202201['salary_type'] = data202201['salary']
+data202201['part'] = 2
+data202201['publish_date'] = "2022-03-02"
 
 #reordenamos
-data202102 = data202102[["salary","salary_type", "location", "age","yoe","yip","role","gender","acquiescence","part","publish_date"]]
+data202201 = data202201[["salary","salary_type", "location", "age","yoe","yip","role","gender","acquiescence","part","publish_date"]]
 ```
 
 4.	Verificar que los datatypes coincidan con los de los sets anteriores (todas las columnas object excepto ‘publish_date’ que es datetime64).
 
 ```
 #cambiamos tipos de datos para que coincidan con los datos de antes (menos salario que lo cambio en la celda de abajo)
-data202102[["salary_type", "location", "age","yoe","yip","role","gender","acquiescence","publish_date"]] = data202102[["salary_type", "location", "age","yoe","yip","role","gender","acquiescence","publish_date"]].astype('object')
-data202102['publish_date'] = data202102['publish_date'].astype('datetime64') 
+data202201[["salary_type", "location", "age","yoe","yip","role","gender","acquiescence","publish_date"]] = data2022012[["salary_type", "location", "age","yoe","yip","role","gender","acquiescence","publish_date"]].astype('object')
+data202201['publish_date'] =data202201['publish_date'].astype('datetime64') 
 ```
 
 5.	Una vez se tenga el set de datos normalizado correctamente, combinarlo con el dataframe general (combined_dataframe) que ya viene definido de antes (tiene la combinación de todos los sets de datos)
 
 ```
-#unimos el dataframe combinado de años anteriores, a los nuevos datos de 2021.02
-combined_dataframe = combined_dataframe.append(data202102)
+#unimos el dataframe combinado de años anteriores, a los nuevos datos de 2022.01
+combined_dataframe = combined_dataframe.append(data202201)
 ```
 
 6.	El proceso luego es el mismo, ya que el combined_dataframe no tiene nuevas columnas sino nuevos registros. 
-Nota: se agrega una celda para redefinir los metadatos que se hizo al inicio del notebook. Es la misma celda pero se adiciona  al diccionario la entrada correspondiente a los metadaots del set 2021.02. Esto no se agrega en la del comienzo ya que la función que se utiliza luego para tomar los datos del repositorio falla al no encontrar el set más nuevo. Una vez estén todos los datasets en el repositorio, eliminar esta celda.
-
-![Celda de metadatos](https://i.ibb.co/MgBZHqs/Captura.png)
+Nota: se agrega una celda para redefinir los metadatos que se hizo al inicio del notebook. Es la misma celda pero se adiciona  al diccionario la entrada correspondiente a los metadaots del set 2022.01. Esto no se agrega en la del comienzo ya que la función que se utiliza luego para tomar los datos del repositorio falla al no encontrar el set más nuevo. Una vez estén todos los datasets en el repositorio, eliminar esta celda.
 
 </br>
 

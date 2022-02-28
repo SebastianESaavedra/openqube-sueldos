@@ -4,7 +4,7 @@ import historic_charts from './historic_charts.json';
 
 // si al momento de publicar la nueva versión de la encuesta existe un cepo cambiario y
 // un tipo de cambio desdoblado en oficial/ahorro, agregar la fecha de publicación aquí.
-const hayDolarAhorro = ['2020-02-02', '2020-08-15', '2021-02-15','2021-08-23', '2022-02-27'];
+const hayDolarAhorro = ['2020-02-02', '2020-08-15', '2021-02-15','2021-08-23', '2022-02-21'];
 
 function sortBySalary(salaries) {
     return salaries.sort((a, b) => bestSalary(b) - bestSalary(a));
@@ -59,7 +59,7 @@ export default [
                         (basado en los trabajos previos de <a className='author-name' href='https://www.linkedin.com/in/nadiakazlauskas/' target="_blank" rel="noopener noreferrer">Nadia Kazlauskas</a> , <a className='author-name' href='https://www.linkedin.com/in/fernandezpablo85/' target="_blank" rel="noopener noreferrer">Pablo Fernandez</a>, <a className='author-name' href='https://twitter.com/luscastro' target="_blank" rel="noopener noreferrer">Luciana Castro</a>, <a className='author-name' href='https://twitter.com/gerardobort' target="_blank" rel="noopener noreferrer">Gerardo Bort</a>, <a className='author-name' href='https://ar.linkedin.com/in/leonardo-genzano-1b275193/' target="_blank" rel="noopener noreferrer">Leonardo Genzano</a>, <a className='author-name' href='https://twitter.com/cocodibuja' target="_blank" rel="noopener noreferrer">Nico Quiroz</a> y <a className='author-name' href='https://twitter.com/pabloc_ds' target="_blank" rel="noopener noreferrer">Pablo Casas</a>)
                     </small>
                     <a href="https://sysar.my/discord" target="_blank" rel="noopener noreferrer">
-                        <img src="https://i.postimg.cc/66HPZDtf/discord-683x90.jpg" style={{ "margin-top": "20px" }}></img>
+                        <img src="https://i.postimg.cc/66HPZDtf/discord-683x90.jpg" style={{ "margin-top": "20px", "width": "100%" }}></img>
                     </a>
                 </div>
             </div>
@@ -798,6 +798,7 @@ export default [
                                 component: 'Barh', // graph
                                 props: {
                                     data: charts['happy_gender'].data,
+                                    isLogScale: true
                                 },
                                 caption: '1=poco conforme / 4=muy conforme.',
                                 description: ''
@@ -812,6 +813,7 @@ export default [
                                 component: 'Barh', // graph
                                 props: {
                                     data: charts['happy_seniority'].data,
+                                    isLogScale: true
  
                                 },
                                 caption: '1=poco conforme / 4=muy conforme.',
@@ -987,7 +989,7 @@ export default [
                             {  // tab
                                 title: 'Total',
                                 component: 'Barh', // graph
-                                props: { ...charts['la_recomendas_como_un_buen_lugar_para_trabajar'], isPercentual: true },
+                                props: { data: charts['la_recomendas_como_un_buen_lugar_para_trabajar'].data.sort((a, b) => a.name.localeCompare(b.name)), isPercentual: true },
                                 description: (<span>
                                     Datos porcentuales, por clase según indicador&nbsp;<a target='_blank' href='https://es.wikipedia.org/wiki/Net_Promoter_Score' rel="noopener noreferrer">Net Promoter Score</a>.
                                 </span>),

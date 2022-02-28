@@ -4,98 +4,98 @@
             {
                 "name": "2016-08-01 00:00:00",
                 "Mujer Cis": 2.706081081081081,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.9777034559643254
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.9777034559643254
             },
             {
                 "name": "2017-02-01 00:00:00",
                 "Mujer Cis": 2.314868804664723,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.4482158398607483
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.4482158398607483
             },
             {
                 "name": "2017-09-01 00:00:00",
                 "Mujer Cis": 2.427350427350427,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 2.3157894736842106,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.5524193548387095
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.5524193548387095
             },
             {
                 "name": "2018-03-01 00:00:00",
                 "Mujer Cis": 2.3128295254833042,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 2.142857142857143,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.523167649536647
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.523167649536647
             },
             {
                 "name": "2018-09-04 00:00:00",
                 "Mujer Cis": 2.4518828451882846,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 1.8333333333333333,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.586272040302267
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.586272040302267
             },
             {
                 "name": "2019-02-15 00:00:00",
                 "Mujer Cis": 2.5315487571701722,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 2.3333333333333335,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.5489453758788536
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.5489453758788536
             },
             {
                 "name": "2019-08-15 00:00:00",
                 "Mujer Cis": 2.595744680851064,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 2.8,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.651987529228371
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.651987529228371
             },
             {
                 "name": "2020-02-02 00:00:00",
                 "Mujer Cis": 2.485924112607099,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 2.7916666666666665,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.5506625891946992
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.5506625891946992
             },
             {
                 "name": "2020-08-15 00:00:00",
                 "Mujer Cis": 2.62400906002265,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 2.5161290322580645,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 2.6079887595343236
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 2.6079887595343236
             },
             {
                 "name": "2021-02-15 00:00:00",
                 "Mujer Cis": 2.550925925925926,
-                "No Binarie": 2.7142857142857144,
+                "No binarie": 2.7142857142857144,
                 "Otros": 2.5714285714285716,
-                "Prefiero No Decir": 2.4519572953736657,
-                "Varón Cis": 2.604732690622261
+                "Prefiero no decir": 2.4519572953736657,
+                "Varon Cis": 2.604732690622261
             },
             {
                 "name": "2021-08-23 00:00:00",
                 "Mujer Cis": 2.7539432176656153,
-                "No Binarie": 2.8461538461538463,
+                "No binarie": 2.8461538461538463,
                 "Otros": 2.663265306122449,
-                "Prefiero No Decir": 2.6,
-                "Varón Cis": 2.7255380519192367
+                "Prefiero no decir": 2.6,
+                "Varon Cis": 2.7255380519192367
             },
             {
                 "name": "2022-02-21 00:00:00",
                 "Mujer Cis": 2.7119244391971664,
-                "No Binarie": 2.7941176470588234,
+                "No binarie": 2.7941176470588234,
                 "Otros": 2.717948717948718,
-                "Prefiero No Decir": 2.503875968992248,
-                "Varón Cis": 2.7068844807467913
+                "Prefiero no decir": 2.503875968992248,
+                "Varon Cis": 2.7068844807467913
             }
         ]
     },
@@ -206,8 +206,8 @@
                 "part": 1,
                 "publish_date": "2022-02-21",
                 "Pesos Argentinos": 188400.0,
-                "Dólares Estadounidenses": 0.0,
-                "Dólares Estadounidenses Blue": 0.0
+                "Dólares Estadounidenses": 1758.8843967628686,
+                "Dólares Estadounidenses Blue": 910.1449275362319
             }
         ]
     },
@@ -218,7 +218,7 @@
                 "count": 0.07621009268795056
             },
             {
-                "name": "(Timestamp('2016-08-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2016-08-01 00:00:00'), 'Varon Cis')",
                 "count": 0.9237899073120495
             },
             {
@@ -226,7 +226,7 @@
                 "count": 0.09050131926121371
             },
             {
-                "name": "(Timestamp('2017-02-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2017-02-01 00:00:00'), 'Varon Cis')",
                 "count": 0.9094986807387863
             },
             {
@@ -238,7 +238,7 @@
                 "count": 0.004039974484371677
             },
             {
-                "name": "(Timestamp('2017-09-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2017-09-01 00:00:00'), 'Varon Cis')",
                 "count": 0.8964490750584733
             },
             {
@@ -250,7 +250,7 @@
                 "count": 0.0033783783783783786
             },
             {
-                "name": "(Timestamp('2018-03-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2018-03-01 00:00:00'), 'Varon Cis')",
                 "count": 0.8593146718146718
             },
             {
@@ -262,7 +262,7 @@
                 "count": 0.0032733224222585926
             },
             {
-                "name": "(Timestamp('2018-09-04 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2018-09-04 00:00:00'), 'Varon Cis')",
                 "count": 0.8663393344244408
             },
             {
@@ -274,7 +274,7 @@
                 "count": 0.0049504950495049506
             },
             {
-                "name": "(Timestamp('2019-02-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2019-02-15 00:00:00'), 'Varon Cis')",
                 "count": 0.8717586044318718
             },
             {
@@ -286,7 +286,7 @@
                 "count": 0.004993342210386152
             },
             {
-                "name": "(Timestamp('2019-08-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2019-08-15 00:00:00'), 'Varon Cis')",
                 "count": 0.8541944074567244
             },
             {
@@ -298,7 +298,7 @@
                 "count": 0.004176818656456666
             },
             {
-                "name": "(Timestamp('2020-02-02 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2020-02-02 00:00:00'), 'Varon Cis')",
                 "count": 0.853637312913331
             },
             {
@@ -310,7 +310,7 @@
                 "count": 0.005257801899592945
             },
             {
-                "name": "(Timestamp('2020-08-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2020-08-15 00:00:00'), 'Varon Cis')",
                 "count": 0.8449796472184532
             },
             {
@@ -318,7 +318,7 @@
                 "count": 0.1500521014241056
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'No binarie')",
                 "count": 0.004862799583188607
             },
             {
@@ -326,11 +326,11 @@
                 "count": 0.0036470996873914554
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'Prefiero no decir')",
                 "count": 0.048801667245571376
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'Varon Cis')",
                 "count": 0.7926363320597429
             },
             {
@@ -338,7 +338,7 @@
                 "count": 0.16284246575342465
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'No binarie')",
                 "count": 0.006678082191780822
             },
             {
@@ -346,11 +346,11 @@
                 "count": 0.01678082191780822
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'Prefiero no decir')",
                 "count": 0.04195205479452055
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'Varon Cis')",
                 "count": 0.7717465753424657
             },
             {
@@ -358,7 +358,7 @@
                 "count": 0.15286049449557843
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'No binarie')",
                 "count": 0.006136076520483667
             },
             {
@@ -366,11 +366,11 @@
                 "count": 0.021115322144017325
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'Prefiero no decir')",
                 "count": 0.046561992420140766
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'Varon Cis')",
                 "count": 0.7733261144197798
             }
         ]
@@ -382,7 +382,7 @@
                 "salary": 18072.289156626506
             },
             {
-                "name": "(Timestamp('2016-08-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2016-08-01 00:00:00'), 'Varon Cis')",
                 "salary": 20481.927710843374
             },
             {
@@ -390,7 +390,7 @@
                 "salary": 21084.337349397592
             },
             {
-                "name": "(Timestamp('2017-02-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2017-02-01 00:00:00'), 'Varon Cis')",
                 "salary": 24096.38554216868
             },
             {
@@ -402,7 +402,7 @@
                 "salary": 33734.93975903615
             },
             {
-                "name": "(Timestamp('2017-09-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2017-09-01 00:00:00'), 'Varon Cis')",
                 "salary": 32530.120481927715
             },
             {
@@ -414,7 +414,7 @@
                 "salary": 26605.421686746988
             },
             {
-                "name": "(Timestamp('2018-03-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2018-03-01 00:00:00'), 'Varon Cis')",
                 "salary": 36144.57831325301
             },
             {
@@ -426,7 +426,7 @@
                 "salary": 34337.34939759036
             },
             {
-                "name": "(Timestamp('2018-09-04 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2018-09-04 00:00:00'), 'Varon Cis')",
                 "salary": 42525.0
             },
             {
@@ -438,7 +438,7 @@
                 "salary": 45000.0
             },
             {
-                "name": "(Timestamp('2019-02-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2019-02-15 00:00:00'), 'Varon Cis')",
                 "salary": 50000.0
             },
             {
@@ -450,7 +450,7 @@
                 "salary": 49000.0
             },
             {
-                "name": "(Timestamp('2019-08-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2019-08-15 00:00:00'), 'Varon Cis')",
                 "salary": 63000.0
             },
             {
@@ -462,7 +462,7 @@
                 "salary": 56375.0
             },
             {
-                "name": "(Timestamp('2020-02-02 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2020-02-02 00:00:00'), 'Varon Cis')",
                 "salary": 75000.0
             },
             {
@@ -474,7 +474,7 @@
                 "salary": 98000.0
             },
             {
-                "name": "(Timestamp('2020-08-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2020-08-15 00:00:00'), 'Varon Cis')",
                 "salary": 100000.0
             },
             {
@@ -482,7 +482,7 @@
                 "salary": 92000.0
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'No binarie')",
                 "salary": 117500.0
             },
             {
@@ -490,11 +490,11 @@
                 "salary": 100000.0
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'Prefiero no decir')",
                 "salary": 112911.0
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'Varon Cis')",
                 "salary": 115000.0
             },
             {
@@ -502,7 +502,7 @@
                 "salary": 133000.0
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'No binarie')",
                 "salary": 140000.0
             },
             {
@@ -510,11 +510,11 @@
                 "salary": 177500.0
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'Prefiero no decir')",
                 "salary": 160000.0
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'Varon Cis')",
                 "salary": 165000.0
             },
             {
@@ -522,7 +522,7 @@
                 "salary": 160000.0
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'No binarie')",
                 "salary": 183000.0
             },
             {
@@ -530,11 +530,11 @@
                 "salary": 180000.0
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'Prefiero no decir')",
                 "salary": 200000.0
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'Varon Cis')",
                 "salary": 192973.32
             }
         ]
@@ -544,1898 +544,1898 @@
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.10344827586206896,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.896551724137931
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.896551724137931
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.18446601941747573,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8155339805825242
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8155339805825242
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.07196029776674938,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9280397022332506
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9280397022332506
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.06739130434782609,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9326086956521739
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9326086956521739
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.025,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.975
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.975
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.12121212121212122,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8787878787878788
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8787878787878788
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.0211864406779661,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9788135593220338
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9788135593220338
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'PM')",
                 "Mujer Cis": 0.14864864864864866,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8513513513513513
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8513513513513513
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.11258278145695365,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8874172185430463
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8874172185430463
             },
             {
                 "name": "(Timestamp('2016-08-01 00:00:00'), 'SysAdmin / DevOps')",
                 "Mujer Cis": 0.028169014084507043,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.971830985915493
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.971830985915493
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.3333333333333333,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6666666666666666
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6666666666666666
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.5,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.5
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.5
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.075,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.925
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.925
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.1941747572815534,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8058252427184466
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8058252427184466
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.08685064935064934,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9131493506493507
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9131493506493507
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.07969151670951156,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9203084832904884
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9203084832904884
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.08771929824561403,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9122807017543859
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9122807017543859
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.037037037037037035,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9629629629629629
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9629629629629629
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.017316017316017316,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9826839826839827
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9826839826839827
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'PM')",
                 "Mujer Cis": 0.12213740458015267,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8778625954198473
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8778625954198473
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.1875,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8125
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8125
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'SysAdmin / DevOps')",
                 "Mujer Cis": 0.054602184087363496,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9453978159126365
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9453978159126365
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-02-01 00:00:00'), 'UX')",
                 "Mujer Cis": 1.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.0
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.03755868544600939,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.004694835680751174,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9577464788732394
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9577464788732394
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.6666666666666666,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.3333333333333333
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.3333333333333333
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.13636363636363635,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8636363636363636
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8636363636363636
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Data Engineer')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.14285714285714285,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8571428571428571
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8571428571428571
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.3225806451612903,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.016129032258064516,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6612903225806451
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6612903225806451
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.08092485549132948,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.002890173410404624,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9161849710982659
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9161849710982659
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.0664451827242525,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0033222591362126247,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9302325581395349
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9302325581395349
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.1038961038961039,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8961038961038961
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8961038961038961
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.02926829268292683,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9707317073170731
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9707317073170731
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'PM')",
                 "Mujer Cis": 0.10087719298245613,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.008771929824561403,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8903508771929824
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8903508771929824
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.2097560975609756,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7902439024390244
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7902439024390244
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'SysAdmin / DevOps')",
                 "Mujer Cis": 0.028169014084507043,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.003129890453834116,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9687010954616588
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9687010954616588
             },
             {
                 "name": "(Timestamp('2017-09-01 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.06329113924050633,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9367088607594937
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9367088607594937
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.5,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.5
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.5
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.3333333333333333,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6666666666666666
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6666666666666666
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.07352941176470588,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.014705882352941176,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9117647058823529
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9117647058823529
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Data Engineer')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.2,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.31645569620253167,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.012658227848101266,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6708860759493671
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6708860759493671
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.11225188227241616,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0034223134839151265,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8843258042436687
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8843258042436687
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.10101010101010101,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.010101010101010102,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8888888888888888
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8888888888888888
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.13924050632911392,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8607594936708861
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8607594936708861
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.10526315789473684,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8947368421052632
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8947368421052632
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.04020100502512563,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005025125628140704,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9547738693467337
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9547738693467337
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'PM')",
                 "Mujer Cis": 0.2542372881355932,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7457627118644068
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7457627118644068
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.27607361963190186,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.012269938650306749,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7116564417177914
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7116564417177914
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'SysAdmin / DevOps')",
                 "Mujer Cis": 0.03612167300380228,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0019011406844106464,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9619771863117871
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9619771863117871
             },
             {
                 "name": "(Timestamp('2018-03-01 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.036585365853658534,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9634146341463414
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9634146341463414
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.0625,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9375
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9375
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Data Engineer')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.37142857142857144,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6285714285714286
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6285714285714286
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.1270949720670391,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.004189944134078212,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8687150837988827
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8687150837988827
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.10227272727272728,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.011363636363636364,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8863636363636364
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8863636363636364
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.11764705882352941,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8823529411764706
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8823529411764706
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.056338028169014086,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9436619718309859
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9436619718309859
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'PM')",
                 "Mujer Cis": 0.15217391304347827,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8478260869565217
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8478260869565217
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.30952380952380953,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6904761904761905
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6904761904761905
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.75,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.25
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.25
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'SysAdmin / DevOps')",
                 "Mujer Cis": 0.03819444444444445,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.003472222222222222,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9583333333333334
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9583333333333334
             },
             {
                 "name": "(Timestamp('2018-09-04 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.06521739130434782,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.007246376811594203,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.927536231884058
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.927536231884058
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'BI Analyst / Data Analyst')",
                 "Mujer Cis": 0.23,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.77
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.77
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.2087912087912088,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.01098901098901099,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7802197802197802
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7802197802197802
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.018867924528301886,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9811320754716981
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9811320754716981
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Data Scientist / Data Engineer')",
                 "Mujer Cis": 0.10714285714285714,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8928571428571429
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8928571428571429
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.3170731707317073,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.024390243902439025,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6585365853658537
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6585365853658537
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.11768255884127941,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005431502715751358,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8768859384429692
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8768859384429692
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.09401709401709402,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.01282051282051282,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8931623931623932
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8931623931623932
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.11904761904761904,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8809523809523809
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8809523809523809
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Manager / Director')",
                 "Mujer Cis": 0.0893854748603352,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9106145251396648
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9106145251396648
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.15384615384615385,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8461538461538461
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8461538461538461
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.022857142857142857,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9771428571428571
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9771428571428571
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.18604651162790697,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.813953488372093
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.813953488372093
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.14124293785310735,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005649717514124294,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8531073446327684
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8531073446327684
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.27044025157232704,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7295597484276729
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7295597484276729
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.8292682926829268,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.17073170731707318
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.17073170731707318
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 1.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.0
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'SysAdmin / DevOps / SRE')",
                 "Mujer Cis": 0.018907563025210083,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0063025210084033615,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9747899159663865
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9747899159663865
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2019-02-15 00:00:00'), 'UX')",
                 "Mujer Cis": 0.39285714285714285,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6071428571428571
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6071428571428571
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.06741573033707865,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9325842696629213
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9325842696629213
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'BI Analyst / Data Analyst')",
                 "Mujer Cis": 0.18181818181818182,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.030303030303030304,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7878787878787878
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7878787878787878
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.2978723404255319,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7021276595744681
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7021276595744681
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.189873417721519,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.012658227848101266,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7974683544303798
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7974683544303798
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.05128205128205128,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9487179487179487
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9487179487179487
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Data Scientist / Data Engineer')",
                 "Mujer Cis": 0.07692307692307693,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.019230769230769232,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9038461538461539
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9038461538461539
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.47368421052631576,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.5263157894736842
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.5263157894736842
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.12889983579638753,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0049261083743842365,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8661740558292282
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8661740558292282
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.0761904761904762,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.01904761904761905,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9047619047619048
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9047619047619048
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.11627906976744186,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8837209302325582
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8837209302325582
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Manager / Director')",
                 "Mujer Cis": 0.0782608695652174,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9217391304347826
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9217391304347826
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.09090909090909091,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9090909090909091
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9090909090909091
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.0410958904109589,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.958904109589041
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.958904109589041
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.2222222222222222,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7777777777777778
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7777777777777778
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.26136363636363635,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.011363636363636364,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7272727272727273
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7272727272727273
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.29285714285714287,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7071428571428572
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7071428571428572
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.8260869565217391,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.17391304347826086
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.17391304347826086
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.3333333333333333,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6666666666666666
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6666666666666666
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'SysAdmin / DevOps / SRE')",
                 "Mujer Cis": 0.037267080745341616,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9627329192546584
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9627329192546584
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.03825136612021858,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.00546448087431694,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9562841530054644
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9562841530054644
             },
             {
                 "name": "(Timestamp('2019-08-15 00:00:00'), 'UX')",
                 "Mujer Cis": 0.5625,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.4375
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.4375
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.050724637681159424,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9492753623188406
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9492753623188406
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'BI Analyst / Data Analyst')",
                 "Mujer Cis": 0.2655367231638418,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.011299435028248588,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7231638418079096
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7231638418079096
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.2545454545454545,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.00909090909090909,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7363636363636363
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7363636363636363
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.22377622377622378,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7762237762237763
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7762237762237763
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Data Scientist / Data Engineer')",
                 "Mujer Cis": 0.1328125,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8671875
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8671875
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.3793103448275862,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6206896551724138
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6206896551724138
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.11780697779791573,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005437245129134572,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8767557770729497
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8767557770729497
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.07389162561576355,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9261083743842364
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9261083743842364
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.19718309859154928,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8028169014084507
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8028169014084507
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Manager / Director')",
                 "Mujer Cis": 0.08755760368663594,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.009216589861751152,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9032258064516129
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9032258064516129
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 1.0
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 1.0
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.022900763358778626,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9770992366412213
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9770992366412213
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.2692307692307692,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.019230769230769232,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7115384615384616
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7115384615384616
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.2033898305084746,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005649717514124294,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7909604519774012
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7909604519774012
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.30451127819548873,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6954887218045113
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6954887218045113
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.6153846153846154,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.38461538461538464
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.38461538461538464
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.15217391304347827,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8478260869565217
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8478260869565217
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'SysAdmin / DevOps / SRE')",
                 "Mujer Cis": 0.03361344537815126,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005042016806722689,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9613445378151261
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9613445378151261
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.0744047619047619,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.002976190476190476,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9226190476190477
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9226190476190477
             },
             {
                 "name": "(Timestamp('2020-02-02 00:00:00'), 'UX')",
                 "Mujer Cis": 0.43478260869565216,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.021739130434782608,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.5434782608695652
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.5434782608695652
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.04790419161676647,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005988023952095809,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9461077844311377
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9461077844311377
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'BI Analyst / Data Analyst')",
                 "Mujer Cis": 0.265625,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.734375
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.734375
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.37037037037037035,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.6296296296296297
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.6296296296296297
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.2517985611510791,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.007194244604316547,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7410071942446043
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7410071942446043
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.07142857142857142,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9285714285714286
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9285714285714286
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Data Scientist / Data Engineer')",
                 "Mujer Cis": 0.11029411764705882,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.022058823529411766,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8676470588235294
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8676470588235294
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.5490196078431373,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.45098039215686275
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.45098039215686275
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.13234653896386592,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0060949063996517195,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8615585546364823
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8615585546364823
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.06796116504854369,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.009708737864077669,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9223300970873787
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9223300970873787
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.09090909090909091,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9090909090909091
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9090909090909091
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Manager / Director')",
                 "Mujer Cis": 0.10043668122270742,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.004366812227074236,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8951965065502183
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8951965065502183
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.13043478260869565,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.8695652173913043
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.8695652173913043
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.051094890510948905,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.948905109489051
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.948905109489051
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.2391304347826087,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7608695652173914
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7608695652173914
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.25925925925925924,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7407407407407407
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7407407407407407
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.29338842975206614,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.004132231404958678,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7024793388429752
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7024793388429752
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.7115384615384616,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.28846153846153844
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.28846153846153844
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.2222222222222222,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.7777777777777778
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.7777777777777778
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'SysAdmin / DevOps / SRE')",
                 "Mujer Cis": 0.032448377581120944,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0058997050147492625,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9616519174041298
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9616519174041298
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.05483028720626632,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.005221932114882507,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.9399477806788512
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.9399477806788512
             },
             {
                 "name": "(Timestamp('2020-08-15 00:00:00'), 'UX')",
                 "Mujer Cis": 0.5952380952380952,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0,
-                "Varón Cis": 0.40476190476190477
+                "Prefiero no decir": 0.0,
+                "Varon Cis": 0.40476190476190477
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.03968253968253968,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.015873015873015872,
-                "Prefiero No Decir": 0.0873015873015873,
-                "Varón Cis": 0.8571428571428571
+                "Prefiero no decir": 0.0873015873015873,
+                "Varon Cis": 0.8571428571428571
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'BI Analyst / Data Analyst')",
                 "Mujer Cis": 0.25,
-                "No Binarie": 0.014285714285714285,
+                "No binarie": 0.014285714285714285,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.05,
-                "Varón Cis": 0.6857142857142857
+                "Prefiero no decir": 0.05,
+                "Varon Cis": 0.6857142857142857
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.27586206896551724,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.008620689655172414,
-                "Prefiero No Decir": 0.0603448275862069,
-                "Varón Cis": 0.6551724137931034
+                "Prefiero no decir": 0.0603448275862069,
+                "Varon Cis": 0.6551724137931034
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.20454545454545456,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.045454545454545456,
-                "Varón Cis": 0.75
+                "Prefiero no decir": 0.045454545454545456,
+                "Varon Cis": 0.75
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.02040816326530612,
-                "Varón Cis": 0.9795918367346939
+                "Prefiero no decir": 0.02040816326530612,
+                "Varon Cis": 0.9795918367346939
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Data Engineer')",
                 "Mujer Cis": 0.10112359550561797,
-                "No Binarie": 0.011235955056179775,
+                "No binarie": 0.011235955056179775,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.07865168539325842,
-                "Varón Cis": 0.8089887640449438
+                "Prefiero no decir": 0.07865168539325842,
+                "Varon Cis": 0.8089887640449438
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.13043478260869565,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.010869565217391304,
-                "Prefiero No Decir": 0.08695652173913043,
-                "Varón Cis": 0.7717391304347826
+                "Prefiero no decir": 0.08695652173913043,
+                "Varon Cis": 0.7717391304347826
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.35294117647058826,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.08823529411764706,
-                "Varón Cis": 0.5588235294117647
+                "Prefiero no decir": 0.08823529411764706,
+                "Varon Cis": 0.5588235294117647
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.1368515205724508,
-                "No Binarie": 0.007602862254025045,
+                "No binarie": 0.007602862254025045,
                 "Otros": 0.0031305903398926656,
-                "Prefiero No Decir": 0.04338103756708408,
-                "Varón Cis": 0.8090339892665475
+                "Prefiero no decir": 0.04338103756708408,
+                "Varon Cis": 0.8090339892665475
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.05240174672489083,
-                "No Binarie": 0.004366812227074236,
+                "No binarie": 0.004366812227074236,
                 "Otros": 0.004366812227074236,
-                "Prefiero No Decir": 0.043668122270742356,
-                "Varón Cis": 0.8951965065502183
+                "Prefiero no decir": 0.043668122270742356,
+                "Varon Cis": 0.8951965065502183
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.13186813186813187,
-                "No Binarie": 0.01098901098901099,
+                "No binarie": 0.01098901098901099,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.054945054945054944,
-                "Varón Cis": 0.8021978021978022
+                "Prefiero no decir": 0.054945054945054944,
+                "Varon Cis": 0.8021978021978022
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Manager / Director')",
                 "Mujer Cis": 0.07456140350877193,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0043859649122807015,
-                "Prefiero No Decir": 0.03508771929824561,
-                "Varón Cis": 0.8859649122807017
+                "Prefiero no decir": 0.03508771929824561,
+                "Varon Cis": 0.8859649122807017
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.15384615384615385,
-                "Varón Cis": 0.8461538461538461
+                "Prefiero no decir": 0.15384615384615385,
+                "Varon Cis": 0.8461538461538461
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.05357142857142857,
-                "No Binarie": 0.008928571428571428,
+                "No binarie": 0.008928571428571428,
                 "Otros": 0.008928571428571428,
-                "Prefiero No Decir": 0.044642857142857144,
-                "Varón Cis": 0.8839285714285714
+                "Prefiero no decir": 0.044642857142857144,
+                "Varon Cis": 0.8839285714285714
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.38596491228070173,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.017543859649122806,
-                "Varón Cis": 0.5964912280701754
+                "Prefiero no decir": 0.017543859649122806,
+                "Varon Cis": 0.5964912280701754
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.30120481927710846,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.04216867469879518,
-                "Varón Cis": 0.6566265060240963
+                "Prefiero no decir": 0.04216867469879518,
+                "Varon Cis": 0.6566265060240963
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.3125,
-                "No Binarie": 0.008333333333333333,
+                "No binarie": 0.008333333333333333,
                 "Otros": 0.0125,
-                "Prefiero No Decir": 0.03333333333333333,
-                "Varón Cis": 0.6333333333333333
+                "Prefiero no decir": 0.03333333333333333,
+                "Varon Cis": 0.6333333333333333
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.6333333333333333,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.016666666666666666,
-                "Varón Cis": 0.35
+                "Prefiero no decir": 0.016666666666666666,
+                "Varon Cis": 0.35
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.21052631578947367,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.02631578947368421,
-                "Prefiero No Decir": 0.07894736842105263,
-                "Varón Cis": 0.6842105263157895
+                "Prefiero no decir": 0.07894736842105263,
+                "Varon Cis": 0.6842105263157895
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'SysAdmin / DevOps / SRE')",
                 "Mujer Cis": 0.0430622009569378,
-                "No Binarie": 0.001594896331738437,
+                "No binarie": 0.001594896331738437,
                 "Otros": 0.001594896331738437,
-                "Prefiero No Decir": 0.05263157894736842,
-                "Varón Cis": 0.9011164274322169
+                "Prefiero no decir": 0.05263157894736842,
+                "Varon Cis": 0.9011164274322169
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.05434782608695652,
-                "No Binarie": 0.002717391304347826,
+                "No binarie": 0.002717391304347826,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.043478260869565216,
-                "Varón Cis": 0.8994565217391305
+                "Prefiero no decir": 0.043478260869565216,
+                "Varon Cis": 0.8994565217391305
             },
             {
                 "name": "(Timestamp('2021-02-15 00:00:00'), 'UX')",
                 "Mujer Cis": 0.6351351351351351,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.013513513513513514,
-                "Prefiero No Decir": 0.05405405405405406,
-                "Varón Cis": 0.2972972972972973
+                "Prefiero no decir": 0.05405405405405406,
+                "Varon Cis": 0.2972972972972973
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.05511811023622047,
-                "No Binarie": 0.015748031496062992,
+                "No binarie": 0.015748031496062992,
                 "Otros": 0.015748031496062992,
-                "Prefiero No Decir": 0.03937007874015748,
-                "Varón Cis": 0.8740157480314961
+                "Prefiero no decir": 0.03937007874015748,
+                "Varon Cis": 0.8740157480314961
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'BI Analyst / Data Analyst')",
                 "Mujer Cis": 0.3184713375796178,
-                "No Binarie": 0.012738853503184714,
+                "No binarie": 0.012738853503184714,
                 "Otros": 0.01910828025477707,
-                "Prefiero No Decir": 0.025477707006369428,
-                "Varón Cis": 0.6242038216560509
+                "Prefiero no decir": 0.025477707006369428,
+                "Varon Cis": 0.6242038216560509
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.34,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.01,
-                "Prefiero No Decir": 0.05,
-                "Varón Cis": 0.6
+                "Prefiero no decir": 0.05,
+                "Varon Cis": 0.6
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.18446601941747573,
-                "No Binarie": 0.009708737864077669,
+                "No binarie": 0.009708737864077669,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.06796116504854369,
-                "Varón Cis": 0.7378640776699029
+                "Prefiero no decir": 0.06796116504854369,
+                "Varon Cis": 0.7378640776699029
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.08108108108108109,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.13513513513513514,
-                "Varón Cis": 0.7837837837837838
+                "Prefiero no decir": 0.13513513513513514,
+                "Varon Cis": 0.7837837837837838
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Data Engineer')",
                 "Mujer Cis": 0.09375,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.010416666666666666,
-                "Prefiero No Decir": 0.020833333333333332,
-                "Varón Cis": 0.875
+                "Prefiero no decir": 0.020833333333333332,
+                "Varon Cis": 0.875
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.21739130434782608,
-                "No Binarie": 0.010869565217391304,
+                "No binarie": 0.010869565217391304,
                 "Otros": 0.021739130434782608,
-                "Prefiero No Decir": 0.043478260869565216,
-                "Varón Cis": 0.7065217391304348
+                "Prefiero no decir": 0.043478260869565216,
+                "Varon Cis": 0.7065217391304348
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.3684210526315789,
-                "No Binarie": 0.05263157894736842,
+                "No binarie": 0.05263157894736842,
                 "Otros": 0.02631578947368421,
-                "Prefiero No Decir": 0.05263157894736842,
-                "Varón Cis": 0.5
+                "Prefiero no decir": 0.05263157894736842,
+                "Varon Cis": 0.5
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.1508034610630408,
-                "No Binarie": 0.006180469715698393,
+                "No binarie": 0.006180469715698393,
                 "Otros": 0.016893283889575606,
-                "Prefiero No Decir": 0.03955500618046971,
-                "Varón Cis": 0.7865677791512155
+                "Prefiero no decir": 0.03955500618046971,
+                "Varon Cis": 0.7865677791512155
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.07432432432432433,
-                "No Binarie": 0.013513513513513514,
+                "No binarie": 0.013513513513513514,
                 "Otros": 0.02027027027027027,
-                "Prefiero No Decir": 0.04054054054054054,
-                "Varón Cis": 0.8513513513513513
+                "Prefiero no decir": 0.04054054054054054,
+                "Varon Cis": 0.8513513513513513
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.175,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0375,
-                "Prefiero No Decir": 0.0375,
-                "Varón Cis": 0.75
+                "Prefiero no decir": 0.0375,
+                "Varon Cis": 0.75
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Manager / Director')",
                 "Mujer Cis": 0.05,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.025,
-                "Prefiero No Decir": 0.0625,
-                "Varón Cis": 0.8625
+                "Prefiero no decir": 0.0625,
+                "Varon Cis": 0.8625
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.0,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.1,
-                "Prefiero No Decir": 0.2,
-                "Varón Cis": 0.7
+                "Prefiero no decir": 0.2,
+                "Varon Cis": 0.7
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.03225806451612903,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.03225806451612903,
-                "Prefiero No Decir": 0.06451612903225806,
-                "Varón Cis": 0.8709677419354839
+                "Prefiero no decir": 0.06451612903225806,
+                "Varon Cis": 0.8709677419354839
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.2676056338028169,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.014084507042253521,
-                "Prefiero No Decir": 0.056338028169014086,
-                "Varón Cis": 0.6619718309859155
+                "Prefiero no decir": 0.056338028169014086,
+                "Varon Cis": 0.6619718309859155
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.2393617021276596,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.010638297872340425,
-                "Prefiero No Decir": 0.03723404255319149,
-                "Varón Cis": 0.7127659574468085
+                "Prefiero no decir": 0.03723404255319149,
+                "Varon Cis": 0.7127659574468085
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.29133858267716534,
-                "No Binarie": 0.011811023622047244,
+                "No binarie": 0.011811023622047244,
                 "Otros": 0.011811023622047244,
-                "Prefiero No Decir": 0.031496062992125984,
-                "Varón Cis": 0.6535433070866141
+                "Prefiero no decir": 0.031496062992125984,
+                "Varon Cis": 0.6535433070866141
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.7464788732394366,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.014084507042253521,
-                "Varón Cis": 0.23943661971830985
+                "Prefiero no decir": 0.014084507042253521,
+                "Varon Cis": 0.23943661971830985
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.2631578947368421,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.02631578947368421,
-                "Varón Cis": 0.7105263157894737
+                "Prefiero no decir": 0.02631578947368421,
+                "Varon Cis": 0.7105263157894737
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'SysAdmin / DevOps / SRE')",
                 "Mujer Cis": 0.0379746835443038,
-                "No Binarie": 0.006329113924050633,
+                "No binarie": 0.006329113924050633,
                 "Otros": 0.0189873417721519,
-                "Prefiero No Decir": 0.04430379746835443,
-                "Varón Cis": 0.8924050632911392
+                "Prefiero no decir": 0.04430379746835443,
+                "Varon Cis": 0.8924050632911392
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.0625,
-                "No Binarie": 0.008522727272727272,
+                "No binarie": 0.008522727272727272,
                 "Otros": 0.014204545454545454,
-                "Prefiero No Decir": 0.03125,
-                "Varón Cis": 0.8835227272727273
+                "Prefiero no decir": 0.03125,
+                "Varon Cis": 0.8835227272727273
             },
             {
                 "name": "(Timestamp('2021-08-23 00:00:00'), 'UX')",
                 "Mujer Cis": 0.5833333333333334,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.047619047619047616,
-                "Varón Cis": 0.36904761904761907
+                "Prefiero no decir": 0.047619047619047616,
+                "Varon Cis": 0.36904761904761907
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Architect')",
                 "Mujer Cis": 0.04,
-                "No Binarie": 0.008,
+                "No binarie": 0.008,
                 "Otros": 0.008,
-                "Prefiero No Decir": 0.056,
-                "Varón Cis": 0.888
+                "Prefiero no decir": 0.056,
+                "Varon Cis": 0.888
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'BI Analyst / Data Analyst')",
                 "Mujer Cis": 0.33540372670807456,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.031055900621118012,
-                "Prefiero No Decir": 0.024844720496894408,
-                "Varón Cis": 0.6086956521739131
+                "Prefiero no decir": 0.024844720496894408,
+                "Varon Cis": 0.6086956521739131
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Business Analyst')",
                 "Mujer Cis": 0.2978723404255319,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.02127659574468085,
-                "Prefiero No Decir": 0.02127659574468085,
-                "Varón Cis": 0.6595744680851063
+                "Prefiero no decir": 0.02127659574468085,
+                "Varon Cis": 0.6595744680851063
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Consultant')",
                 "Mujer Cis": 0.17073170731707318,
-                "No Binarie": 0.008130081300813009,
+                "No binarie": 0.008130081300813009,
                 "Otros": 0.024390243902439025,
-                "Prefiero No Decir": 0.04065040650406504,
-                "Varón Cis": 0.7560975609756098
+                "Prefiero no decir": 0.04065040650406504,
+                "Varon Cis": 0.7560975609756098
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'DBA')",
                 "Mujer Cis": 0.04,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.08,
-                "Varón Cis": 0.88
+                "Prefiero no decir": 0.08,
+                "Varon Cis": 0.88
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Data Engineer')",
                 "Mujer Cis": 0.1111111111111111,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.018518518518518517,
-                "Prefiero No Decir": 0.009259259259259259,
-                "Varón Cis": 0.8611111111111112
+                "Prefiero no decir": 0.009259259259259259,
+                "Varon Cis": 0.8611111111111112
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Data Scientist')",
                 "Mujer Cis": 0.23214285714285715,
-                "No Binarie": 0.008928571428571428,
+                "No binarie": 0.008928571428571428,
                 "Otros": 0.017857142857142856,
-                "Prefiero No Decir": 0.05357142857142857,
-                "Varón Cis": 0.6875
+                "Prefiero no decir": 0.05357142857142857,
+                "Varon Cis": 0.6875
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Designer')",
                 "Mujer Cis": 0.4375,
-                "No Binarie": 0.0625,
+                "No binarie": 0.0625,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.0625,
-                "Varón Cis": 0.4375
+                "Prefiero no decir": 0.0625,
+                "Varon Cis": 0.4375
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Developer')",
                 "Mujer Cis": 0.1309931506849315,
-                "No Binarie": 0.005565068493150685,
+                "No binarie": 0.005565068493150685,
                 "Otros": 0.02011986301369863,
-                "Prefiero No Decir": 0.04238013698630137,
-                "Varón Cis": 0.8009417808219178
+                "Prefiero no decir": 0.04238013698630137,
+                "Varon Cis": 0.8009417808219178
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'HelpDesk')",
                 "Mujer Cis": 0.06172839506172839,
-                "No Binarie": 0.018518518518518517,
+                "No binarie": 0.018518518518518517,
                 "Otros": 0.018518518518518517,
-                "Prefiero No Decir": 0.04938271604938271,
-                "Varón Cis": 0.8518518518518519
+                "Prefiero no decir": 0.04938271604938271,
+                "Varon Cis": 0.8518518518518519
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Infosec')",
                 "Mujer Cis": 0.07317073170731707,
-                "No Binarie": 0.024390243902439025,
+                "No binarie": 0.024390243902439025,
                 "Otros": 0.036585365853658534,
-                "Prefiero No Decir": 0.04878048780487805,
-                "Varón Cis": 0.8170731707317073
+                "Prefiero no decir": 0.04878048780487805,
+                "Varon Cis": 0.8170731707317073
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Manager / Director')",
                 "Mujer Cis": 0.09569377990430622,
-                "No Binarie": 0.009569377990430622,
+                "No binarie": 0.009569377990430622,
                 "Otros": 0.009569377990430622,
-                "Prefiero No Decir": 0.06698564593301436,
-                "Varón Cis": 0.8181818181818182
+                "Prefiero no decir": 0.06698564593301436,
+                "Varon Cis": 0.8181818181818182
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Middleware')",
                 "Mujer Cis": 0.17647058823529413,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.058823529411764705,
-                "Varón Cis": 0.7647058823529411
+                "Prefiero no decir": 0.058823529411764705,
+                "Varon Cis": 0.7647058823529411
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Networking')",
                 "Mujer Cis": 0.024390243902439025,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.012195121951219513,
-                "Prefiero No Decir": 0.0975609756097561,
-                "Varón Cis": 0.8658536585365854
+                "Prefiero no decir": 0.0975609756097561,
+                "Varon Cis": 0.8658536585365854
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Product Manager')",
                 "Mujer Cis": 0.3392857142857143,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.07142857142857142,
-                "Varón Cis": 0.5892857142857143
+                "Prefiero no decir": 0.07142857142857142,
+                "Varon Cis": 0.5892857142857143
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Project Manager')",
                 "Mujer Cis": 0.19393939393939394,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.024242424242424242,
-                "Prefiero No Decir": 0.030303030303030304,
-                "Varón Cis": 0.7515151515151515
+                "Prefiero no decir": 0.030303030303030304,
+                "Varon Cis": 0.7515151515151515
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'QA / Tester')",
                 "Mujer Cis": 0.3025210084033613,
-                "No Binarie": 0.004201680672268907,
+                "No binarie": 0.004201680672268907,
                 "Otros": 0.03361344537815126,
-                "Prefiero No Decir": 0.06302521008403361,
-                "Varón Cis": 0.5966386554621849
+                "Prefiero no decir": 0.06302521008403361,
+                "Varon Cis": 0.5966386554621849
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Recruiter / HR')",
                 "Mujer Cis": 0.6792452830188679,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.0,
-                "Prefiero No Decir": 0.018867924528301886,
-                "Varón Cis": 0.3018867924528302
+                "Prefiero no decir": 0.018867924528301886,
+                "Varon Cis": 0.3018867924528302
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Scrum Master')",
                 "Mujer Cis": 0.26666666666666666,
-                "No Binarie": 0.0,
+                "No binarie": 0.0,
                 "Otros": 0.03333333333333333,
-                "Prefiero No Decir": 0.03333333333333333,
-                "Varón Cis": 0.6666666666666666
+                "Prefiero no decir": 0.03333333333333333,
+                "Varon Cis": 0.6666666666666666
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'SysAdmin / DevOps / SRE')",
                 "Mujer Cis": 0.04745166959578207,
-                "No Binarie": 0.007029876977152899,
+                "No binarie": 0.007029876977152899,
                 "Otros": 0.0210896309314587,
-                "Prefiero No Decir": 0.06678383128295255,
-                "Varón Cis": 0.8576449912126538
+                "Prefiero no decir": 0.06678383128295255,
+                "Varon Cis": 0.8576449912126538
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'Technical Leader')",
                 "Mujer Cis": 0.03367003367003367,
-                "No Binarie": 0.003367003367003367,
+                "No binarie": 0.003367003367003367,
                 "Otros": 0.02356902356902357,
-                "Prefiero No Decir": 0.030303030303030304,
-                "Varón Cis": 0.9090909090909091
+                "Prefiero no decir": 0.030303030303030304,
+                "Varon Cis": 0.9090909090909091
             },
             {
                 "name": "(Timestamp('2022-02-21 00:00:00'), 'UX')",
                 "Mujer Cis": 0.6172839506172839,
-                "No Binarie": 0.024691358024691357,
+                "No binarie": 0.024691358024691357,
                 "Otros": 0.012345679012345678,
-                "Prefiero No Decir": 0.024691358024691357,
-                "Varón Cis": 0.32098765432098764
+                "Prefiero no decir": 0.024691358024691357,
+                "Varon Cis": 0.32098765432098764
             }
         ]
     },
@@ -2450,7 +2450,7 @@
                 "5": 0.05405405405405406
             },
             {
-                "name": "(Timestamp('2016-08-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2016-08-01 00:00:00'), 'Varon Cis')",
                 "1": 0.09169453734671126,
                 "2": 0.20819397993311037,
                 "3": 0.3879598662207358,
@@ -2466,7 +2466,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2017-02-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2017-02-01 00:00:00'), 'Varon Cis')",
                 "1": 0.13664055700609226,
                 "2": 0.36437481868291266,
                 "3": 0.4131128517551494,
@@ -2490,7 +2490,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2017-09-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2017-09-01 00:00:00'), 'Varon Cis')",
                 "1": 0.10578747628083492,
                 "2": 0.34321631878557873,
                 "3": 0.4437855787476281,
@@ -2514,7 +2514,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2018-03-01 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2018-03-01 00:00:00'), 'Varon Cis')",
                 "1": 0.12664981746700366,
                 "2": 0.33136759337264815,
                 "3": 0.43414771131704577,
@@ -2538,7 +2538,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2018-09-04 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2018-09-04 00:00:00'), 'Varon Cis')",
                 "1": 0.10201511335012595,
                 "2": 0.33123425692695213,
                 "3": 0.4452141057934509,
@@ -2562,7 +2562,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2019-02-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2019-02-15 00:00:00'), 'Varon Cis')",
                 "1": 0.10897782585181179,
                 "2": 0.34288804759329367,
                 "3": 0.43834505137912383,
@@ -2586,7 +2586,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2019-08-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2019-08-15 00:00:00'), 'Varon Cis')",
                 "1": 0.08222915042868277,
                 "2": 0.31293842556508183,
                 "3": 0.475448168355417,
@@ -2610,7 +2610,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2020-02-02 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2020-02-02 00:00:00'), 'Varon Cis')",
                 "1": 0.11865443425076452,
                 "2": 0.3296636085626911,
                 "3": 0.4340468909276249,
@@ -2634,7 +2634,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2020-08-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2020-08-15 00:00:00'), 'Varon Cis')",
                 "1": 0.1025692492974709,
                 "2": 0.31573665194700923,
                 "3": 0.4528301886792453,
@@ -2650,7 +2650,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'No binarie')",
                 "1": 0.10714285714285714,
                 "2": 0.25,
                 "3": 0.4642857142857143,
@@ -2666,7 +2666,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'Prefiero no decir')",
                 "1": 0.15658362989323843,
                 "2": 0.34519572953736655,
                 "3": 0.3879003558718861,
@@ -2674,7 +2674,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2021-02-15 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2021-02-15 00:00:00'), 'Varon Cis')",
                 "1": 0.09794040315512709,
                 "2": 0.3290972830850131,
                 "3": 0.4432515337423313,
@@ -2690,7 +2690,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'No binarie')",
                 "1": 0.05128205128205128,
                 "2": 0.28205128205128205,
                 "3": 0.4358974358974359,
@@ -2706,7 +2706,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'Prefiero no decir')",
                 "1": 0.11020408163265306,
                 "2": 0.31020408163265306,
                 "3": 0.4489795918367347,
@@ -2714,7 +2714,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2021-08-23 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2021-08-23 00:00:00'), 'Varon Cis')",
                 "1": 0.07211005103172842,
                 "2": 0.28644331040603505,
                 "3": 0.4852451741735079,
@@ -2730,7 +2730,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'No Binarie')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'No binarie')",
                 "1": 0.14705882352941177,
                 "2": 0.20588235294117646,
                 "3": 0.35294117647058826,
@@ -2746,7 +2746,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'Prefiero No Decir')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'Prefiero no decir')",
                 "1": 0.16279069767441862,
                 "2": 0.31007751937984496,
                 "3": 0.3875968992248062,
@@ -2754,7 +2754,7 @@
                 "5": 0.0
             },
             {
-                "name": "(Timestamp('2022-02-21 00:00:00'), 'Varón Cis')",
+                "name": "(Timestamp('2022-02-21 00:00:00'), 'Varon Cis')",
                 "1": 0.07747957992998833,
                 "2": 0.29358226371061846,
                 "3": 0.473512252042007,

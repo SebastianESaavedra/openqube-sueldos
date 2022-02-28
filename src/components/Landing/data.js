@@ -152,7 +152,7 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_percent'], isPercentual: true },
-                                caption: 'Porcentaje de encuestados por años de experiencia en la profesión. Se observa un mayor porcentaje de participantes con un año o menos de experiencia. Esto indica que hay más personas encuestadas trainee-junior respecto de la encuesta anterior.',
+                                caption: 'Porcentaje de personas encuestadas por años de experiencia en la profesión. Se observa una mayor participación de trainees/juniors (un año o menos de experiencia) con respecto a la encuesta anterior.',
                                 description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
                             },
                         ],
@@ -164,7 +164,7 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_in_company'], isPercentual: true },
-                                caption: 'Porcentaje de encuestados por años de antigüedad en su compañía actual.Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías con respecto a la última encuesta, en conjunto con el incremento de participantes trainee-junior.',
+                                caption: 'Porcentaje de personas encuestadas por años de antigüedad en su compañía actual. Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías con respecto a la última edición, en conjunto con el incremento de participantes trainee-junior.',
                                 description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
                             },
                         ],
@@ -176,7 +176,7 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_in_position'], isPercentual: true },
-                                caption: 'Porcentaje de encuestados por años de antigüedad en su puesto actual. Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías o dentro de la misma compañía con respecto a la última encuesta, en conjunto con el incremento de participantes trainee-junior.',
+                                caption: 'Porcentaje de personas encuestadas por años de antigüedad en su puesto actual. Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías o dentro de la misma compañía con respecto a la última encuesta, en conjunto con el incremento de participantes trainee-junior.',
                                 description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
                             },
                         ],
@@ -184,7 +184,7 @@ export default [
                 ],
             },
             { // sub-category
-                title: 'Educación',
+                title: 'Educación (preguntas opcionales)',
                 data: [
                     {  // section
                         title: 'Nivel de estudios alcanzado y estado actual',
@@ -250,24 +250,16 @@ export default [
                         ],
                     },
                     {
-                        title: '¿Realizaste cursos de especialización?',
-                        data: [
-                            { // tab
-                                title: '',
-                                component: 'Pie',
-                                props: { ...charts['specialization_percent'], isPercentual: true },
-                                description: 'Se observan valores similares a los de la encuesta pasada.',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Si realizaste, ¿Quién pagó por los cursos de especialización?',
+                        title: 'Si realizaste cursos de especialización, ¿Quién pagó por ellos?',
                         data: [
                             { // tab
                                 title: '',
                                 component: 'Pie',
                                 props: { ...charts['specialization_pays_percent'], isPercentual: true },
-                                description: 'Se observan valores similares a los de la encuesta pasada.',
+                                description: <div>
+                                    <p>El 81% de las personas encuestadas realizó cursos de especialización.</p>
+                                    <p>Se observan valores similares a los de la encuesta pasada.</p>
+                                </div>,
                             },
                         ],
                     },
@@ -291,7 +283,7 @@ export default [
                             {  // tab
                                 title: 'Absoluto',
                                 component: 'Barh', // graph
-                                props: { ...charts['demographics_gender_absolute'], isPercentual: false },
+                                props: { ...charts['demographics_gender_absolute'], isPercentual: false, fixed: 0 },
                                 description: <div>
                                     <p > Representatividad (en valor absoluto) según identidad de género</p>
                                    
@@ -549,7 +541,7 @@ export default [
                     },
                 ],
             },
-            { // sub-category
+            /*{ // sub-category
                 title: 'Según Región',
                 data: [
                     {  // section
@@ -591,7 +583,7 @@ export default [
                         ],
                     },
                 ],
-            },
+            },*/
             { // sub-category
                 title: 'Según Puesto',
                 data: [
@@ -663,9 +655,10 @@ export default [
                                 description: <div>
                                     <p>Respecto de la edición anterior, se evidencia una notoria disminución en la diferencia salarial entre el nivel universitario y doctorado.</p>
                                     <p>Se excluyen por defecto aquellos niveles de estudio que no cuentan con suficiente representación sobre la muestra.</p>
+                                    <p>No se observan variaciones en el sueldo por haber realizado cursos de especialización.</p>
                                 </div>
                             },
-                            {  // tab
+                            /*{  // tab
                                 title: 'Cursos / Especializaciones',
                                 component: 'Barh', // graph
                                 props: {
@@ -674,7 +667,7 @@ export default [
                                 },
                                 caption: 'Mediana salarial para quienes hicieron cursos de especialización y quienes no.',
                                 description: '',
-                            },
+                            },*/
                         ],
                     },
                     {  // section
@@ -806,7 +799,7 @@ export default [
                                 props: {
                                     data: charts['happy_gender'].data,
                                 },
-                                caption: 'Conformidad con el sueldo segun género',
+                                caption: '1=poco conforme / 4=muy conforme.',
                                 description: ''
                             },
                         ],
@@ -821,7 +814,7 @@ export default [
                                     data: charts['happy_seniority'].data,
  
                                 },
-                                caption: 'Conformidad con el sueldo segun seniority',
+                                caption: '1=poco conforme / 4=muy conforme.',
                                 description: ''
                             },
                         ],
@@ -1080,7 +1073,7 @@ export default [
                             {  // tab
                                 title: 'Absoluto',
                                 component: 'Barh', // graph
-                                props: { ...charts['demographics_gender_absolute'], isPercentual: false },
+                                props: { ...charts['demographics_gender_absolute'], isPercentual: false, fixed: 0 },
                                 description: <div>
                                     <p > Representatividad (en valor absoluto) según identidad de género</p>
                                 </div>,
@@ -1104,7 +1097,6 @@ export default [
                                         historic_charts['historic_gender_percent'].data
                                         .reduce((dates, row) => {
                                             const date = row.name.match(/(\d{4}-\d{2}-\d{2})/)[1]
-                                            console.log(genders, dates)
                                             return ({
                                             ...dates,
                                             [date]: {
@@ -1371,9 +1363,7 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: charts['leadership_gender_percent'].data,
-                                    //xDataKey: 'name',
-                                    //yDataKeys: genders,
+                                    data: charts['leadership_gender_percent'].data.filter(x => x.name === 'Sí'),
                                     isPercentual: true
                                 },
                                 description: <div>Se define posición de liderazgo (Si) la que tiene al menos 1 persona a su cargo.</div>,
@@ -1597,11 +1587,23 @@ export default [
                 
                 <h4>Análisis previos</h4>
                 <ul>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.01">Resultados de la encuesta de sueldos 2019.01</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.02">Resultados de la encuesta de sueldos 2019.02</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.01">Resultados de la encuesta de sueldos 2020.01</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.02">Resultados de la encuesta de sueldos 2020.02</a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://sueldos.openqube.io/encuesta-sueldos-2021.01/">Resultados de la encuesta de sueldos 2021.01</a></li>
+                    <li>2019
+                    <ul>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.01">diciembre-enero</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2019.02">julio-agosto</a></li>
+                    </ul>
+                    </li>
+                    <li>2020
+                    <ul>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.01">diciembre-enero</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://openqube.io/encuesta-sueldos-2020.02">julio-agosto</a></li>
+                    </ul>
+                    </li>
+                    <li>2021</li>
+                    <ul>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://sueldos.openqube.io/encuesta-sueldos-2021.01/">diciembre-enero</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://sueldos.openqube.io/encuesta-sueldos-2021.02/">julio-agosto</a></li>
+                    </ul>
                     
                 </ul>
             </div>

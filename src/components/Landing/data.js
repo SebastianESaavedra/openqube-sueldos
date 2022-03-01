@@ -277,7 +277,6 @@ export default [
                                 props: { ...charts['demographics_gender_percent'], isPercentual: true },
                                 description: <div>
                                     <p>Para mayor detalle sobre este tópico, recomendamos ver el apartado de <a href="#Genero">Género</a>.</p>
-                                    <p>Si te preguntás por qué no hay tantas mujeres, tal vez esta <a target="_blank" rel="noopener noreferrer" href="http://www.mujeresprogramadoras.com.ar">investigación de Chicas En Tecnología</a> te pueda dar una respuesta.</p>
                                 </div>,
                             },
                             {  // tab
@@ -738,7 +737,7 @@ export default [
                                     markNegativeValues: ['Senior', 'Semi-Senior', 'Junior'],
                                 },
                                 caption: 'Mediana salarial según plataformas y años de experiencia.',
-                                description: 'Se muestra por defecto las plataformas más utilizadas, cuya cantidad de menciones pase el umbral de 0.05%.'
+                                description: 'Se muestra por defecto las plataformas más utilizadas, cuya cantidad de menciones pase el umbral de 0.5%.'
                             },
                         ],
                     },

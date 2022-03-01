@@ -303,13 +303,14 @@ export default [
                         ],
                     },
                     {  // section
-                        title: 'Discapacidad',
+                        title: 'Personas con discapacidad o limitaciones funcionales/permanente',
                         data: [
                             {  // tab
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['discapacidad_percent'], isPercentual: true, isLogScale: true, minLogScale: 0.0003, },
-                                caption:  <p>Porcentajes de personas que reportaron tener alguna discapacidad, el  <strong>78.7</strong> % no informaron discapacidad</p>
+                                caption:  <p>Porcentajes de personas que reportaron tener alguna discapacidad, el  <strong>78.7</strong> % no informaron discapacidad</p>,
+                                description: <p>“... la discapacidad como un concepto que evoluciona y resulta de la interacción entre las personas con deficiencias y las barreras debidas a la actitud y al entorno que evitan su participación plena e inclusión plena y efectiva en la sociedad, en igualdad de condiciones con los demás”. (Convención Internacional sobre los Derechos de las Personas con Discapacidad, Preámbulo, Sección E, ONU -2006)</p>
                             },
                         ],
                     },
@@ -411,7 +412,7 @@ export default [
                         ]
                     },
                     /*{  // section
-                        title: 'Según edad', //TODO: REVISAR
+                        title: 'Según edad',
                         data: [
                             { //tab
                                 title: 'Varon Cis',
@@ -791,6 +792,21 @@ export default [
                 title: 'Conformidad con el sueldo',
                 data: [
                     {  // section
+                        title: '',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: {
+                                    data: charts['happy'].data.sort((a, b) => a.name.localeCompare(b.name)),
+                                    isLogScale: true
+                                },
+                                caption: 'Nivel de conformidad con los salarios, en escala logarítmica.',
+                                description: '1=poco conforme / 4=muy conforme.'
+                            },
+                        ],
+                    },
+                    {  // section
                         title: 'Según género',
                         data: [
                             {  // tab
@@ -800,8 +816,8 @@ export default [
                                     data: charts['happy_gender'].data,
                                     isLogScale: true
                                 },
-                                caption: '1=poco conforme / 4=muy conforme.',
-                                description: ''
+                                caption: 'Nivel de conformidad con los salarios según el género de las personas encuestadas, en escala logarítmica.',
+                                description: '1=poco conforme / 4=muy conforme.'
                             },
                         ],
                     },
@@ -813,11 +829,12 @@ export default [
                                 component: 'Barh', // graph
                                 props: {
                                     data: charts['happy_seniority'].data,
-                                    isLogScale: true
+                                    isLogScale: true,
+                                    fixed: 3,
  
                                 },
-                                caption: '1=poco conforme / 4=muy conforme.',
-                                description: ''
+                                caption: 'Nivel de conformidad con los salarios según el seniority  de las personas encuestadas, en escala logarítmica.',
+                                description: '1=poco conforme / 4=muy conforme.'
                             },
                         ],
                     },
@@ -887,7 +904,7 @@ export default [
                             {  // tab
                                 title: '',
                                 component: 'Barh', // graph
-                                props: { ...charts['recibis_algun_tipo_de_bono'], isLogScale: true, isPercentual: true },
+                                props: { ...charts['recibis_algun_tipo_de_bono_log'], isLogScale: true, isPercentual: true },
                                 caption:<p>Porcentaje de participantes que han recibido o no, bonos como parte de la compensación, en escala logarítimica, el <strong>
                                 {parseFloat(charts['recibe_algun_tipo_de_bono'].data.map(item => item.value)*100).toFixed(2)}</strong> % de los encuestados reciben algún tipo de bono</p>
                             
@@ -1035,6 +1052,19 @@ export default [
                             },
                         ],
                     },
+
+                    {  // section
+                        title: 'Empresas mejor consideradas',
+                        data: [
+                            {  // tab
+                                title: '',
+                                component: 'Barh', // graph
+                                props: { ...charts['top_10_companies'], isPercentual: false, fixed: 0 },
+                                description: 'Top 10 de las empresas mejores consideradas por las personas encuestadas.',
+                            },
+                        ],
+                    },
+                    
                     /*{  // section
                         title: '¿Presenciaste una situación de violencia laboral?',
                         data: [
@@ -1283,9 +1313,7 @@ export default [
                                     isLogScale: true,
                                 },
                                 caption: 'Porcentaje de las distintas identidades de género en cada grupo de sectores de la industria.',
-                                description: <p>
-                                    También podés ver el <a href="#Trabajo-Caracteristicas-de-las-Empresas-Actividad-Principal-de-la-Empresa">porcentaje de incidencia de cada sector de la industria sobre el total de la población censada</a>.
-                                </p>,
+                                description: '',
                             },
                         ],
                     },
@@ -1419,7 +1447,7 @@ export default [
                                         top5_languages.forEach(lang => filtered[lang] = x[lang])
                                         return filtered
                                     }),
-                                    isPercentual: true, isLogScale: true, minLogScale: 0.0006, cutoff: 15, sumOthers: true },
+                                    isPercentual: true, cutoff: 15, sumOthers: true },
                                 caption: 'Lenguajes de programación más utilizados de acuerdo a los años de experiencia de las personas encuestadas.',
                                 description: 'Los lenguajes de programación no son excluyentes, es decir puede haber más de uno por persona relevada. Los valores son porcentuales sobre el total de participantes.'
                             },

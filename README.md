@@ -37,7 +37,7 @@ Este colab limpia los datos y calcula los datos para luego enviarlos por json a 
 
 ### 🗃 Datasets listos para analizar
 
-- Datos limpios / pre-procesados por los scripts de Google colab publicados: [No histórico CLEAN](https://docs.google.com/spreadsheets/d/16wdYb05ytcGPVajV8TqI4Po7QkHbIR6FJxR-MMIrLIY/edit?usp=sharing). Si buscás ir directo a analizar, sin tener que lidiar con las típicas inconsistencias, este es tu dataset.
+- Datos limpios / pre-procesados por los scripts de Google colab publicados: [No histórico CLEAN](https://docs.google.com/spreadsheets/d/1M37-sZVekBzwMLrmcRMmft6YFz1CBnTh-6ORrXb5B3w/edit?usp=sharing). Si buscás ir directo a analizar, sin tener que lidiar con las típicas inconsistencias, este es tu dataset.
 
 
 - Datos sin procesar, tal cual se obtuvieron de la encuesta (anunciado en el blog): [No histórico](https://github.com/openqube/openqube-sueldos/blob/release/2022.01/data/csv/argentina/2022.01.csv)

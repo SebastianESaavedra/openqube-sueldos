@@ -152,8 +152,11 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_percent'], isPercentual: true },
-                                caption: 'Porcentaje de personas encuestadas por años de experiencia en la profesión. Se observa una mayor participación de trainees/juniors (un año o menos de experiencia) con respecto a la encuesta anterior.',
-                                description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
+                                caption: 'Porcentaje de personas encuestadas por años de experiencia en la profesión.',
+                                description: <div>
+                                    <p>Se observa una mayor participación de trainees/juniors (un año o menos de experiencia) con respecto a la encuesta anterior.</p>
+                                    Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.
+                                </div>
                             },
                         ],
                     },
@@ -164,8 +167,11 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_in_company'], isPercentual: true },
-                                caption: 'Porcentaje de personas encuestadas por años de antigüedad en su compañía actual. Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías con respecto a la última edición, en conjunto con el incremento de participantes trainee-junior.',
-                                description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
+                                caption: 'Porcentaje de personas encuestadas por años de antigüedad en su compañía actual.',
+                                description: <div>
+                                    <p>Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías con respecto a la última edición, en conjunto con el incremento de participantes trainee-junior.</p>
+                                    Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.
+                                </div>
                             },
                         ],
                     },
@@ -176,8 +182,11 @@ export default [
                                 title: 'Todos',
                                 component: 'Barh', // graph
                                 props: { ...charts['experience_years_in_position'], isPercentual: true },
-                                caption: 'Porcentaje de personas encuestadas por años de antigüedad en su puesto actual. Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías o dentro de la misma compañía con respecto a la última encuesta, en conjunto con el incremento de participantes trainee-junior.',
-                                description: <p>Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.</p>
+                                caption: 'Porcentaje de personas encuestadas por años de antigüedad en su puesto actual.',
+                                description: <div>
+                                    <p>Respecto a la última edición el porcentaje correspondiente al rango de 0-1 año aumentó. Esto puede estar provocado por una mayor rotación entre compañías o dentro de la misma compañía con respecto a la última encuesta, en conjunto con el incremento de participantes trainee-junior.</p>
+                                    Los datos fueron agrupados por rangos de años, en conjuntos arbitrarios.
+                                </div>
                             },
                         ],
                     },
@@ -277,6 +286,10 @@ export default [
                                 props: { ...charts['demographics_gender_percent'], isPercentual: true },
                                 description: <div>
                                     <p>Para mayor detalle sobre este tópico, recomendamos ver el apartado de <a href="#Genero">Género</a>.</p>
+                                    <p>Si te preguntás por qué no hay tantas mujeres, tal vez esta <a target='_blank' href='http://www.mujeresprogramadoras.com.ar/' rel="noopener noreferrer">investigación de Chicas En Tecnología</a> o este artículo de <a target='_blank' href='https://lac.unwomen.org/sites/default/files/Field%20Office%20Americas/Documentos/Publicaciones/2020/09/Mujeres%20en%20STEM%20ONU%20Mujeres%20Unesco%20SP32922.pdf' rel="noopener noreferrer">Mujeres en áreas STEM de ONU MUJERES</a> te puedan acercar a una respuesta.</p>
+                                    <p>A la vez se observa la falta de datos estadísticos para entender las particularidades de la población LGBTIQ+ (y otros grupos subrepresentados) en el área TECH/STEM*. Su visibilización permitiría comprender y promover políticas y acciones ajustadas en pos de la equidad. Dejamos esta investigación <a target='_blank' href='https://www.researchgate.net/publication/323767064_Coming_out_in_STEM_Factors_affecting_retention_of_sexual_minority_STEM_students' rel="noopener noreferrer">Coming Out in STEM. Factors affecting retention of sexual minority STEM students</a>.</p>
+                                    <p>En este resumen de <a target='_blank' href='https://www.catalyst.org/research/lesbian-gay-bisexual-and-transgender-workplace-issues/' rel="noopener noreferrer">investigaciones de Catalyst.org</a> se muestran datos sobre la población LGBTIQ+.</p>
+                                    <p>* A lo largo del año generaremos análisis que crucen los datos recabados en esta encuesta.</p>
                                 </div>,
                             },
                             {  // tab
@@ -701,11 +714,11 @@ export default [
                             //         <p>Ver más en sobre la representatividad de la muestra en el apartado <a href="#Metodologia">Metodología</a>.</p>
                             //     </div>,
                             // },
-                            /*{  // tab
+                            {  // tab
                                 title: 'Por carrera y estado',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: [],/*charts['carrera_estado_salary_median'].data
+                                    data: charts['carrera_estado_salary_median'].data
                                         .sort((a, b) => b['Completado'] - a['Completado']),
                                     currency: 'AR$',
                                     markNegativeValues: ['Completado', 'En curso', 'Incompleto'],
@@ -715,7 +728,7 @@ export default [
                                     <p>Para este ranking entre carreras, hemos aplicado un umbral mínimo de muestras requeridas, del 0.5% sobre las 30 más frecuentes.  Aquellas carreas que no cuenten con dicho mínimo de respuestas, consideraremos que tienen <a href="#Perfil-de-participantes-Educacion-Cuales-son-las-carreras-mas-estudiadas">datos insuficientes</a> y solo se mostrarán al clickear "ver más" en color grisado.</p>
                                     <p>Más sobre la representatividad de la muestra en el apartado <a href="#Metodologia">Metodología</a>.</p>
                                 </div>,
-                            },*/
+                            },
                         ],
                     },
                 ],
@@ -755,7 +768,7 @@ export default [
                                     markNegativeValues: ['Senior', 'Semi-Senior', 'Junior'],
                                 },
                                 caption: 'Mediana salarial según lenguaje de programación años de experiencia.',
-                                description: 'Se muestra por defecto los lenguajes de programación más utilizados, cuya cantidad de menciones esté por encima del umbral de 0.05%.'
+                                description: 'Se muestra por defecto los lenguajes de programación más utilizados, cuya cantidad de menciones esté por encima del umbral de 0.5%.'
                             },
                         ],
                     },
@@ -1012,7 +1025,7 @@ export default [
                         title: '¿Cuánta gente recomienda su lugar de trabajo?',
                         data: [
                             {  // tab
-                                title: 'Total',
+                                title: 'Porcentaje clases',
                                 component: 'Barh', // graph
                                 props: { data: charts['la_recomendas_como_un_buen_lugar_para_trabajar'].data.sort((a, b) => a.name.localeCompare(b.name)), isPercentual: true },
                                 description: (<span>
@@ -1041,6 +1054,8 @@ export default [
                                 props: { ...charts['good_place_incl'], isPercentual: true, cutoff: 5 },
                                 description: (<div>
                                     <p>Se evidencia una relación entre la promoción del lugar de trabajo y el compromiso que el mismo tiene con la diversidad.</p>
+                                    <p>Dicho compromiso es fundamental para combatir las injusticias estructurales segregatorias y expulsivas,que reproducen discriminación de manera consciente o inconsciente.</p>
+                                    <p>Empresas que trabajan la diversidad de forma consciente y sostenida en políticas internas promueven espacios laborales más equitativos y justos para todas las personas.</p>
                                     <p>En <a href="#Trabajo-Caracteristicas-de-las-Empresas-De-existir-Como-calificas-las-politicas-de-diversidad-e-inclusion-de-tu-empresa">este otro gráfico</a> puede verse las calificaciones brindadas a sus empleadores según el compromiso con la diversidad que estos tienen.</p>
                                 </div>),
                             },
@@ -1054,9 +1069,10 @@ export default [
                                 title: '',
                                 component: 'Barh', // graph
                                 props: { ...charts['politicas_diversidad_e_inclusion'], isPercentual: true },
-                                description: (<span>
+                                description: (<div>
                                     Un 75% considera que las políticas de inclusión son buenas, muy buenas o excelentes. Este valor es muy similar al anterior (72.5%).
-                                </span>),
+                                    <p>Si bien un 75% de las personas que respondieron la encuesta consideran que las políticas de diversidad e inclusión son buenas, muy buenas o excelentes, hay un 25% que las consideran regular o malas.</p>
+                                </div>),
                             },
                         ],
                     },
@@ -1100,6 +1116,11 @@ export default [
         data: [
             { // sub-category
                 title: 'Identidad de género',
+                content: (
+                    <div>
+                        Al igual que en la edición anterior, la pregunta sobre identidad de género consta de un listado de opciones fijas (que incluye “prefiero no responder”) y la posibilidad de ingresar texto libre. Esta modalidad visibiliza la pluralidad de identidades, no replicando categorías hegemónicas históricamente sostenidas. Por otra parte, se puede lograr un análisis más aproximado a las diferentes vivencias individuales en el cruce de variables.
+                    </div>
+                ),
                 data: [
                     {  // section
                         title: '',
@@ -1108,7 +1129,11 @@ export default [
                                 title: 'Porcentaje',
                                 component: 'Barh', // graph
                                 props: { ...charts['demographics_gender_percent'], isPercentual: true },
-                                description: '',
+                                description: <div>
+                                    <p>De las personas que participaron de la encuesta, ~77% se identifican como hombres cis, mientras que ~15% como mujeres cis, el 4,66% respondieron que prefieren no decir y el 0,61% se identifican como personas no binaries.</p>
+                                    <p>Si bien en este apartado mantuvimos la lógica general del informe de no incluir dentro de los gráficos los conjuntos que tuvieron una representación menor al 0.5% de la muestra, mencionamos aquellas identidades de género que están subrepresentadas, hecho que refleja inequidades por múltiples barreras e injusticias sociales.</p>
+                                    <p>Como es de esperar, las inequidades históricas y sistemáticas por género, se sostienen.</p>
+                                </div>,
                             },
                             {  // tab
                                 title: 'Absoluto',
@@ -1119,8 +1144,8 @@ export default [
                                 </div>,
                             },
                         ],
-                    },
 
+                    },
                 ],
             },
             { // sub-category
@@ -1183,7 +1208,11 @@ export default [
                                     customStroke: { 'Otros': '#ccc' },
                                 },
                                 caption: 'Serie histórica de salarios basada en encuestas anteriores.',
-                                description: 'Todos los valores de salarios aquí expresados tanto en moneda local, como en dólares, refieren a salario bruto: previo a cargas sociales e impuestos.',
+                                description: <div>
+                                    <p>Todos los valores de salarios aquí expresados tanto en moneda local, como en dólares, refieren a salario bruto: previo a cargas sociales e impuestos.</p>
+                                    <p>La brecha salarial entre hombres cis y mujeres cis es de  17, 09%. Esto quiere decir que las mujeres cis ganan unos  0,80 centavos por cada peso que ganan los varones cis.</p>
+                                    <p>A la vez se observa una brecha entre hombres cis y personas no binaries de 5% y entre hombres cis y personas que prefieren no responder sobre su género de ~4%.</p>
+                                </div>,
                             }
                             
                         ],
@@ -1202,8 +1231,11 @@ export default [
                                     customStroke: { 'Otros': '#ccc' },
                                     ticks: [1,2,3]
                                 },
-                                caption: 'Serie histórica del nivel de conformidad con los salarios basada en encuestas anteriores.',
-                                description: '4 Representa el nivel máximo de conformidad',
+                                caption: 'Serie histórica del nivel de conformidad con los salarios basada en encuestas anteriores. 4 Representa el nivel máximo de conformidad',
+                                description: <div>
+                                    <p>Pese a las brechas mencionadas de los datos recabados, se percibe que tanto mujeres cis, como varones cis y personas no binares presentan similar grado de conformidad salarial.</p>
+                                    <p>En cuanto al dato obtenido mencionamos que una de las causas que aparecen en torno a la conformidad salarial resulta de la influencia sistemática de los sesgos de género.</p>
+                                </div>,
 
                             },
                         ],
@@ -1288,6 +1320,13 @@ export default [
                                     isPercentual: true,
                                 },
                                 caption: 'Nivel de participación por género, según años de experiencia.',
+                                description: <div>
+                                    <p>A medida que aumentan los años de experiencia, se observa una menor participación de mujeres en el rubro.</p>
+                                    <p>Por otra parte, hay mayor porcentaje (0-1 21,72%) de mujeres iniciando su experiencia laboral, respecto al número de mujeres con mayor años de experiencia (14-21 8,38%).</p>
+                                    <p>Se podría ensayar algunas hipótesis relacionadas a esta estadística: Por un lado, los estereotipos y roles de género históricamente sostenidos, que impactaron e impactan en la elección de la carrera, generando profesiones y oficios “masculinizados” y “feminizados”.</p>
+                                    <p>Por otro lado, la sobrecarga laboral de la mano de las tareas de cuidados resultando en doble y triple jornada laboral para la mujeres,o la dedicación al empleo a tiempo parcial. Se suma un dato no menor sobre las leyes de cuidado que promueven distribuciones no equitativas entre los géneros.</p>
+                                    <p>A la vez se menciona, el impacto que tuvieron y tienen las luchas y movimientos en pos de visibilizar las inequidades para construir una industria más equitativa, de la mano de acciones concretas para sortear estas barreras. </p>
+                                </div>
                             },
                         ],
                     },
@@ -1405,12 +1444,25 @@ export default [
                                     data: charts['leadership_gender_percent'].data.filter(x => x.name === 'Sí'),
                                     isPercentual: true
                                 },
-                                description: <div>Se define posición de liderazgo (Si) la que tiene al menos 1 persona a su cargo.</div>,
+                                caption: 'Se define posición de liderazgo (Si) la que tiene al menos 1 persona a su cargo.',
+                                description: <div>
+                                    <p>Los privilegios sistemáticos a favor de varones cis, se sostienen nuevamente y resultan en el alcance a puestos de liderazgo (segregación vertical).</p>
+                                </div>,
                             },
                         ],
                     },
                     
                 ],
+            },
+            { // sub-category
+                title: 'Conclusiones',
+                data: [],
+                content: (
+                    <div>
+                        <p>Si bien este análisis es una primera observación y cruce de algunas variables, se observa que las inequidades y privilegios se sostienen en todos los niveles.</p>
+                        <p>Es una necesidad generar datos estadísticos frecuentes, visibilizando los privilegios en pos de achicar las brechas y combatir las injusticias. Así como resulta imprescindible implementar acciones concretas enmarcadas en políticas transversales en diversidad e inclusión con perspectiva de género e interseccional.</p>
+                    </div>
+                )
             },
         ],
     },

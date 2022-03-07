@@ -1,6 +1,6 @@
 import React from 'react';
 import charts from './charts.json';
-import historic_charts from './historic_charts.json';
+import historic_charts from './hist_charts.json';
 
 // si al momento de publicar la nueva versión de la encuesta existe un cepo cambiario y
 // un tipo de cambio desdoblado en oficial/ahorro, agregar la fecha de publicación aquí.
@@ -798,9 +798,10 @@ export default [
                                 component: 'Barh', // graph
                                 props: {
                                     data: charts['happy'].data.sort((a, b) => a.name.localeCompare(b.name)),
-                                    isLogScale: true
+                                    isLogScale: true,
+                                    isPercentual: true
                                 },
-                                caption: 'Nivel de conformidad con los salarios, en escala logarítmica.',
+                                caption: 'Porcentaje del total de personas encuestadas y su nivel de conformidad con los salarios, en escala logarítmica.',
                                 description: '1=poco conforme / 4=muy conforme.'
                             },
                         ],
@@ -813,9 +814,10 @@ export default [
                                 component: 'Barh', // graph
                                 props: {
                                     data: charts['happy_gender'].data,
-                                    isLogScale: true
+                                    isLogScale: true,
+                                    isPercentual: true
                                 },
-                                caption: 'Nivel de conformidad con los salarios según el género de las personas encuestadas, en escala logarítmica.',
+                                caption: 'Porcentaje del total de personas encuestadas y su nivel de conformidad con los salarios, de acuerdo su género, en escala logarítmica.',
                                 description: '1=poco conforme / 4=muy conforme.'
                             },
                         ],
@@ -829,10 +831,11 @@ export default [
                                 props: {
                                     data: charts['happy_seniority'].data,
                                     isLogScale: true,
+                                    isPercentual: true,
                                     fixed: 3,
  
                                 },
-                                caption: 'Nivel de conformidad con los salarios según el seniority  de las personas encuestadas, en escala logarítmica.',
+                                caption: 'Porcentaje del total de personas encuestadas y su nivel de conformidad con los salarios, de acuerdo su seniority, en escala logarítmica.',
                                 description: '1=poco conforme / 4=muy conforme.'
                             },
                         ],
@@ -882,7 +885,10 @@ export default [
                                 title: 'Actividad principal',
                                 component: 'Barh', // graph
                                 props: {
-                                    data: charts['salary_by_role_top10_perc'].data,
+                                    data: charts['salary_by_role_top10_perc'].data.map((val => {
+                                        delete val.std;
+                                        return val;
+                                    })),
                                     isPercentual: false,
                                     isLogScale: false,
                                 },
@@ -928,7 +934,10 @@ export default [
                             {  // tab
                                 title: '',
                                 component: 'Barh', // graph
-                                props: { ...charts['beneficios_nuevos'], isPercentual: true, cutoff: 10, sumOthers: false },
+                                props: { 
+                                    data: charts['beneficios_nuevos'].data.filter(benef => benef.name !== "WFH" && benef.value >= 0.005),
+                                    isPercentual: true,
+                                },
                                 caption: 'Aquí se enumeran los beneficios más comunes entre los reportados.',
                                 description: 'Los beneficios no son excluyentes, por lo que los valores indican qué porcentaje de participantes cuentan con los mismos.'
                             },
@@ -1150,7 +1159,7 @@ export default [
                         ],
                     },
                     {  // section
-                        title: 'Histórico de salarios', // TODO: Revisar
+                        title: 'Histórico de salarios',
                         data: [
                             {  // tab
                                 component: 'Line', // graph
@@ -1191,6 +1200,7 @@ export default [
                                     xDataKey: 'publish_date',
                                     yDataKeys: genders,
                                     customStroke: { 'Otros': '#ccc' },
+                                    ticks: [1,2,3]
                                 },
                                 caption: 'Serie histórica del nivel de conformidad con los salarios basada en encuestas anteriores.',
                                 description: '4 Representa el nivel máximo de conformidad',

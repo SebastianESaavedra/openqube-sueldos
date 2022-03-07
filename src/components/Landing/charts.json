@@ -1266,8 +1266,8 @@
     "demographics_gender_percent": {
         "data": [
             {
-                "name": "Varon Cis",
-                "value": 0.772156642308413
+                "name": "Varón Cis",
+                "value": 0.7695334457560428
             },
             {
                 "name": "Mujer Cis",
@@ -1288,14 +1288,22 @@
             {
                 "name": "Fluido",
                 "value": 0.0039347948285553686
+            },
+            {
+                "name": "Varón Trans",
+                "value": 0.0026231965523702454
+            },
+            {
+                "name": "Mujer Trans",
+                "value": 0.0016863406408094434
             }
         ]
     },
     "demographics_gender_absolute": {
         "data": [
             {
-                "name": "Varon Cis",
-                "value": 4121
+                "name": "Varón Cis",
+                "value": 4107
             },
             {
                 "name": "Mujer Cis",
@@ -1316,6 +1324,14 @@
             {
                 "name": "Fluido",
                 "value": 21
+            },
+            {
+                "name": "Varón Trans",
+                "value": 14
+            },
+            {
+                "name": "Mujer Trans",
+                "value": 9
             }
         ]
     },
@@ -1429,7 +1445,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.0066815144766146995,
                 "Prefiero no decir": 0.035634743875278395,
-                "Varon Cis": 0.311804008908686
+                "Varón Cis": 0.30957683741648107,
+                "Varón Trans": 0.0022271714922048997
             },
             {
                 "name": "Discapacidad",
@@ -1439,7 +1456,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.0022271714922048997,
                 "Prefiero no decir": 0.0,
-                "Varon Cis": 0.008908685968819599
+                "Varón Cis": 0.008908685968819599,
+                "Varón Trans": 0.0
             },
             {
                 "name": "Etnia",
@@ -1449,7 +1467,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.0022271714922048997,
                 "Prefiero no decir": 0.0,
-                "Varon Cis": 0.026726057906458798
+                "Varón Cis": 0.026726057906458798,
+                "Varón Trans": 0.0
             },
             {
                 "name": "Expresión de género",
@@ -1459,7 +1478,8 @@
                 "Mujer Trans": 0.0022271714922048997,
                 "No binarie": 0.0066815144766146995,
                 "Prefiero no decir": 0.0022271714922048997,
-                "Varon Cis": 0.044543429844097995
+                "Varón Cis": 0.044543429844097995,
+                "Varón Trans": 0.0
             },
             {
                 "name": "Género",
@@ -1469,7 +1489,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.008908685968819599,
                 "Prefiero no decir": 0.017817371937639197,
-                "Varon Cis": 0.08908685968819599
+                "Varón Cis": 0.08908685968819599,
+                "Varón Trans": 0.0
             },
             {
                 "name": "Orientación sexual",
@@ -1479,7 +1500,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.008908685968819599,
                 "Prefiero no decir": 0.0,
-                "Varon Cis": 0.062360801781737196
+                "Varón Cis": 0.062360801781737196,
+                "Varón Trans": 0.0
             }
         ]
     },
@@ -1556,7 +1578,8 @@
                 "Mujer Cis": 0.017261904761904763,
                 "Mujer Trans": 0.0,
                 "No binarie": 0.0005952380952380953,
-                "Varon Cis": 0.06626984126984127
+                "Varón Cis": 0.06567460317460318,
+                "Varón Trans": 0.0005952380952380953
             },
             {
                 "name": "Sí",
@@ -1565,7 +1588,8 @@
                 "Mujer Cis": 0.06964285714285715,
                 "Mujer Trans": 0.0007936507936507937,
                 "No binarie": 0.003373015873015873,
-                "Varon Cis": 0.25952380952380955
+                "Varón Cis": 0.25912698412698415,
+                "Varón Trans": 0.0003968253968253968
             }
         ]
     },
@@ -1650,24 +1674,24 @@
         "data": [
             {
                 "name": "Junior",
-                "Mujer Cis": 0.06775170325510976,
-                "No binarie": 0.001514004542013626,
-                "Prefiero no decir": 0.013626040878122634,
-                "Varon Cis": 0.2282361847085541
+                "Mujer Cis": 0.06793168880455408,
+                "No binarie": 0.0015180265654648956,
+                "Prefiero no decir": 0.01366223908918406,
+                "Varón Cis": 0.2269449715370019
             },
             {
                 "name": "Semi-Senior",
-                "Mujer Cis": 0.039931869795609386,
-                "No binarie": 0.001514004542013626,
-                "Prefiero no decir": 0.007759273277819834,
-                "Varon Cis": 0.1629447388342165
+                "Mujer Cis": 0.04003795066413662,
+                "No binarie": 0.0015180265654648956,
+                "Prefiero no decir": 0.00777988614800759,
+                "Varón Cis": 0.16280834914611006
             },
             {
                 "name": "Senior",
-                "Mujer Cis": 0.050529901589704766,
-                "No binarie": 0.0026495079485238456,
-                "Prefiero no decir": 0.0348221044663134,
-                "Varon Cis": 0.38872066616199846
+                "Mujer Cis": 0.050664136622390894,
+                "No binarie": 0.0026565464895635673,
+                "Prefiero no decir": 0.0349146110056926,
+                "Varón Cis": 0.38956356736242886
             }
         ]
     },
@@ -1675,32 +1699,32 @@
         "data": [
             {
                 "name": "Universitario",
-                "Completado": 0.07545605306799337,
-                "En curso": 0.19817578772802655,
-                "Incompleto": 0.05887230514096186
+                "Completado": 0.07441471571906355,
+                "En curso": 0.19983277591973245,
+                "Incompleto": 0.05936454849498328
             },
             {
                 "name": "Secundario",
-                "Completado": 0.03648424543946932,
-                "En curso": 0.001658374792703151,
-                "Incompleto": 0.0024875621890547263
+                "Completado": 0.03678929765886288,
+                "En curso": 0.0016722408026755853,
+                "Incompleto": 0.002508361204013378
             },
             {
                 "name": "Terciario",
-                "Completado": 0.03150912106135987,
-                "En curso": 0.03814262023217247,
-                "Incompleto": 0.01658374792703151
+                "Completado": 0.03177257525083612,
+                "En curso": 0.03762541806020067,
+                "Incompleto": 0.016722408026755852
             },
             {
                 "name": "Posgrado",
-                "Completado": 0.01077943615257048,
-                "En curso": 0.004975124378109453,
+                "Completado": 0.010033444816053512,
+                "En curso": 0.005016722408026756,
                 "Incompleto": 0.0
             },
             {
                 "name": "Doctorado",
-                "Completado": 0.001658374792703151,
-                "En curso": 0.0024875621890547263,
+                "Completado": 0.0016722408026755853,
+                "En curso": 0.002508361204013378,
                 "Incompleto": 0.0
             }
         ]
@@ -1799,31 +1823,31 @@
         "data": [
             {
                 "name": "Universitario",
-                "Completado": 0.1173054587688734,
-                "En curso": 0.12659698025551683,
-                "Incompleto": 0.07781649245063879
+                "Completado": 0.11771561771561771,
+                "En curso": 0.12703962703962704,
+                "Incompleto": 0.07692307692307693
             },
             {
                 "name": "Terciario",
-                "Completado": 0.05226480836236934,
-                "En curso": 0.022067363530778164,
-                "Incompleto": 0.022067363530778164
+                "Completado": 0.05244755244755245,
+                "En curso": 0.022144522144522144,
+                "Incompleto": 0.022144522144522144
             },
             {
                 "name": "Secundario",
-                "Completado": 0.029036004645760744,
+                "Completado": 0.029137529137529136,
                 "En curso": 0.0,
-                "Incompleto": 0.003484320557491289
+                "Incompleto": 0.0034965034965034965
             },
             {
                 "name": "Posgrado",
-                "Completado": 0.013937282229965157,
-                "En curso": 0.008130081300813009,
-                "Incompleto": 0.003484320557491289
+                "Completado": 0.013986013986013986,
+                "En curso": 0.008158508158508158,
+                "Incompleto": 0.0034965034965034965
             },
             {
                 "name": "Doctorado",
-                "Completado": 0.0011614401858304297,
+                "Completado": 0.0011655011655011655,
                 "En curso": 0.0,
                 "Incompleto": 0.0
             }
@@ -1911,37 +1935,37 @@
         "data": [
             {
                 "name": "Universitario",
-                "Completado": 0.14264849074975658,
-                "En curso": 0.05258033106134372,
-                "Incompleto": 0.12122687439143136
+                "Completado": 0.14271797369702874,
+                "En curso": 0.05260594252313687,
+                "Incompleto": 0.12128592303945446
             },
             {
                 "name": "Terciario",
-                "Completado": 0.055501460564751706,
-                "En curso": 0.010223953261927946,
-                "Incompleto": 0.02385589094449854
+                "Completado": 0.05552849488553337,
+                "En curso": 0.010228933268387726,
+                "Incompleto": 0.023867510959571358
             },
             {
                 "name": "Secundario",
-                "Completado": 0.03213242453748783,
-                "En curso": 0.0004868549172346641,
-                "Incompleto": 0.0029211295034079843
+                "Completado": 0.03214807598636142,
+                "En curso": 0.0004870920603994155,
+                "Incompleto": 0.0029225523623964927
             },
             {
                 "name": "Posgrado",
-                "Completado": 0.018500486854917234,
-                "En curso": 0.008276533592989289,
-                "Incompleto": 0.004868549172346641
+                "Completado": 0.018509498295177788,
+                "En curso": 0.008280565026790063,
+                "Incompleto": 0.004870920603994155
             },
             {
                 "name": "Doctorado",
-                "Completado": 0.0029211295034079843,
-                "En curso": 0.0014605647517039922,
-                "Incompleto": 0.0004868549172346641
+                "Completado": 0.0029225523623964927,
+                "En curso": 0.0014612761811982464,
+                "Incompleto": 0.0004870920603994155
             },
             {
                 "name": "Posdoctorado",
-                "Completado": 0.0004868549172346641,
+                "Completado": 0.0004870920603994155,
                 "En curso": 0.0,
                 "Incompleto": 0.0
             }
@@ -2029,19 +2053,19 @@
         "data": [
             {
                 "name": "18-27",
-                "Varon Cis": 0.5746268656716418
+                "Varón Cis": 0.5735785953177257
             },
             {
                 "name": "27-32",
-                "Varon Cis": 0.2537313432835821
+                "Varón Cis": 0.25334448160535117
             },
             {
                 "name": "32-37",
-                "Varon Cis": 0.12023217247097844
+                "Varón Cis": 0.12123745819397994
             },
             {
                 "name": "37-67",
-                "Varon Cis": 0.0472636815920398
+                "Varón Cis": 0.047658862876254184
             }
         ]
     },
@@ -2101,19 +2125,19 @@
         "data": [
             {
                 "name": "18-27",
-                "Varon Cis": 0.3821138211382114
+                "Varón Cis": 0.3811188811188811
             },
             {
                 "name": "27-32",
-                "Varon Cis": 0.38095238095238093
+                "Varón Cis": 0.3811188811188811
             },
             {
                 "name": "32-37",
-                "Varon Cis": 0.1440185830429733
+                "Varón Cis": 0.1445221445221445
             },
             {
                 "name": "37-67",
-                "Varon Cis": 0.09059233449477352
+                "Varón Cis": 0.09090909090909091
             }
         ]
     },
@@ -2181,19 +2205,19 @@
         "data": [
             {
                 "name": "18-27",
-                "Varon Cis": 0.04968339016074038
+                "Varón Cis": 0.049707602339181284
             },
             {
                 "name": "27-32",
-                "Varon Cis": 0.19240136385776913
+                "Varón Cis": 0.19249512670565302
             },
             {
                 "name": "32-37",
-                "Varon Cis": 0.2893326838772528
+                "Varón Cis": 0.2894736842105263
             },
             {
                 "name": "37-67",
-                "Varon Cis": 0.4680954700438383
+                "Varón Cis": 0.4678362573099415
             }
         ]
     },
@@ -3497,7 +3521,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.0006700167504187605,
                 "Prefiero no decir": 0.004522613065326633,
-                "Varon Cis": 0.06465661641541039
+                "Varón Cis": 0.06465661641541039,
+                "Varón Trans": 0.0
             },
             {
                 "name": "Si",
@@ -3507,7 +3532,8 @@
                 "Mujer Trans": 0.0008375209380234506,
                 "No binarie": 0.004020100502512563,
                 "Prefiero no decir": 0.022780569514237858,
-                "Varon Cis": 0.33467336683417087
+                "Varón Cis": 0.3336683417085427,
+                "Varón Trans": 0.0010050251256281408
             },
             {
                 "name": "de forma particular",
@@ -3517,7 +3543,8 @@
                 "Mujer Trans": 0.00033500837520938025,
                 "No binarie": 0.002847571189279732,
                 "Prefiero no decir": 0.01675041876046901,
-                "Varon Cis": 0.2326633165829146
+                "Varón Cis": 0.23182579564489111,
+                "Varón Trans": 0.0008375209380234506
             },
             {
                 "name": "los pagó un empleador",
@@ -3527,7 +3554,8 @@
                 "Mujer Trans": 0.0005025125628140704,
                 "No binarie": 0.0011725293132328308,
                 "Prefiero no decir": 0.006030150753768844,
-                "Varon Cis": 0.10201005025125628
+                "Varón Cis": 0.10184254606365159,
+                "Varón Trans": 0.00016750418760469013
             }
         ]
     },
@@ -3959,31 +3987,31 @@
         "data": [
             {
                 "name": "1",
-                "Mujer Cis": 0.010787282361847086,
-                "No binarie": 0.000757002271006813,
-                "Prefiero no decir": 0.00813777441332324,
-                "Varon Cis": 0.06226343679031037
+                "Mujer Cis": 0.010815939278937382,
+                "No binarie": 0.0007590132827324478,
+                "Prefiero no decir": 0.008159392789373814,
+                "Varón Cis": 0.06148007590132827
             },
             {
                 "name": "2",
-                "Mujer Cis": 0.04920514761544285,
-                "No binarie": 0.0013247539742619228,
-                "Prefiero no decir": 0.01797880393641181,
-                "Varon Cis": 0.2325889477668433
+                "Mujer Cis": 0.04933586337760911,
+                "No binarie": 0.0013282732447817836,
+                "Prefiero no decir": 0.018026565464895637,
+                "Varón Cis": 0.2320683111954459
             },
             {
                 "name": "3",
-                "Mujer Cis": 0.07683573050719152,
-                "No binarie": 0.0018925056775170325,
-                "Prefiero no decir": 0.022331566994700985,
-                "Varon Cis": 0.3679031037093111
+                "Mujer Cis": 0.07703984819734346,
+                "No binarie": 0.0018975332068311196,
+                "Prefiero no decir": 0.022390891840607212,
+                "Varón Cis": 0.36850094876660344
             },
             {
                 "name": "4",
-                "Mujer Cis": 0.021385314155942466,
-                "No binarie": 0.0017032551097653293,
-                "Prefiero no decir": 0.007759273277819834,
-                "Varon Cis": 0.11714610143830431
+                "Mujer Cis": 0.02144212523719165,
+                "No binarie": 0.0017077798861480076,
+                "Prefiero no decir": 0.00777988614800759,
+                "Varón Cis": 0.11726755218216318
             }
         ]
     },
@@ -4769,7 +4797,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.00037474236462432077,
                 "Prefiero no decir": 0.015551808131909312,
-                "Varon Cis": 0.15570545250140527
+                "Varón Cis": 0.1547685965898445,
+                "Varón Trans": 0.000936855911560802
             },
             {
                 "name": "Pasivos",
@@ -4779,7 +4808,8 @@
                 "Mujer Trans": 0.0007494847292486415,
                 "No binarie": 0.0031853100993067267,
                 "Prefiero no decir": 0.02304665542439573,
-                "Varon Cis": 0.3460745737305602
+                "Varón Cis": 0.3449503466366873,
+                "Varón Trans": 0.0011242270938729624
             },
             {
                 "name": "Promotores",
@@ -4789,7 +4819,8 @@
                 "Mujer Trans": 0.000936855911560802,
                 "No binarie": 0.002061083005433764,
                 "Prefiero no decir": 0.017050777590406595,
-                "Varon Cis": 0.2703766160764474
+                "Varón Cis": 0.26981450252951095,
+                "Varón Trans": 0.0005621135469364812
             }
         ]
     },
@@ -4895,7 +4926,8 @@
                 "Mujer Trans": 0.00045330915684496827,
                 "No binarie": 0.004079782411604714,
                 "Prefiero no decir": 0.017225747960108794,
-                "Varon Cis": 0.23164097914777879
+                "Varón Cis": 0.22982774252039892,
+                "Varón Trans": 0.001813236627379873
             },
             {
                 "name": "Constantemente",
@@ -4905,7 +4937,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.0,
                 "Prefiero no decir": 0.0013599274705349048,
-                "Varon Cis": 0.009066183136899365
+                "Varón Cis": 0.009066183136899365,
+                "Varón Trans": 0.0
             },
             {
                 "name": "Muchas veces",
@@ -4915,7 +4948,8 @@
                 "Mujer Trans": 0.00045330915684496827,
                 "No binarie": 0.0,
                 "Prefiero no decir": 0.004079782411604714,
-                "Varon Cis": 0.03535811423390753
+                "Varón Cis": 0.03535811423390753,
+                "Varón Trans": 0.0
             },
             {
                 "name": "Nunca",
@@ -4925,7 +4959,8 @@
                 "Mujer Trans": 0.0009066183136899365,
                 "No binarie": 0.005439709882139619,
                 "Prefiero no decir": 0.027651858567543066,
-                "Varon Cis": 0.457388939256573
+                "Varón Cis": 0.45693563009972804,
+                "Varón Trans": 0.00045330915684496827
             }
         ]
     },
@@ -5076,6 +5111,9 @@
                 "Cantidad": 183.0,
                 "Promedio": 660527.0,
                 "Mediana": 650000.0,
+                "std": 136561.1878805994,
+                "Max": 940000.0,
+                "Min": 454000.0,
                 "Porcentaje_dolarizados": 0.91
             },
             {
@@ -5083,6 +5121,9 @@
                 "Cantidad": 13.0,
                 "Promedio": 666824.0,
                 "Mediana": 627000.0,
+                "std": 160176.88261931256,
+                "Max": 909000.0,
+                "Min": 464910.0,
                 "Porcentaje_dolarizados": 0.69
             },
             {
@@ -5090,6 +5131,9 @@
                 "Cantidad": 19.0,
                 "Promedio": 627626.0,
                 "Mediana": 600000.0,
+                "std": 120099.06948527148,
+                "Max": 850000.0,
+                "Min": 453000.0,
                 "Porcentaje_dolarizados": 1.0
             },
             {
@@ -5097,6 +5141,9 @@
                 "Cantidad": 22.0,
                 "Promedio": 630483.0,
                 "Mediana": 600000.0,
+                "std": 112936.1263254416,
+                "Max": 900000.0,
+                "Min": 460000.0,
                 "Porcentaje_dolarizados": 0.64
             },
             {
@@ -5104,6 +5151,9 @@
                 "Cantidad": 72.0,
                 "Promedio": 598597.0,
                 "Mediana": 570000.0,
+                "std": 130057.561396154,
+                "Max": 940000.0,
+                "Min": 460000.0,
                 "Porcentaje_dolarizados": 0.4
             },
             {
@@ -5111,6 +5161,9 @@
                 "Cantidad": 92.0,
                 "Promedio": 609390.0,
                 "Mediana": 556500.0,
+                "std": 124549.01461168996,
+                "Max": 900000.0,
+                "Min": 452000.0,
                 "Porcentaje_dolarizados": 0.41
             },
             {
@@ -5118,6 +5171,9 @@
                 "Cantidad": 31.0,
                 "Promedio": 606522.0,
                 "Mediana": 550000.0,
+                "std": 141013.86276319734,
+                "Max": 945000.0,
+                "Min": 455000.0,
                 "Porcentaje_dolarizados": 0.77
             },
             {
@@ -5125,6 +5181,9 @@
                 "Cantidad": 14.0,
                 "Promedio": 614261.0,
                 "Mediana": 541000.0,
+                "std": 145736.49545256916,
+                "Max": 940500.0,
+                "Min": 460000.0,
                 "Porcentaje_dolarizados": 0.93
             },
             {
@@ -5132,6 +5191,9 @@
                 "Cantidad": 11.0,
                 "Promedio": 587704.0,
                 "Mediana": 537000.0,
+                "std": 125964.4805811976,
+                "Max": 900000.0,
+                "Min": 480000.0,
                 "Porcentaje_dolarizados": 0.55
             }
         ]
@@ -5181,16 +5243,16 @@
             {
                 "name": "No",
                 "Mujer Cis": 0.8169856459330144,
-                "No binarie": 0.8,
+                "No binarie": 0.7999999999999999,
                 "Prefiero no decir": 0.734006734006734,
-                "Varon Cis": 0.7374423683571949
+                "Varón Cis": 0.7370343316289262
             },
             {
                 "name": "Sí",
-                "Mujer Cis": 0.18301435406698563,
-                "No binarie": 0.2,
-                "Prefiero no decir": 0.265993265993266,
-                "Varon Cis": 0.26255763164280516
+                "Mujer Cis": 0.18301435406698566,
+                "No binarie": 0.19999999999999998,
+                "Prefiero no decir": 0.26599326599326595,
+                "Varón Cis": 0.26296566837107377
             }
         ]
     },
@@ -5198,37 +5260,37 @@
         "data": [
             {
                 "name": "Universitario",
-                "Completado": 0.11768988109682116,
-                "En curso": 0.11065275418587721,
-                "Incompleto": 0.0939092453288037
+                "Completado": 0.11760409057706354,
+                "En curso": 0.1110299488677867,
+                "Incompleto": 0.09398587776966155
             },
             {
                 "name": "Terciario",
-                "Completado": 0.04780393108468818,
-                "En curso": 0.020868721184178596,
-                "Incompleto": 0.021354040281485076
+                "Completado": 0.04796688580472364,
+                "En curso": 0.0206963720477234,
+                "Incompleto": 0.021426832237643047
             },
             {
                 "name": "Secundario",
-                "Completado": 0.032759039068187334,
-                "En curso": 0.0007279786459597186,
-                "Incompleto": 0.002911914583838874
+                "Completado": 0.03287070854638422,
+                "En curso": 0.0007304601899196494,
+                "Incompleto": 0.0029218407596785976
             },
             {
                 "name": "Posgrado",
-                "Completado": 0.015287551565154088,
-                "En curso": 0.007279786459597185,
-                "Incompleto": 0.0031545741324921135
+                "Completado": 0.01509617725833942,
+                "En curso": 0.007304601899196494,
+                "Incompleto": 0.003165327489651814
             },
             {
                 "name": "Doctorado",
-                "Completado": 0.0021839359378791555,
-                "En curso": 0.001455957291919437,
-                "Incompleto": 0.0002426595486532395
+                "Completado": 0.002191380569758948,
+                "En curso": 0.0014609203798392988,
+                "Incompleto": 0.00024348672997321646
             },
             {
                 "name": "Posdoctorado",
-                "Completado": 0.0002426595486532395,
+                "Completado": 0.00024348672997321646,
                 "En curso": 0.0,
                 "Incompleto": 0.0
             }
@@ -5333,7 +5395,7 @@
     "gender_salary_adjustment": {
         "data": [
             {
-                "name": "Varon Cis",
+                "name": "Varón Cis",
                 "value": 0.3
             },
             {
@@ -5354,24 +5416,24 @@
         "data": [
             {
                 "name": "Otras industrias",
-                "Mujer Cis": 0.12792511700468018,
-                "No binarie": 0.0062402496099844,
-                "Prefiero no decir": 0.06630265210608424,
-                "Varon Cis": 0.7995319812792512
+                "Mujer Cis": 0.12802498048399688,
+                "No binarie": 0.00624512099921936,
+                "Prefiero no decir": 0.0663544106167057,
+                "Varón Cis": 0.7993754879000781
             },
             {
                 "name": "Producto basado en Software",
-                "Mujer Cis": 0.15989036089538602,
-                "No binarie": 0.005938784833257195,
-                "Prefiero no decir": 0.047967108268615805,
-                "Varon Cis": 0.786203746002741
+                "Mujer Cis": 0.16047684548372307,
+                "No binarie": 0.005960568546538285,
+                "Prefiero no decir": 0.048143053645116916,
+                "Varón Cis": 0.7854195323246217
             },
             {
                 "name": "Servicios / Consultoría de Software / Digital",
-                "Mujer Cis": 0.1776061776061776,
-                "No binarie": 0.004964147821290678,
-                "Prefiero no decir": 0.059018201875344733,
-                "Varon Cis": 0.758411472697187
+                "Mujer Cis": 0.17809734513274336,
+                "No binarie": 0.00497787610619469,
+                "Prefiero no decir": 0.05918141592920354,
+                "Varón Cis": 0.7577433628318584
             }
         ]
     },
@@ -5379,52 +5441,52 @@
         "data": [
             {
                 "name": "0-1",
-                "Mujer Cis": 0.2172043010752688,
-                "No binarie": 0.010752688172043012,
-                "Prefiero no decir": 0.05161290322580645,
-                "Varon Cis": 0.7204301075268817
+                "Mujer Cis": 0.21861471861471862,
+                "No binarie": 0.010822510822510822,
+                "Prefiero no decir": 0.05194805194805195,
+                "Varón Cis": 0.7186147186147186
             },
             {
                 "name": "2",
-                "Mujer Cis": 0.20701754385964913,
-                "No binarie": 0.005263157894736842,
-                "Prefiero no decir": 0.03859649122807018,
-                "Varon Cis": 0.7491228070175439
+                "Mujer Cis": 0.20921985815602837,
+                "No binarie": 0.005319148936170213,
+                "Prefiero no decir": 0.03900709219858156,
+                "Varón Cis": 0.7464539007092199
             },
             {
                 "name": "3",
-                "Mujer Cis": 0.21957040572792363,
-                "No binarie": 0.002386634844868735,
-                "Prefiero no decir": 0.031026252983293555,
-                "Varon Cis": 0.747016706443914
+                "Mujer Cis": 0.22062350119904076,
+                "No binarie": 0.002398081534772182,
+                "Prefiero no decir": 0.03117505995203837,
+                "Varón Cis": 0.7458033573141487
             },
             {
                 "name": "4-5",
-                "Mujer Cis": 0.16951566951566951,
-                "No binarie": 0.009971509971509971,
-                "Prefiero no decir": 0.039886039886039885,
-                "Varon Cis": 0.7806267806267806
+                "Mujer Cis": 0.16975748930099857,
+                "No binarie": 0.009985734664764621,
+                "Prefiero no decir": 0.039942938659058486,
+                "Varón Cis": 0.7803138373751783
             },
             {
                 "name": "6-8",
                 "Mujer Cis": 0.14,
                 "No binarie": 0.008333333333333333,
                 "Prefiero no decir": 0.043333333333333335,
-                "Varon Cis": 0.8083333333333333
+                "Varón Cis": 0.8083333333333333
             },
             {
                 "name": "9-13",
                 "Mujer Cis": 0.11764705882352941,
                 "No binarie": 0.00522875816993464,
                 "Prefiero no decir": 0.08366013071895424,
-                "Varon Cis": 0.7934640522875817
+                "Varón Cis": 0.7934640522875817
             },
             {
                 "name": "14-21",
-                "Mujer Cis": 0.08381171067738231,
-                "No binarie": 0.004592422502870264,
-                "Prefiero no decir": 0.07921928817451206,
-                "Varon Cis": 0.8323765786452354
+                "Mujer Cis": 0.0839080459770115,
+                "No binarie": 0.004597701149425287,
+                "Prefiero no decir": 0.07931034482758621,
+                "Varón Cis": 0.832183908045977
             }
         ]
     },
@@ -5435,49 +5497,49 @@
                 "Mujer Cis": 115000.0,
                 "No binarie": 165000.0,
                 "Prefiero no decir": 123000.0,
-                "Varon Cis": 123000.0
+                "Varón Cis": 124407.5
             },
             {
                 "name": "2",
                 "Mujer Cis": 150000.0,
                 "No binarie": 107400.0,
                 "Prefiero no decir": 153500.0,
-                "Varon Cis": 152000.0
+                "Varón Cis": 150000.0
             },
             {
                 "name": "3",
                 "Mujer Cis": 160500.0,
                 "No binarie": 64900.0,
                 "Prefiero no decir": 150000.0,
-                "Varon Cis": 180000.0
+                "Varón Cis": 180000.0
             },
             {
                 "name": "4-5",
                 "Mujer Cis": 201250.0,
                 "No binarie": 200000.0,
                 "Prefiero no decir": 162500.0,
-                "Varon Cis": 203750.0
+                "Varón Cis": 204500.0
             },
             {
                 "name": "6-8",
                 "Mujer Cis": 228287.5,
                 "No binarie": 200000.0,
                 "Prefiero no decir": 252500.0,
-                "Varon Cis": 230000.0
+                "Varón Cis": 230000.0
             },
             {
                 "name": "9-13",
                 "Mujer Cis": 246575.0,
                 "No binarie": 298500.0,
                 "Prefiero no decir": 240958.0,
-                "Varon Cis": 253000.0
+                "Varón Cis": 253000.0
             },
             {
                 "name": "14-21",
                 "Mujer Cis": 225000.0,
                 "No binarie": 245000.0,
                 "Prefiero no decir": 250000.0,
-                "Varon Cis": 258000.0
+                "Varón Cis": 258000.0
             }
         ]
     },
@@ -5488,49 +5550,49 @@
                 "Mujer Cis": 2.5643564356435644,
                 "No binarie": 3.6,
                 "Prefiero no decir": 2.625,
-                "Varon Cis": 2.629850746268657
+                "Varón Cis": 2.6355421686746987
             },
             {
                 "name": "2",
                 "Mujer Cis": 2.7796610169491527,
                 "No binarie": 2.3333333333333335,
                 "Prefiero no decir": 2.6363636363636362,
-                "Varon Cis": 2.728337236533958
+                "Varón Cis": 2.7434679334916865
             },
             {
                 "name": "3",
                 "Mujer Cis": 2.6630434782608696,
                 "No binarie": 1.0,
                 "Prefiero no decir": 2.4615384615384617,
-                "Varon Cis": 2.747603833865815
+                "Varón Cis": 2.742765273311897
             },
             {
                 "name": "4-5",
                 "Mujer Cis": 2.8151260504201683,
                 "No binarie": 2.857142857142857,
                 "Prefiero no decir": 2.5714285714285716,
-                "Varon Cis": 2.698905109489051
+                "Varón Cis": 2.7020109689213894
             },
             {
                 "name": "6-8",
                 "Mujer Cis": 2.6785714285714284,
                 "No binarie": 2.8,
                 "Prefiero no decir": 2.423076923076923,
-                "Varon Cis": 2.6969072164948455
+                "Varón Cis": 2.6969072164948455
             },
             {
                 "name": "9-13",
                 "Mujer Cis": 2.6444444444444444,
                 "No binarie": 2.75,
                 "Prefiero no decir": 2.5625,
-                "Varon Cis": 2.772652388797364
+                "Varón Cis": 2.772652388797364
             },
             {
                 "name": "14-21",
                 "Mujer Cis": 2.6164383561643834,
                 "No binarie": 2.75,
                 "Prefiero no decir": 2.536231884057971,
-                "Varon Cis": 2.663448275862069
+                "Varón Cis": 2.664364640883978
             }
         ]
     },
@@ -5544,7 +5606,8 @@
                 "Mujer Trans": 0.001364256480218281,
                 "No binarie": 0.0068212824010914054,
                 "Prefiero no decir": 0.040927694406548434,
-                "Varon Cis": 0.6007276034561164
+                "Varón Cis": 0.5993633469758981,
+                "Varón Trans": 0.001364256480218281
             },
             {
                 "name": "Sí",
@@ -5554,7 +5617,8 @@
                 "Mujer Trans": 0.00045475216007276033,
                 "No binarie": 0.002728512960436562,
                 "Prefiero no decir": 0.010004547521600727,
-                "Varon Cis": 0.13278763074124603
+                "Varón Cis": 0.1318781264211005,
+                "Varón Trans": 0.0009095043201455207
             }
         ]
     },
@@ -5568,7 +5632,8 @@
                 "Mujer Trans": 0.0,
                 "No binarie": 0.00089126559714795,
                 "Prefiero no decir": 0.010249554367201427,
-                "Varon Cis": 0.08422459893048129
+                "Varón Cis": 0.08377896613190731,
+                "Varón Trans": 0.000445632798573975
             },
             {
                 "name": "Sí",
@@ -5578,7 +5643,8 @@
                 "Mujer Trans": 0.0017825311942959,
                 "No binarie": 0.008467023172905526,
                 "Prefiero no decir": 0.040106951871657755,
-                "Varon Cis": 0.6488413547237076
+                "Varón Cis": 0.6470588235294118,
+                "Varón Trans": 0.0017825311942959
             }
         ]
     },

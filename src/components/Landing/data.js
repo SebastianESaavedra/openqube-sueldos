@@ -1071,7 +1071,7 @@ export default [
                                 props: { ...charts['politicas_diversidad_e_inclusion'], isPercentual: true },
                                 description: (<div>
                                     Un 75% considera que las políticas de inclusión son buenas, muy buenas o excelentes. Este valor es muy similar al anterior (72.5%).
-                                    <p>Si bien un 75% de las personas que respondieron la encuesta consideran que las políticas de diversidad e inclusión son buenas, muy buenas o excelentes, hay un 25% que las consideran regular o malas.</p>
+                                    <p>Cabe mencionar que el mayor porcentaje de la muestra corresponde a una población en posición de privilegio respecto a otros grupos, por lo que resultaría más ajustado revisar esta pregunta en relación a las respuestas de grupos subrepresentados. Dato que se analizará próximamente.</p>
                                 </div>),
                             },
                         ],
@@ -1118,7 +1118,9 @@ export default [
                 title: 'Identidad de género',
                 content: (
                     <div>
-                        Al igual que en la edición anterior, la pregunta sobre identidad de género consta de un listado de opciones fijas (que incluye “prefiero no responder”) y la posibilidad de ingresar texto libre. Esta modalidad visibiliza la pluralidad de identidades, no replicando categorías hegemónicas históricamente sostenidas. Por otra parte, se puede lograr un análisis más aproximado a las diferentes vivencias individuales en el cruce de variables.
+                        <center>    
+                        <small>El presente informe fue realizado para openqube por <a href="https://ar.linkedin.com/in/daiana-vainstein-2119788b" target="_blank" rel="noopener noreferrer">Daiana Vainstein</a> y <a href="https://ar.linkedin.com/in/paulaweitzman" target="_blank" rel="noopener noreferrer">Paula Weitzman</a>, de <a href="https://www.linkedin.com/company/dig-encuentros/" target="_blank" rel="noopener noreferrer">DiG Encuentros</a>.</small></center>
+                        <p>Al igual que en la edición anterior, la pregunta sobre identidad de género consta de un listado de opciones fijas (que incluye “prefiero no responder”) y la posibilidad de ingresar texto libre. Esta modalidad visibiliza la pluralidad de identidades, no replicando categorías hegemónicas históricamente sostenidas. Por otra parte, se puede lograr un análisis más aproximado a las diferentes vivencias individuales en el cruce de variables.</p>
                     </div>
                 ),
                 data: [
@@ -1129,7 +1131,7 @@ export default [
                                 title: 'Porcentaje',
                                 component: 'Barh', // graph
                                 props: { ...charts['demographics_gender_percent'], isPercentual: true },
-                                description: <div></div>
+                                description: <div>En este gráfico se visibilizan identidades de género subrepresentadas, lo que refleja inequidades por múltiples barreras e injusticias sociales.</div>
                             },
                             {  // tab
                                 title: 'Absoluto',

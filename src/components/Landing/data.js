@@ -1077,7 +1077,7 @@ export default [
                         ],
                     },
 
-                    {  // section
+                    /*{  // section
                         title: 'Empresas mejor consideradas',
                         data: [
                             {  // tab
@@ -1087,7 +1087,7 @@ export default [
                                 description: 'Top 10 de las empresas mejores consideradas por las personas encuestadas.',
                             },
                         ],
-                    },
+                    },*/
                     
                     /*{  // section
                         title: '¿Presenciaste una situación de violencia laboral?',
@@ -1129,11 +1129,7 @@ export default [
                                 title: 'Porcentaje',
                                 component: 'Barh', // graph
                                 props: { ...charts['demographics_gender_percent'], isPercentual: true },
-                                description: <div>
-                                    <p>De las personas que participaron de la encuesta, ~77% se identifican como hombres cis, mientras que ~15% como mujeres cis, el 4,66% respondieron que prefieren no decir y el 0,61% se identifican como personas no binaries.</p>
-                                    <p>Si bien en este apartado mantuvimos la lógica general del informe de no incluir dentro de los gráficos los conjuntos que tuvieron una representación menor al 0.5% de la muestra, mencionamos aquellas identidades de género que están subrepresentadas, hecho que refleja inequidades por múltiples barreras e injusticias sociales.</p>
-                                    <p>Como es de esperar, las inequidades históricas y sistemáticas por género, se sostienen.</p>
-                                </div>,
+                                description: <div></div>
                             },
                             {  // tab
                                 title: 'Absoluto',
@@ -1235,6 +1231,7 @@ export default [
                                 description: <div>
                                     <p>Pese a las brechas mencionadas de los datos recabados, se percibe que tanto mujeres cis, como varones cis y personas no binares presentan similar grado de conformidad salarial.</p>
                                     <p>En cuanto al dato obtenido mencionamos que una de las causas que aparecen en torno a la conformidad salarial resulta de la influencia sistemática de los sesgos de género.</p>
+                                    <p>Por otra parte, si bien hay múltiples factores y relaciones posibles, se destaca que históricamente hay un mayor número de mujeres en puestos socialmente más feminizados (segregación horizontal) que a su vez suelen tener sueldos menores.</p>
                                 </div>,
 
                             },
@@ -1302,8 +1299,13 @@ export default [
                                     currency: 'AR$',
                                     //customStroke: { 'No Binarie': '#ccc' },
                                 },
-                                caption: 'Mediana salarial por género, según años de experiencia.',
-                                description: 'Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci.',
+                                caption: 'Mediana salarial por género, según años de experiencia. Los grupos de años de experiencia son arbitrarios, en base a la serie de Fibonacci.',
+                                description: <div>
+                                    <p>Es relevante observar que la brecha salarial por género se acentúa a medida que aumentan los años de experiencia de la población encuestada.</p>
+                                    <p>Y Si bien se nota una disminución con respecto a la edición anterior, este descenso resulta insuficiente y persiste como obstáculo para lograr la real equidad económica.</p>
+                                    <p>Pese a la información mencionada, se subraya que el conjunto de personas identificadas como mujeres cis sigue <a href="#Genero-Formacion">encabezando méritos académicos</a>.</p>
+                                    <p>Para conocer más acerca de la brecha salarial y sus causas dejamos este <a href="https://lac.unwomen.org/es/que-hacemos/empoderamiento-economico/epic/que-es-la-brecha-salarial#:~:text=La%20brecha%20salarial%20de%20g%C3%A9nero%20es%20el%20porcentaje%20resultante%20de,el%20salario%20de%20los%20hombres" target="_blank" rel="noopener noreferrer">informe de ONU Mujeres</a>.</p>
+                                </div>,
                             },
                         ],
                     },
@@ -1321,8 +1323,8 @@ export default [
                                 },
                                 caption: 'Nivel de participación por género, según años de experiencia.',
                                 description: <div>
-                                    <p>A medida que aumentan los años de experiencia, se observa una menor participación de mujeres en el rubro.</p>
-                                    <p>Por otra parte, hay mayor porcentaje (0-1 21,72%) de mujeres iniciando su experiencia laboral, respecto al número de mujeres con mayor años de experiencia (14-21 8,38%).</p>
+                                    <p>A medida que aumentan los años de experiencia, se observa una menor participación de mujeres cis en el rubro.</p>
+                                    <p>Por otra parte, hay mayor porcentaje (0-1 21,72%) de mujeres iniciando su experiencia laboral, respecto a las que tienen más años de experiencia (14-21 8,38%).</p>
                                     <p>Se podría ensayar algunas hipótesis relacionadas a esta estadística: Por un lado, los estereotipos y roles de género históricamente sostenidos, que impactaron e impactan en la elección de la carrera, generando profesiones y oficios “masculinizados” y “feminizados”.</p>
                                     <p>Por otro lado, la sobrecarga laboral de la mano de las tareas de cuidados resultando en doble y triple jornada laboral para la mujeres,o la dedicación al empleo a tiempo parcial. Se suma un dato no menor sobre las leyes de cuidado que promueven distribuciones no equitativas entre los géneros.</p>
                                     <p>A la vez se menciona, el impacto que tuvieron y tienen las luchas y movimientos en pos de visibilizar las inequidades para construir una industria más equitativa, de la mano de acciones concretas para sortear estas barreras. </p>
@@ -1459,7 +1461,7 @@ export default [
                 data: [],
                 content: (
                     <div>
-                        <p>Si bien este análisis es una primera observación y cruce de algunas variables, se observa que las inequidades y privilegios se sostienen en todos los niveles.</p>
+                        <p>Si bien este análisis es una primera aproximación y cruce de algunas variables, se observa que las inequidades y privilegios se sostienen en todos los niveles. </p>
                         <p>Es una necesidad generar datos estadísticos frecuentes, visibilizando los privilegios en pos de achicar las brechas y combatir las injusticias. Así como resulta imprescindible implementar acciones concretas enmarcadas en políticas transversales en diversidad e inclusión con perspectiva de género e interseccional.</p>
                     </div>
                 )
